@@ -1,0 +1,2762 @@
+record_type,id,name,description,price,category_id,email,first_name,last_name,company_name,tax_id,street,city,country,postal_code,customer_id,shipping_address_id,bucket_id,status,created_at,updated_at,total_amount,notes,payment_method,order_id,product_id,quantity,unit_price
+category,1,Electronics,"Smartphones, laptops, TVs and accessories",,,,,,,,,,,,,,,,,,,,,,,,
+category,2,Clothing,Men's and women's clothing for all seasons,,,,,,,,,,,,,,,,,,,,,,,,
+category,3,Footwear,"Casual, sports and office shoes",,,,,,,,,,,,,,,,,,,,,,,,
+category,4,Books,"Fiction, non-fiction and textbooks",,,,,,,,,,,,,,,,,,,,,,,,
+category,5,Sports & Outdoors,Equipment and apparel for training,,,,,,,,,,,,,,,,,,,,,,,,
+category,6,Home & Garden,"Furniture, decor and garden tools",,,,,,,,,,,,,,,,,,,,,,,,
+category,7,Beauty & Health,"Cosmetics, perfumes and personal care",,,,,,,,,,,,,,,,,,,,,,,,
+category,8,Toys,Toys and board games for children,,,,,,,,,,,,,,,,,,,,,,,,
+category,9,Automotive,Spare parts and accessories,,,,,,,,,,,,,,,,,,,,,,,,
+category,10,Groceries,"Coffee, tea, snacks and pantry staples",,,,,,,,,,,,,,,,,,,,,,,,
+product,1,Tablet Nike Air,SKU: P00001,642.79,1,,,,,,,,,,,,,,,,,,,,,,
+product,2,Smartphone LG A7,SKU: P00002,528.6,1,,,,,,,,,,,,,,,,,,,,,,
+product,3,Lego Ultra,SKU: P00003,77.16,8,,,,,,,,,,,,,,,,,,,,,,
+product,4,Textbook on algorithms,SKU: P00004,34.26,4,,,,,,,,,,,,,,,,,,,,,,
+product,5,Tablet Philips Plus,SKU: P00005,1154.2,1,,,,,,,,,,,,,,,,,,,,,,
+product,6,Apple Sneakers L,SKU: P00006,185.05,3,,,,,,,,,,,,,,,,,,,,,,
+product,7,5 kg Dumbbells,SKU: P00007,63.01,5,,,,,,,,,,,,,,,,,,,,,,
+product,8,red Sofa,SKU: P00008,1205.05,6,,,,,,,,,,,,,,,,,,,,,,
+product,9,Textbook on databases,SKU: P00009,42.33,4,,,,,,,,,,,,,,,,,,,,,,
+product,10,green Sofa,SKU: P00010,1020.65,6,,,,,,,,,,,,,,,,,,,,,,
+product,11,Sony Sneakers XS,SKU: P00011,206.44,3,,,,,,,,,,,,,,,,,,,,,,
+product,12,black Jeans,SKU: P00012,92.84,2,,,,,,,,,,,,,,,,,,,,,,
+product,13,Smartphone Apple 15i,SKU: P00013,774.61,1,,,,,,,,,,,,,,,,,,,,,,
+product,14,gray Jeans,SKU: P00014,76.81,2,,,,,,,,,,,,,,,,,,,,,,
+product,15,Sony Shampoo,SKU: P00015,15.98,7,,,,,,,,,,,,,,,,,,,,,,
+product,16,Tablet Nike Air,SKU: P00016,1130.46,1,,,,,,,,,,,,,,,,,,,,,,
+product,17,Sony Face Cream,SKU: P00017,52.18,7,,,,,,,,,,,,,,,,,,,,,,
+product,18,Puma Face Cream,SKU: P00018,51.89,7,,,,,,,,,,,,,,,,,,,,,,
+product,19,gray Sofa,SKU: P00019,1003.61,6,,,,,,,,,,,,,,,,,,,,,,
+product,20,Laptop Samsung Lite,SKU: P00020,1590.16,1,,,,,,,,,,,,,,,,,,,,,,
+product,21,HP Face Cream,SKU: P00021,35.07,7,,,,,,,,,,,,,,,,,,,,,,
+product,22,Tablet Adidas X500,SKU: P00022,984.76,1,,,,,,,,,,,,,,,,,,,,,,
+product,23,Textbook on databases,SKU: P00023,53.12,4,,,,,,,,,,,,,,,,,,,,,,
+product,24,Leather Boots red,SKU: P00024,214.09,3,,,,,,,,,,,,,,,,,,,,,,
+product,25,blue Jeans,SKU: P00025,74.56,2,,,,,,,,,,,,,,,,,,,,,,
+product,26,Leather Boots blue,SKU: P00026,275.04,3,,,,,,,,,,,,,,,,,,,,,,
+product,27,spring Jacket,SKU: P00027,242.15,2,,,,,,,,,,,,,,,,,,,,,,
+product,28,Coffee Machine Lenovo,SKU: P00028,249.43,10,,,,,,,,,,,,,,,,,,,,,,
+product,29,Headphones LG,SKU: P00029,142.56,1,,,,,,,,,,,,,,,,,,,,,,
+product,30,Lego Max,SKU: P00030,92.48,8,,,,,,,,,,,,,,,,,,,,,,
+product,31,gray T-shirt XS,SKU: P00031,43.02,2,,,,,,,,,,,,,,,,,,,,,,
+product,32,Nike Face Cream,SKU: P00032,37.26,7,,,,,,,,,,,,,,,,,,,,,,
+product,33,red Sofa,SKU: P00033,1559.12,6,,,,,,,,,,,,,,,,,,,,,,
+product,34,Leather Boots red,SKU: P00034,168.47,3,,,,,,,,,,,,,,,,,,,,,,
+product,35,Textbook on algorithms,SKU: P00035,37.0,4,,,,,,,,,,,,,,,,,,,,,,
+product,36,Bicycle Pro,SKU: P00036,944.91,5,,,,,,,,,,,,,,,,,,,,,,
+product,37,Bicycle Plus,SKU: P00037,817.83,5,,,,,,,,,,,,,,,,,,,,,,
+product,38,gray T-shirt S,SKU: P00038,28.28,2,,,,,,,,,,,,,,,,,,,,,,
+product,39,Bicycle Ultra,SKU: P00039,1013.31,5,,,,,,,,,,,,,,,,,,,,,,
+product,40,Textbook on databases,SKU: P00040,52.62,4,,,,,,,,,,,,,,,,,,,,,,
+product,41,Laptop LG Air,SKU: P00041,2307.58,1,,,,,,,,,,,,,,,,,,,,,,
+product,42,summer Jacket,SKU: P00042,177.49,2,,,,,,,,,,,,,,,,,,,,,,
+product,43,Leather Boots black,SKU: P00043,176.76,3,,,,,,,,,,,,,,,,,,,,,,
+product,44,Apple Football,SKU: P00044,50.33,5,,,,,,,,,,,,,,,,,,,,,,
+product,45,Lenovo Shampoo,SKU: P00045,18.83,7,,,,,,,,,,,,,,,,,,,,,,
+product,46,Textbook on web development,SKU: P00046,48.33,4,,,,,,,,,,,,,,,,,,,,,,
+product,47,"Novel ""The Three Musketeers""",SKU: P00047,28.91,4,,,,,,,,,,,,,,,,,,,,,,
+product,48,Smartphone LG X500,SKU: P00048,616.75,1,,,,,,,,,,,,,,,,,,,,,,
+product,49,spring Jacket,SKU: P00049,190.27,2,,,,,,,,,,,,,,,,,,,,,,
+product,50,"Novel ""The Master and Margarita""",SKU: P00050,23.37,4,,,,,,,,,,,,,,,,,,,,,,
+product,51,Bicycle Air,SKU: P00051,971.8,5,,,,,,,,,,,,,,,,,,,,,,
+product,52,blue T-shirt S,SKU: P00052,42.65,2,,,,,,,,,,,,,,,,,,,,,,
+product,53,Apple Sneakers L,SKU: P00053,198.83,3,,,,,,,,,,,,,,,,,,,,,,
+product,54,blue Sofa,SKU: P00054,1608.58,6,,,,,,,,,,,,,,,,,,,,,,
+product,55,Apple Sneakers S,SKU: P00055,137.5,3,,,,,,,,,,,,,,,,,,,,,,
+product,56,Headphones LG,SKU: P00056,101.01,1,,,,,,,,,,,,,,,,,,,,,,
+product,57,Textbook on algorithms,SKU: P00057,46.15,4,,,,,,,,,,,,,,,,,,,,,,
+product,58,Smartphone Nike X500,SKU: P00058,884.69,1,,,,,,,,,,,,,,,,,,,,,,
+product,59,Bicycle Lite,SKU: P00059,782.2,5,,,,,,,,,,,,,,,,,,,,,,
+product,60,Philips Football,SKU: P00060,39.8,5,,,,,,,,,,,,,,,,,,,,,,
+product,61,gray Sofa,SKU: P00061,1050.94,6,,,,,,,,,,,,,,,,,,,,,,
+product,62,Leather Boots black,SKU: P00062,252.11,3,,,,,,,,,,,,,,,,,,,,,,
+product,63,Headphones Asus,SKU: P00063,150.77,1,,,,,,,,,,,,,,,,,,,,,,
+product,64,white T-shirt L,SKU: P00064,38.38,2,,,,,,,,,,,,,,,,,,,,,,
+product,65,Puma Football,SKU: P00065,49.85,5,,,,,,,,,,,,,,,,,,,,,,
+product,66,Yoga Mat,SKU: P00066,31.89,5,,,,,,,,,,,,,,,,,,,,,,
+product,67,HP Football,SKU: P00067,46.15,5,,,,,,,,,,,,,,,,,,,,,,
+product,68,Textbook on web development,SKU: P00068,31.84,4,,,,,,,,,,,,,,,,,,,,,,
+product,69,red Jeans,SKU: P00069,90.08,2,,,,,,,,,,,,,,,,,,,,,,
+product,70,Lego Plus,SKU: P00070,76.63,8,,,,,,,,,,,,,,,,,,,,,,
+product,71,Smartphone Adidas Ultra,SKU: P00071,696.61,1,,,,,,,,,,,,,,,,,,,,,,
+product,72,Nike Football,SKU: P00072,43.71,5,,,,,,,,,,,,,,,,,,,,,,
+product,73,Bicycle Neo,SKU: P00073,783.59,5,,,,,,,,,,,,,,,,,,,,,,
+product,74,"Novel ""The Count of Monte Cristo""",SKU: P00074,23.32,4,,,,,,,,,,,,,,,,,,,,,,
+product,75,Puma Face Cream,SKU: P00075,40.43,7,,,,,,,,,,,,,,,,,,,,,,
+product,76,autumn Jacket,SKU: P00076,168.08,2,,,,,,,,,,,,,,,,,,,,,,
+product,77,Lego S21,SKU: P00077,114.45,8,,,,,,,,,,,,,,,,,,,,,,
+product,78,white Jeans,SKU: P00078,69.63,2,,,,,,,,,,,,,,,,,,,,,,
+product,79,black T-shirt XL,SKU: P00079,42.23,2,,,,,,,,,,,,,,,,,,,,,,
+product,80,Textbook on web development,SKU: P00080,36.48,4,,,,,,,,,,,,,,,,,,,,,,
+product,81,Lego Ultra,SKU: P00081,95.91,8,,,,,,,,,,,,,,,,,,,,,,
+product,82,HP Face Cream,SKU: P00082,52.14,7,,,,,,,,,,,,,,,,,,,,,,
+product,83,Lego S21,SKU: P00083,115.17,8,,,,,,,,,,,,,,,,,,,,,,
+product,84,Headphones Sony,SKU: P00084,102.46,1,,,,,,,,,,,,,,,,,,,,,,
+product,85,Samsung Football,SKU: P00085,38.3,5,,,,,,,,,,,,,,,,,,,,,,
+product,86,Asus Sneakers S,SKU: P00086,199.44,3,,,,,,,,,,,,,,,,,,,,,,
+product,87,black T-shirt S,SKU: P00087,48.56,2,,,,,,,,,,,,,,,,,,,,,,
+product,88,gray Sofa,SKU: P00088,1446.06,6,,,,,,,,,,,,,,,,,,,,,,
+product,89,Laptop Puma Lite,SKU: P00089,2342.71,1,,,,,,,,,,,,,,,,,,,,,,
+product,90,Lego 15i,SKU: P00090,93.65,8,,,,,,,,,,,,,,,,,,,,,,
+product,91,blue Sofa,SKU: P00091,1623.29,6,,,,,,,,,,,,,,,,,,,,,,
+product,92,Bicycle Plus,SKU: P00092,710.09,5,,,,,,,,,,,,,,,,,,,,,,
+product,93,Yoga Mat,SKU: P00093,40.4,5,,,,,,,,,,,,,,,,,,,,,,
+product,94,Yoga Mat,SKU: P00094,41.44,5,,,,,,,,,,,,,,,,,,,,,,
+product,95,8 kg Dumbbells,SKU: P00095,74.08,5,,,,,,,,,,,,,,,,,,,,,,
+product,96,black Sofa,SKU: P00096,1595.83,6,,,,,,,,,,,,,,,,,,,,,,
+product,97,Smartphone Apple Air,SKU: P00097,720.91,1,,,,,,,,,,,,,,,,,,,,,,
+product,98,"Novel ""1984""",SKU: P00098,28.15,4,,,,,,,,,,,,,,,,,,,,,,
+product,99,spring Jacket,SKU: P00099,236.84,2,,,,,,,,,,,,,,,,,,,,,,
+product,100,Leather Boots gray,SKU: P00100,261.12,3,,,,,,,,,,,,,,,,,,,,,,
+product,101,Coffee Machine Lenovo,SKU: P00101,225.86,10,,,,,,,,,,,,,,,,,,,,,,
+product,102,Yoga Mat,SKU: P00102,28.56,5,,,,,,,,,,,,,,,,,,,,,,
+product,103,red T-shirt XL,SKU: P00103,38.89,2,,,,,,,,,,,,,,,,,,,,,,
+product,104,Samsung Shampoo,SKU: P00104,18.69,7,,,,,,,,,,,,,,,,,,,,,,
+product,105,Textbook on machine learning,SKU: P00105,48.33,4,,,,,,,,,,,,,,,,,,,,,,
+product,106,Laptop LG 15i,SKU: P00106,2032.83,1,,,,,,,,,,,,,,,,,,,,,,
+product,107,Tablet Puma Max,SKU: P00107,868.62,1,,,,,,,,,,,,,,,,,,,,,,
+product,108,2 kg Dumbbells,SKU: P00108,66.13,5,,,,,,,,,,,,,,,,,,,,,,
+product,109,HP Football,SKU: P00109,47.68,5,,,,,,,,,,,,,,,,,,,,,,
+product,110,Leather Boots blue,SKU: P00110,213.69,3,,,,,,,,,,,,,,,,,,,,,,
+product,111,Lego Neo,SKU: P00111,78.27,8,,,,,,,,,,,,,,,,,,,,,,
+product,112,Tablet HP Lite,SKU: P00112,757.25,1,,,,,,,,,,,,,,,,,,,,,,
+product,113,Smartphone Asus Neo,SKU: P00113,726.65,1,,,,,,,,,,,,,,,,,,,,,,
+product,114,8 kg Dumbbells,SKU: P00114,57.37,5,,,,,,,,,,,,,,,,,,,,,,
+product,115,white Sofa,SKU: P00115,935.3,6,,,,,,,,,,,,,,,,,,,,,,
+product,116,spring Jacket,SKU: P00116,147.29,2,,,,,,,,,,,,,,,,,,,,,,
+product,117,"Novel ""The Three Musketeers""",SKU: P00117,32.14,4,,,,,,,,,,,,,,,,,,,,,,
+product,118,20 kg Dumbbells,SKU: P00118,52.04,5,,,,,,,,,,,,,,,,,,,,,,
+product,119,Leather Boots black,SKU: P00119,230.11,3,,,,,,,,,,,,,,,,,,,,,,
+product,120,HP Face Cream,SKU: P00120,40.36,7,,,,,,,,,,,,,,,,,,,,,,
+personal_customer,1,,,,,william.johnson@gmail.com,William,Johnson,,,,,,,,,,,,,,,,,,,
+personal_customer,2,,,,,emma.taylor@gmail.com,Emma,Taylor,,,,,,,,,,,,,,,,,,,
+personal_customer,3,,,,,evelyn.brown@gmail.com,Evelyn,Brown,,,,,,,,,,,,,,,,,,,
+personal_customer,4,,,,,sophia.davis@gmail.com,Sophia,Davis,,,,,,,,,,,,,,,,,,,
+personal_customer,5,,,,,abigail.jones@gmail.com,Abigail,Jones,,,,,,,,,,,,,,,,,,,
+personal_customer,6,,,,,alexander.harris@gmail.com,Alexander,Harris,,,,,,,,,,,,,,,,,,,
+personal_customer,7,,,,,amelia.moore@gmail.com,Amelia,Moore,,,,,,,,,,,,,,,,,,,
+personal_customer,8,,,,,harper.jones@gmail.com,Harper,Jones,,,,,,,,,,,,,,,,,,,
+personal_customer,9,,,,,harper.brown@gmail.com,Harper,Brown,,,,,,,,,,,,,,,,,,,
+personal_customer,10,,,,,evelyn.white@gmail.com,Evelyn,White,,,,,,,,,,,,,,,,,,,
+personal_customer,11,,,,,lucas.johnson@gmail.com,Lucas,Johnson,,,,,,,,,,,,,,,,,,,
+personal_customer,12,,,,,amelia.miller@gmail.com,Amelia,Miller,,,,,,,,,,,,,,,,,,,
+personal_customer,13,,,,,michael.harris@gmail.com,Michael,Harris,,,,,,,,,,,,,,,,,,,
+personal_customer,14,,,,,mia.thomas@gmail.com,Mia,Thomas,,,,,,,,,,,,,,,,,,,
+personal_customer,15,,,,,sophia.thomas@gmail.com,Sophia,Thomas,,,,,,,,,,,,,,,,,,,
+personal_customer,16,,,,,abigail.thomas@gmail.com,Abigail,Thomas,,,,,,,,,,,,,,,,,,,
+personal_customer,17,,,,,emma.jackson@gmail.com,Emma,Jackson,,,,,,,,,,,,,,,,,,,
+personal_customer,18,,,,,lucas.miller@gmail.com,Lucas,Miller,,,,,,,,,,,,,,,,,,,
+personal_customer,19,,,,,sophia.harris@gmail.com,Sophia,Harris,,,,,,,,,,,,,,,,,,,
+personal_customer,20,,,,,oliver.miller@gmail.com,Oliver,Miller,,,,,,,,,,,,,,,,,,,
+personal_customer,21,,,,,james.johnson@gmail.com,James,Johnson,,,,,,,,,,,,,,,,,,,
+personal_customer,22,,,,,henry.davis@gmail.com,Henry,Davis,,,,,,,,,,,,,,,,,,,
+personal_customer,23,,,,,william.miller@gmail.com,William,Miller,,,,,,,,,,,,,,,,,,,
+personal_customer,24,,,,,oliver.moore@gmail.com,Oliver,Moore,,,,,,,,,,,,,,,,,,,
+personal_customer,25,,,,,benjamin.miller@gmail.com,Benjamin,Miller,,,,,,,,,,,,,,,,,,,
+personal_customer,26,,,,,mia.anderson@gmail.com,Mia,Anderson,,,,,,,,,,,,,,,,,,,
+personal_customer,27,,,,,william.smith@gmail.com,William,Smith,,,,,,,,,,,,,,,,,,,
+personal_customer,28,,,,,lucas.jones@gmail.com,Lucas,Jones,,,,,,,,,,,,,,,,,,,
+personal_customer,29,,,,,william.moore@gmail.com,William,Moore,,,,,,,,,,,,,,,,,,,
+personal_customer,30,,,,,lucas.garcia@gmail.com,Lucas,Garcia,,,,,,,,,,,,,,,,,,,
+personal_customer,31,,,,,sophia.smith@gmail.com,Sophia,Smith,,,,,,,,,,,,,,,,,,,
+personal_customer,32,,,,,william.smith@yahoo.com,William,Smith,,,,,,,,,,,,,,,,,,,
+personal_customer,33,,,,,amelia.davis@gmail.com,Amelia,Davis,,,,,,,,,,,,,,,,,,,
+personal_customer,34,,,,,henry.smith@gmail.com,Henry,Smith,,,,,,,,,,,,,,,,,,,
+personal_customer,35,,,,,isabella.wilson@gmail.com,Isabella,Wilson,,,,,,,,,,,,,,,,,,,
+personal_customer,36,,,,,emma.jones@gmail.com,Emma,Jones,,,,,,,,,,,,,,,,,,,
+personal_customer,37,,,,,harper.thompson@gmail.com,Harper,Thompson,,,,,,,,,,,,,,,,,,,
+personal_customer,38,,,,,sophia.williams@gmail.com,Sophia,Williams,,,,,,,,,,,,,,,,,,,
+personal_customer,39,,,,,evelyn.harris@gmail.com,Evelyn,Harris,,,,,,,,,,,,,,,,,,,
+personal_customer,40,,,,,amelia.thompson@gmail.com,Amelia,Thompson,,,,,,,,,,,,,,,,,,,
+personal_customer,41,,,,,sophia.harris@yahoo.com,Sophia,Harris,,,,,,,,,,,,,,,,,,,
+personal_customer,42,,,,,daniel.davis@gmail.com,Daniel,Davis,,,,,,,,,,,,,,,,,,,
+personal_customer,43,,,,,emma.thompson@gmail.com,Emma,Thompson,,,,,,,,,,,,,,,,,,,
+personal_customer,44,,,,,charlotte.harris@gmail.com,Charlotte,Harris,,,,,,,,,,,,,,,,,,,
+personal_customer,45,,,,,james.johnson@yahoo.com,James,Johnson,,,,,,,,,,,,,,,,,,,
+personal_customer,46,,,,,evelyn.jackson@gmail.com,Evelyn,Jackson,,,,,,,,,,,,,,,,,,,
+personal_customer,47,,,,,harper.brown@yahoo.com,Harper,Brown,,,,,,,,,,,,,,,,,,,
+personal_customer,48,,,,,evelyn.harris@yahoo.com,Evelyn,Harris,,,,,,,,,,,,,,,,,,,
+personal_customer,49,,,,,oliver.williams@gmail.com,Oliver,Williams,,,,,,,,,,,,,,,,,,,
+personal_customer,50,,,,,henry.jones@gmail.com,Henry,Jones,,,,,,,,,,,,,,,,,,,
+personal_customer,51,,,,,oliver.jones@gmail.com,Oliver,Jones,,,,,,,,,,,,,,,,,,,
+personal_customer,52,,,,,lucas.moore@gmail.com,Lucas,Moore,,,,,,,,,,,,,,,,,,,
+personal_customer,53,,,,,henry.jackson@gmail.com,Henry,Jackson,,,,,,,,,,,,,,,,,,,
+personal_customer,54,,,,,daniel.taylor@gmail.com,Daniel,Taylor,,,,,,,,,,,,,,,,,,,
+personal_customer,55,,,,,michael.thompson@gmail.com,Michael,Thompson,,,,,,,,,,,,,,,,,,,
+personal_customer,56,,,,,harper.brown@outlook.com,Harper,Brown,,,,,,,,,,,,,,,,,,,
+personal_customer,57,,,,,sophia.moore@gmail.com,Sophia,Moore,,,,,,,,,,,,,,,,,,,
+personal_customer,58,,,,,benjamin.white@gmail.com,Benjamin,White,,,,,,,,,,,,,,,,,,,
+personal_customer,59,,,,,michael.davis@gmail.com,Michael,Davis,,,,,,,,,,,,,,,,,,,
+personal_customer,60,,,,,harper.anderson@gmail.com,Harper,Anderson,,,,,,,,,,,,,,,,,,,
+personal_customer,61,,,,,michael.jackson@gmail.com,Michael,Jackson,,,,,,,,,,,,,,,,,,,
+personal_customer,62,,,,,harper.brown@proton.me,Harper,Brown,,,,,,,,,,,,,,,,,,,
+personal_customer,63,,,,,henry.white@gmail.com,Henry,White,,,,,,,,,,,,,,,,,,,
+personal_customer,64,,,,,henry.wilson@gmail.com,Henry,Wilson,,,,,,,,,,,,,,,,,,,
+personal_customer,65,,,,,amelia.jones@gmail.com,Amelia,Jones,,,,,,,,,,,,,,,,,,,
+personal_customer,66,,,,,evelyn.williams@gmail.com,Evelyn,Williams,,,,,,,,,,,,,,,,,,,
+personal_customer,67,,,,,oliver.williams@yahoo.com,Oliver,Williams,,,,,,,,,,,,,,,,,,,
+personal_customer,68,,,,,oliver.white@gmail.com,Oliver,White,,,,,,,,,,,,,,,,,,,
+personal_customer,69,,,,,sophia.thomas@yahoo.com,Sophia,Thomas,,,,,,,,,,,,,,,,,,,
+personal_customer,70,,,,,william.moore@yahoo.com,William,Moore,,,,,,,,,,,,,,,,,,,
+personal_customer,71,,,,,emma.moore@gmail.com,Emma,Moore,,,,,,,,,,,,,,,,,,,
+personal_customer,72,,,,,abigail.anderson@gmail.com,Abigail,Anderson,,,,,,,,,,,,,,,,,,,
+personal_customer,73,,,,,sophia.white@gmail.com,Sophia,White,,,,,,,,,,,,,,,,,,,
+personal_customer,74,,,,,amelia.white@gmail.com,Amelia,White,,,,,,,,,,,,,,,,,,,
+personal_customer,75,,,,,emma.taylor@yahoo.com,Emma,Taylor,,,,,,,,,,,,,,,,,,,
+personal_customer,76,,,,,charlotte.thomas@gmail.com,Charlotte,Thomas,,,,,,,,,,,,,,,,,,,
+personal_customer,77,,,,,sophia.thompson@gmail.com,Sophia,Thompson,,,,,,,,,,,,,,,,,,,
+personal_customer,78,,,,,benjamin.jones@gmail.com,Benjamin,Jones,,,,,,,,,,,,,,,,,,,
+personal_customer,79,,,,,evelyn.davis@gmail.com,Evelyn,Davis,,,,,,,,,,,,,,,,,,,
+personal_customer,80,,,,,sophia.thomas@outlook.com,Sophia,Thomas,,,,,,,,,,,,,,,,,,,
+personal_customer,81,,,,,abigail.thomas@yahoo.com,Abigail,Thomas,,,,,,,,,,,,,,,,,,,
+personal_customer,82,,,,,sophia.wilson@gmail.com,Sophia,Wilson,,,,,,,,,,,,,,,,,,,
+personal_customer,83,,,,,mia.white@gmail.com,Mia,White,,,,,,,,,,,,,,,,,,,
+personal_customer,84,,,,,abigail.moore@gmail.com,Abigail,Moore,,,,,,,,,,,,,,,,,,,
+personal_customer,85,,,,,james.wilson@gmail.com,James,Wilson,,,,,,,,,,,,,,,,,,,
+personal_customer,86,,,,,james.garcia@gmail.com,James,Garcia,,,,,,,,,,,,,,,,,,,
+personal_customer,87,,,,,lucas.taylor@gmail.com,Lucas,Taylor,,,,,,,,,,,,,,,,,,,
+personal_customer,88,,,,,henry.thomas@gmail.com,Henry,Thomas,,,,,,,,,,,,,,,,,,,
+personal_customer,89,,,,,james.garcia@yahoo.com,James,Garcia,,,,,,,,,,,,,,,,,,,
+personal_customer,90,,,,,william.jackson@gmail.com,William,Jackson,,,,,,,,,,,,,,,,,,,
+personal_customer,91,,,,,oliver.jones@yahoo.com,Oliver,Jones,,,,,,,,,,,,,,,,,,,
+personal_customer,92,,,,,james.williams@gmail.com,James,Williams,,,,,,,,,,,,,,,,,,,
+personal_customer,93,,,,,daniel.miller@gmail.com,Daniel,Miller,,,,,,,,,,,,,,,,,,,
+personal_customer,94,,,,,alexander.white@gmail.com,Alexander,White,,,,,,,,,,,,,,,,,,,
+personal_customer,95,,,,,michael.anderson@gmail.com,Michael,Anderson,,,,,,,,,,,,,,,,,,,
+personal_customer,96,,,,,isabella.thomas@gmail.com,Isabella,Thomas,,,,,,,,,,,,,,,,,,,
+personal_customer,97,,,,,charlotte.anderson@gmail.com,Charlotte,Anderson,,,,,,,,,,,,,,,,,,,
+personal_customer,98,,,,,oliver.johnson@gmail.com,Oliver,Johnson,,,,,,,,,,,,,,,,,,,
+personal_customer,99,,,,,william.garcia@gmail.com,William,Garcia,,,,,,,,,,,,,,,,,,,
+personal_customer,100,,,,,emma.williams@gmail.com,Emma,Williams,,,,,,,,,,,,,,,,,,,
+personal_customer,101,,,,,lucas.harris@gmail.com,Lucas,Harris,,,,,,,,,,,,,,,,,,,
+personal_customer,102,,,,,harper.martin@gmail.com,Harper,Martin,,,,,,,,,,,,,,,,,,,
+personal_customer,103,,,,,michael.white@gmail.com,Michael,White,,,,,,,,,,,,,,,,,,,
+personal_customer,104,,,,,lucas.miller@yahoo.com,Lucas,Miller,,,,,,,,,,,,,,,,,,,
+personal_customer,105,,,,,daniel.brown@gmail.com,Daniel,Brown,,,,,,,,,,,,,,,,,,,
+personal_customer,106,,,,,amelia.white@yahoo.com,Amelia,White,,,,,,,,,,,,,,,,,,,
+personal_customer,107,,,,,sophia.taylor@gmail.com,Sophia,Taylor,,,,,,,,,,,,,,,,,,,
+personal_customer,108,,,,,evelyn.thompson@gmail.com,Evelyn,Thompson,,,,,,,,,,,,,,,,,,,
+personal_customer,109,,,,,charlotte.johnson@gmail.com,Charlotte,Johnson,,,,,,,,,,,,,,,,,,,
+personal_customer,110,,,,,mia.jackson@gmail.com,Mia,Jackson,,,,,,,,,,,,,,,,,,,
+personal_customer,111,,,,,emma.smith@gmail.com,Emma,Smith,,,,,,,,,,,,,,,,,,,
+personal_customer,112,,,,,benjamin.taylor@gmail.com,Benjamin,Taylor,,,,,,,,,,,,,,,,,,,
+personal_customer,113,,,,,benjamin.jones@yahoo.com,Benjamin,Jones,,,,,,,,,,,,,,,,,,,
+personal_customer,114,,,,,lucas.taylor@yahoo.com,Lucas,Taylor,,,,,,,,,,,,,,,,,,,
+personal_customer,115,,,,,henry.brown@gmail.com,Henry,Brown,,,,,,,,,,,,,,,,,,,
+personal_customer,116,,,,,james.martin@gmail.com,James,Martin,,,,,,,,,,,,,,,,,,,
+personal_customer,117,,,,,harper.garcia@gmail.com,Harper,Garcia,,,,,,,,,,,,,,,,,,,
+personal_customer,118,,,,,william.jackson@yahoo.com,William,Jackson,,,,,,,,,,,,,,,,,,,
+personal_customer,119,,,,,abigail.davis@gmail.com,Abigail,Davis,,,,,,,,,,,,,,,,,,,
+personal_customer,120,,,,,daniel.moore@gmail.com,Daniel,Moore,,,,,,,,,,,,,,,,,,,
+personal_customer,121,,,,,amelia.williams@gmail.com,Amelia,Williams,,,,,,,,,,,,,,,,,,,
+personal_customer,122,,,,,alexander.johnson@gmail.com,Alexander,Johnson,,,,,,,,,,,,,,,,,,,
+personal_customer,123,,,,,harper.smith@gmail.com,Harper,Smith,,,,,,,,,,,,,,,,,,,
+personal_customer,124,,,,,michael.williams@gmail.com,Michael,Williams,,,,,,,,,,,,,,,,,,,
+personal_customer,125,,,,,henry.white@yahoo.com,Henry,White,,,,,,,,,,,,,,,,,,,
+personal_customer,126,,,,,alexander.white@yahoo.com,Alexander,White,,,,,,,,,,,,,,,,,,,
+personal_customer,127,,,,,charlotte.brown@gmail.com,Charlotte,Brown,,,,,,,,,,,,,,,,,,,
+personal_customer,128,,,,,alexander.smith@gmail.com,Alexander,Smith,,,,,,,,,,,,,,,,,,,
+personal_customer,129,,,,,henry.garcia@gmail.com,Henry,Garcia,,,,,,,,,,,,,,,,,,,
+personal_customer,130,,,,,michael.thomas@gmail.com,Michael,Thomas,,,,,,,,,,,,,,,,,,,
+personal_customer,131,,,,,oliver.white@yahoo.com,Oliver,White,,,,,,,,,,,,,,,,,,,
+personal_customer,132,,,,,sophia.davis@yahoo.com,Sophia,Davis,,,,,,,,,,,,,,,,,,,
+personal_customer,133,,,,,harper.jackson@gmail.com,Harper,Jackson,,,,,,,,,,,,,,,,,,,
+personal_customer,134,,,,,daniel.williams@gmail.com,Daniel,Williams,,,,,,,,,,,,,,,,,,,
+personal_customer,135,,,,,alexander.taylor@gmail.com,Alexander,Taylor,,,,,,,,,,,,,,,,,,,
+personal_customer,136,,,,,henry.davis@yahoo.com,Henry,Davis,,,,,,,,,,,,,,,,,,,
+personal_customer,137,,,,,henry.garcia@yahoo.com,Henry,Garcia,,,,,,,,,,,,,,,,,,,
+personal_customer,138,,,,,oliver.thompson@gmail.com,Oliver,Thompson,,,,,,,,,,,,,,,,,,,
+personal_customer,139,,,,,sophia.thompson@yahoo.com,Sophia,Thompson,,,,,,,,,,,,,,,,,,,
+personal_customer,140,,,,,daniel.miller@yahoo.com,Daniel,Miller,,,,,,,,,,,,,,,,,,,
+personal_customer,141,,,,,amelia.thomas@gmail.com,Amelia,Thomas,,,,,,,,,,,,,,,,,,,
+personal_customer,142,,,,,william.davis@gmail.com,William,Davis,,,,,,,,,,,,,,,,,,,
+personal_customer,143,,,,,sophia.jones@gmail.com,Sophia,Jones,,,,,,,,,,,,,,,,,,,
+personal_customer,144,,,,,lucas.miller@outlook.com,Lucas,Miller,,,,,,,,,,,,,,,,,,,
+personal_customer,145,,,,,isabella.jones@gmail.com,Isabella,Jones,,,,,,,,,,,,,,,,,,,
+personal_customer,146,,,,,oliver.garcia@gmail.com,Oliver,Garcia,,,,,,,,,,,,,,,,,,,
+personal_customer,147,,,,,evelyn.harris@outlook.com,Evelyn,Harris,,,,,,,,,,,,,,,,,,,
+personal_customer,148,,,,,michael.anderson@yahoo.com,Michael,Anderson,,,,,,,,,,,,,,,,,,,
+personal_customer,149,,,,,henry.jones@yahoo.com,Henry,Jones,,,,,,,,,,,,,,,,,,,
+personal_customer,150,,,,,michael.williams@yahoo.com,Michael,Williams,,,,,,,,,,,,,,,,,,,
+corporate_customer,151,,,,,info0@gmail.com,,,TradeTrade Ltd.,46866075,,,,,,,,,,,,,,,,,
+corporate_customer,152,,,,,info1@gmail.com,,,ServiceAgro Ltd.,78093604,,,,,,,,,,,,,,,,,
+corporate_customer,153,,,,,info2@gmail.com,,,AgroBuild Corp.,70654852,,,,,,,,,,,,,,,,,
+corporate_customer,154,,,,,info3@gmail.com,,,AgroAgro Ltd.,48530827,,,,,,,,,,,,,,,,,
+corporate_customer,155,,,,,info4@gmail.com,,,AgroPlus LLC,92545028,,,,,,,,,,,,,,,,,
+corporate_customer,156,,,,,info5@gmail.com,,,ServiceService Corp.,72104107,,,,,,,,,,,,,,,,,
+corporate_customer,157,,,,,info6@gmail.com,,,ServiceService LLC,70362235,,,,,,,,,,,,,,,,,
+corporate_customer,158,,,,,info7@gmail.com,,,ProService Inc.,53154591,,,,,,,,,,,,,,,,,
+corporate_customer,159,,,,,info8@gmail.com,,,ServiceTrade Inc.,18304547,,,,,,,,,,,,,,,,,
+corporate_customer,160,,,,,info9@gmail.com,,,TradeAgro Ltd.,21318464,,,,,,,,,,,,,,,,,
+corporate_customer,161,,,,,info10@gmail.com,,,ServicePlus Inc.,15253567,,,,,,,,,,,,,,,,,
+corporate_customer,162,,,,,info11@gmail.com,,,TechPlus Corp.,68978194,,,,,,,,,,,,,,,,,
+corporate_customer,163,,,,,info12@gmail.com,,,ServiceService Inc.,58841557,,,,,,,,,,,,,,,,,
+corporate_customer,164,,,,,info13@gmail.com,,,BuildBuild Corp.,64864099,,,,,,,,,,,,,,,,,
+corporate_customer,165,,,,,info14@gmail.com,,,ProBuild LLC,94676162,,,,,,,,,,,,,,,,,
+corporate_customer,166,,,,,info15@gmail.com,,,PlusBuild LLC,54250344,,,,,,,,,,,,,,,,,
+corporate_customer,167,,,,,info16@gmail.com,,,AgroService Corp.,48137561,,,,,,,,,,,,,,,,,
+corporate_customer,168,,,,,info17@gmail.com,,,BuildPlus Inc.,54743095,,,,,,,,,,,,,,,,,
+corporate_customer,169,,,,,info18@gmail.com,,,AgroService Inc.,56952151,,,,,,,,,,,,,,,,,
+corporate_customer,170,,,,,info19@gmail.com,,,BuildPlus Corp.,27307598,,,,,,,,,,,,,,,,,
+corporate_customer,171,,,,,info20@gmail.com,,,ServicePlus LLC,51551377,,,,,,,,,,,,,,,,,
+corporate_customer,172,,,,,info21@gmail.com,,,ServiceTrade Ltd.,27152188,,,,,,,,,,,,,,,,,
+corporate_customer,173,,,,,info22@gmail.com,,,PlusPlus LLC,96707983,,,,,,,,,,,,,,,,,
+corporate_customer,174,,,,,info23@gmail.com,,,PlusTrade Ltd.,12446861,,,,,,,,,,,,,,,,,
+corporate_customer,175,,,,,info24@gmail.com,,,BuildBuild Inc.,38748452,,,,,,,,,,,,,,,,,
+corporate_customer,176,,,,,info25@gmail.com,,,BuildPro Corp.,35770506,,,,,,,,,,,,,,,,,
+corporate_customer,177,,,,,info26@gmail.com,,,TechTech Inc.,20356922,,,,,,,,,,,,,,,,,
+corporate_customer,178,,,,,info27@gmail.com,,,BuildPro LLC,78140959,,,,,,,,,,,,,,,,,
+corporate_customer,179,,,,,info28@gmail.com,,,ProService LLC,98842638,,,,,,,,,,,,,,,,,
+corporate_customer,180,,,,,info29@gmail.com,,,BuildPro Inc.,90161060,,,,,,,,,,,,,,,,,
+corporate_customer,181,,,,,info30@gmail.com,,,TradeTech Inc.,34272734,,,,,,,,,,,,,,,,,
+corporate_customer,182,,,,,info31@gmail.com,,,ProPlus Inc.,68743530,,,,,,,,,,,,,,,,,
+corporate_customer,183,,,,,info32@gmail.com,,,AgroTrade Ltd.,41880763,,,,,,,,,,,,,,,,,
+corporate_customer,184,,,,,info33@gmail.com,,,TradeService Ltd.,70254091,,,,,,,,,,,,,,,,,
+corporate_customer,185,,,,,info34@gmail.com,,,TechService Inc.,51536077,,,,,,,,,,,,,,,,,
+corporate_customer,186,,,,,info35@gmail.com,,,ProPro Corp.,36040410,,,,,,,,,,,,,,,,,
+corporate_customer,187,,,,,info36@gmail.com,,,BuildPlus Corp.,71965637,,,,,,,,,,,,,,,,,
+corporate_customer,188,,,,,info37@gmail.com,,,ProBuild Corp.,77498993,,,,,,,,,,,,,,,,,
+corporate_customer,189,,,,,info38@gmail.com,,,ServiceTrade Inc.,36802975,,,,,,,,,,,,,,,,,
+corporate_customer,190,,,,,info39@gmail.com,,,ProService Inc.,43554863,,,,,,,,,,,,,,,,,
+corporate_customer,191,,,,,info40@gmail.com,,,AgroPlus Corp.,59823245,,,,,,,,,,,,,,,,,
+corporate_customer,192,,,,,info41@gmail.com,,,ServiceAgro LLC,48260510,,,,,,,,,,,,,,,,,
+corporate_customer,193,,,,,info42@gmail.com,,,AgroPro Inc.,46613428,,,,,,,,,,,,,,,,,
+corporate_customer,194,,,,,info43@gmail.com,,,TradeService Inc.,68716573,,,,,,,,,,,,,,,,,
+corporate_customer,195,,,,,info44@gmail.com,,,AgroTech Corp.,56920514,,,,,,,,,,,,,,,,,
+corporate_customer,196,,,,,info45@gmail.com,,,AgroTrade LLC,63211150,,,,,,,,,,,,,,,,,
+corporate_customer,197,,,,,info46@gmail.com,,,ServiceBuild Inc.,61830338,,,,,,,,,,,,,,,,,
+corporate_customer,198,,,,,info47@gmail.com,,,AgroBuild Inc.,13783268,,,,,,,,,,,,,,,,,
+corporate_customer,199,,,,,info48@gmail.com,,,BuildAgro Ltd.,29602406,,,,,,,,,,,,,,,,,
+corporate_customer,200,,,,,info49@gmail.com,,,TechAgro Ltd.,73411827,,,,,,,,,,,,,,,,,
+shipping_address,1,,,,,,,,,,143 Park Ave,San Diego,USA,90654,1,,,,,,,,,,,,
+shipping_address,2,,,,,,,,,,6 Oak Ave,New York,USA,43544,1,,,,,,,,,,,,
+shipping_address,3,,,,,,,,,,154 Washington Blvd,Los Angeles,USA,47762,2,,,,,,,,,,,,
+shipping_address,4,,,,,,,,,,125 Main St,Houston,USA,65027,3,,,,,,,,,,,,
+shipping_address,5,,,,,,,,,,638 Park Ave,Los Angeles,USA,24530,4,,,,,,,,,,,,
+shipping_address,6,,,,,,,,,,857 Park Ave,Austin,USA,80261,4,,,,,,,,,,,,
+shipping_address,7,,,,,,,,,,528 Cedar Blvd,Chicago,USA,48177,5,,,,,,,,,,,,
+shipping_address,8,,,,,,,,,,630 Elm St,Houston,USA,84798,6,,,,,,,,,,,,
+shipping_address,9,,,,,,,,,,681 Oak Ave,Dallas,USA,57265,7,,,,,,,,,,,,
+shipping_address,10,,,,,,,,,,539 Main St,San Antonio,USA,71621,8,,,,,,,,,,,,
+shipping_address,11,,,,,,,,,,397 Elm St,Phoenix,USA,12128,9,,,,,,,,,,,,
+shipping_address,12,,,,,,,,,,70 Elm St,Houston,USA,96127,10,,,,,,,,,,,,
+shipping_address,13,,,,,,,,,,791 Elm St,Chicago,USA,15811,11,,,,,,,,,,,,
+shipping_address,14,,,,,,,,,,361 Elm St,Chicago,USA,99742,11,,,,,,,,,,,,
+shipping_address,15,,,,,,,,,,713 Park Ave,Chicago,USA,27675,12,,,,,,,,,,,,
+shipping_address,16,,,,,,,,,,795 Park Ave,New York,USA,48462,13,,,,,,,,,,,,
+shipping_address,17,,,,,,,,,,811 Cedar Blvd,New York,USA,51365,14,,,,,,,,,,,,
+shipping_address,18,,,,,,,,,,528 Washington Blvd,Dallas,USA,72049,15,,,,,,,,,,,,
+shipping_address,19,,,,,,,,,,260 Main St,Houston,USA,47501,15,,,,,,,,,,,,
+shipping_address,20,,,,,,,,,,800 Main St,Philadelphia,USA,45811,16,,,,,,,,,,,,
+shipping_address,21,,,,,,,,,,377 Washington Blvd,San Antonio,USA,67637,17,,,,,,,,,,,,
+shipping_address,22,,,,,,,,,,396 Elm St,Chicago,USA,75038,18,,,,,,,,,,,,
+shipping_address,23,,,,,,,,,,709 Park Ave,Philadelphia,USA,78062,18,,,,,,,,,,,,
+shipping_address,24,,,,,,,,,,85 Washington Blvd,Los Angeles,USA,66440,19,,,,,,,,,,,,
+shipping_address,25,,,,,,,,,,843 Maple Dr,Dallas,USA,48504,20,,,,,,,,,,,,
+shipping_address,26,,,,,,,,,,329 Oak Ave,Los Angeles,USA,52981,20,,,,,,,,,,,,
+shipping_address,27,,,,,,,,,,314 Park Ave,Austin,USA,65851,21,,,,,,,,,,,,
+shipping_address,28,,,,,,,,,,171 Park Ave,Philadelphia,USA,68606,21,,,,,,,,,,,,
+shipping_address,29,,,,,,,,,,891 Elm St,Austin,USA,67008,22,,,,,,,,,,,,
+shipping_address,30,,,,,,,,,,811 Main St,Los Angeles,USA,97973,23,,,,,,,,,,,,
+shipping_address,31,,,,,,,,,,373 Maple Dr,New York,USA,28714,24,,,,,,,,,,,,
+shipping_address,32,,,,,,,,,,870 Park Ave,New York,USA,26545,24,,,,,,,,,,,,
+shipping_address,33,,,,,,,,,,798 Elm St,Philadelphia,USA,60181,25,,,,,,,,,,,,
+shipping_address,34,,,,,,,,,,34 Maple Dr,San Diego,USA,58623,26,,,,,,,,,,,,
+shipping_address,35,,,,,,,,,,381 Park Ave,Los Angeles,USA,85225,26,,,,,,,,,,,,
+shipping_address,36,,,,,,,,,,376 Washington Blvd,Philadelphia,USA,95139,27,,,,,,,,,,,,
+shipping_address,37,,,,,,,,,,984 Oak Ave,New York,USA,34385,28,,,,,,,,,,,,
+shipping_address,38,,,,,,,,,,397 Oak Ave,Phoenix,USA,44116,29,,,,,,,,,,,,
+shipping_address,39,,,,,,,,,,220 Pine Rd,San Diego,USA,36237,30,,,,,,,,,,,,
+shipping_address,40,,,,,,,,,,126 Maple Dr,Los Angeles,USA,69250,30,,,,,,,,,,,,
+shipping_address,41,,,,,,,,,,731 Park Ave,Los Angeles,USA,99381,31,,,,,,,,,,,,
+shipping_address,42,,,,,,,,,,328 Elm St,Los Angeles,USA,82089,32,,,,,,,,,,,,
+shipping_address,43,,,,,,,,,,556 Pine Rd,Phoenix,USA,30644,32,,,,,,,,,,,,
+shipping_address,44,,,,,,,,,,950 Maple Dr,Philadelphia,USA,76683,33,,,,,,,,,,,,
+shipping_address,45,,,,,,,,,,230 Oak Ave,Houston,USA,28202,33,,,,,,,,,,,,
+shipping_address,46,,,,,,,,,,506 Main St,Philadelphia,USA,82616,34,,,,,,,,,,,,
+shipping_address,47,,,,,,,,,,479 Maple Dr,Austin,USA,21300,35,,,,,,,,,,,,
+shipping_address,48,,,,,,,,,,408 Park Ave,Dallas,USA,63843,36,,,,,,,,,,,,
+shipping_address,49,,,,,,,,,,844 Oak Ave,Chicago,USA,51553,37,,,,,,,,,,,,
+shipping_address,50,,,,,,,,,,658 Oak Ave,San Diego,USA,71057,37,,,,,,,,,,,,
+shipping_address,51,,,,,,,,,,353 Maple Dr,Dallas,USA,93859,38,,,,,,,,,,,,
+shipping_address,52,,,,,,,,,,602 Maple Dr,Chicago,USA,66704,38,,,,,,,,,,,,
+shipping_address,53,,,,,,,,,,890 Main St,Los Angeles,USA,77908,39,,,,,,,,,,,,
+shipping_address,54,,,,,,,,,,169 Maple Dr,Philadelphia,USA,39552,40,,,,,,,,,,,,
+shipping_address,55,,,,,,,,,,964 Pine Rd,Los Angeles,USA,42847,41,,,,,,,,,,,,
+shipping_address,56,,,,,,,,,,980 Pine Rd,Chicago,USA,91922,42,,,,,,,,,,,,
+shipping_address,57,,,,,,,,,,547 Oak Ave,Dallas,USA,94015,43,,,,,,,,,,,,
+shipping_address,58,,,,,,,,,,965 Maple Dr,Chicago,USA,96341,44,,,,,,,,,,,,
+shipping_address,59,,,,,,,,,,924 Elm St,Austin,USA,15399,45,,,,,,,,,,,,
+shipping_address,60,,,,,,,,,,846 Main St,Los Angeles,USA,15958,45,,,,,,,,,,,,
+shipping_address,61,,,,,,,,,,790 Pine Rd,Houston,USA,84991,46,,,,,,,,,,,,
+shipping_address,62,,,,,,,,,,427 Main St,San Diego,USA,92203,46,,,,,,,,,,,,
+shipping_address,63,,,,,,,,,,658 Pine Rd,San Diego,USA,42096,47,,,,,,,,,,,,
+shipping_address,64,,,,,,,,,,702 Washington Blvd,Phoenix,USA,69446,48,,,,,,,,,,,,
+shipping_address,65,,,,,,,,,,75 Main St,Chicago,USA,67619,48,,,,,,,,,,,,
+shipping_address,66,,,,,,,,,,476 Cedar Blvd,Philadelphia,USA,89516,49,,,,,,,,,,,,
+shipping_address,67,,,,,,,,,,883 Elm St,Philadelphia,USA,62260,50,,,,,,,,,,,,
+shipping_address,68,,,,,,,,,,380 Oak Ave,Philadelphia,USA,41685,51,,,,,,,,,,,,
+shipping_address,69,,,,,,,,,,274 Park Ave,Houston,USA,28465,52,,,,,,,,,,,,
+shipping_address,70,,,,,,,,,,298 Washington Blvd,Austin,USA,64805,53,,,,,,,,,,,,
+shipping_address,71,,,,,,,,,,887 Maple Dr,Philadelphia,USA,85718,54,,,,,,,,,,,,
+shipping_address,72,,,,,,,,,,195 Maple Dr,San Diego,USA,77466,55,,,,,,,,,,,,
+shipping_address,73,,,,,,,,,,479 Park Ave,Phoenix,USA,75191,55,,,,,,,,,,,,
+shipping_address,74,,,,,,,,,,968 Washington Blvd,Dallas,USA,69930,56,,,,,,,,,,,,
+shipping_address,75,,,,,,,,,,221 Elm St,New York,USA,16624,57,,,,,,,,,,,,
+shipping_address,76,,,,,,,,,,289 Park Ave,Austin,USA,95755,57,,,,,,,,,,,,
+shipping_address,77,,,,,,,,,,293 Main St,Los Angeles,USA,66482,58,,,,,,,,,,,,
+shipping_address,78,,,,,,,,,,138 Pine Rd,Philadelphia,USA,62855,58,,,,,,,,,,,,
+shipping_address,79,,,,,,,,,,411 Main St,Austin,USA,83638,59,,,,,,,,,,,,
+shipping_address,80,,,,,,,,,,567 Pine Rd,Los Angeles,USA,60639,60,,,,,,,,,,,,
+shipping_address,81,,,,,,,,,,783 Pine Rd,Austin,USA,99181,61,,,,,,,,,,,,
+shipping_address,82,,,,,,,,,,132 Oak Ave,San Antonio,USA,58915,62,,,,,,,,,,,,
+shipping_address,83,,,,,,,,,,814 Elm St,Dallas,USA,57920,62,,,,,,,,,,,,
+shipping_address,84,,,,,,,,,,204 Washington Blvd,Dallas,USA,15276,63,,,,,,,,,,,,
+shipping_address,85,,,,,,,,,,47 Main St,Chicago,USA,53652,63,,,,,,,,,,,,
+shipping_address,86,,,,,,,,,,532 Park Ave,Chicago,USA,89463,64,,,,,,,,,,,,
+shipping_address,87,,,,,,,,,,915 Maple Dr,Philadelphia,USA,90356,64,,,,,,,,,,,,
+shipping_address,88,,,,,,,,,,403 Pine Rd,Austin,USA,54089,65,,,,,,,,,,,,
+shipping_address,89,,,,,,,,,,522 Park Ave,Austin,USA,49294,66,,,,,,,,,,,,
+shipping_address,90,,,,,,,,,,18 Elm St,Philadelphia,USA,98317,67,,,,,,,,,,,,
+shipping_address,91,,,,,,,,,,427 Pine Rd,New York,USA,88238,68,,,,,,,,,,,,
+shipping_address,92,,,,,,,,,,991 Cedar Blvd,New York,USA,86483,69,,,,,,,,,,,,
+shipping_address,93,,,,,,,,,,537 Washington Blvd,Chicago,USA,99224,70,,,,,,,,,,,,
+shipping_address,94,,,,,,,,,,587 Oak Ave,Houston,USA,12482,71,,,,,,,,,,,,
+shipping_address,95,,,,,,,,,,429 Maple Dr,San Antonio,USA,36724,72,,,,,,,,,,,,
+shipping_address,96,,,,,,,,,,794 Park Ave,New York,USA,28098,73,,,,,,,,,,,,
+shipping_address,97,,,,,,,,,,575 Elm St,San Diego,USA,78875,74,,,,,,,,,,,,
+shipping_address,98,,,,,,,,,,980 Maple Dr,San Diego,USA,79878,75,,,,,,,,,,,,
+shipping_address,99,,,,,,,,,,363 Pine Rd,Austin,USA,73462,76,,,,,,,,,,,,
+shipping_address,100,,,,,,,,,,253 Pine Rd,Dallas,USA,49124,77,,,,,,,,,,,,
+shipping_address,101,,,,,,,,,,997 Pine Rd,Phoenix,USA,37168,78,,,,,,,,,,,,
+shipping_address,102,,,,,,,,,,501 Elm St,San Diego,USA,55718,79,,,,,,,,,,,,
+shipping_address,103,,,,,,,,,,574 Pine Rd,Phoenix,USA,25974,79,,,,,,,,,,,,
+shipping_address,104,,,,,,,,,,557 Washington Blvd,San Antonio,USA,55237,80,,,,,,,,,,,,
+shipping_address,105,,,,,,,,,,824 Maple Dr,Phoenix,USA,15513,81,,,,,,,,,,,,
+shipping_address,106,,,,,,,,,,295 Oak Ave,Philadelphia,USA,67983,81,,,,,,,,,,,,
+shipping_address,107,,,,,,,,,,766 Park Ave,Houston,USA,36485,82,,,,,,,,,,,,
+shipping_address,108,,,,,,,,,,848 Pine Rd,Dallas,USA,45601,82,,,,,,,,,,,,
+shipping_address,109,,,,,,,,,,631 Cedar Blvd,Houston,USA,16653,83,,,,,,,,,,,,
+shipping_address,110,,,,,,,,,,544 Cedar Blvd,Houston,USA,16880,84,,,,,,,,,,,,
+shipping_address,111,,,,,,,,,,103 Washington Blvd,Philadelphia,USA,71918,84,,,,,,,,,,,,
+shipping_address,112,,,,,,,,,,790 Maple Dr,New York,USA,82135,85,,,,,,,,,,,,
+shipping_address,113,,,,,,,,,,162 Washington Blvd,San Diego,USA,72580,86,,,,,,,,,,,,
+shipping_address,114,,,,,,,,,,667 Cedar Blvd,Phoenix,USA,52096,86,,,,,,,,,,,,
+shipping_address,115,,,,,,,,,,61 Oak Ave,Austin,USA,40437,87,,,,,,,,,,,,
+shipping_address,116,,,,,,,,,,741 Main St,Chicago,USA,64773,88,,,,,,,,,,,,
+shipping_address,117,,,,,,,,,,181 Main St,San Antonio,USA,74930,89,,,,,,,,,,,,
+shipping_address,118,,,,,,,,,,191 Pine Rd,New York,USA,11214,89,,,,,,,,,,,,
+shipping_address,119,,,,,,,,,,618 Oak Ave,Philadelphia,USA,47298,90,,,,,,,,,,,,
+shipping_address,120,,,,,,,,,,657 Park Ave,Chicago,USA,76088,91,,,,,,,,,,,,
+shipping_address,121,,,,,,,,,,198 Oak Ave,Philadelphia,USA,31298,92,,,,,,,,,,,,
+shipping_address,122,,,,,,,,,,664 Pine Rd,Chicago,USA,11846,93,,,,,,,,,,,,
+shipping_address,123,,,,,,,,,,755 Elm St,Phoenix,USA,84420,93,,,,,,,,,,,,
+shipping_address,124,,,,,,,,,,198 Maple Dr,Austin,USA,93719,94,,,,,,,,,,,,
+shipping_address,125,,,,,,,,,,919 Washington Blvd,San Antonio,USA,77538,94,,,,,,,,,,,,
+shipping_address,126,,,,,,,,,,411 Oak Ave,Chicago,USA,28430,95,,,,,,,,,,,,
+shipping_address,127,,,,,,,,,,959 Cedar Blvd,New York,USA,44181,96,,,,,,,,,,,,
+shipping_address,128,,,,,,,,,,458 Pine Rd,Philadelphia,USA,49576,97,,,,,,,,,,,,
+shipping_address,129,,,,,,,,,,587 Main St,Phoenix,USA,95679,98,,,,,,,,,,,,
+shipping_address,130,,,,,,,,,,242 Main St,Los Angeles,USA,71000,99,,,,,,,,,,,,
+shipping_address,131,,,,,,,,,,416 Pine Rd,Los Angeles,USA,93717,100,,,,,,,,,,,,
+shipping_address,132,,,,,,,,,,303 Elm St,Austin,USA,38947,101,,,,,,,,,,,,
+shipping_address,133,,,,,,,,,,225 Maple Dr,San Diego,USA,30078,101,,,,,,,,,,,,
+shipping_address,134,,,,,,,,,,621 Elm St,San Antonio,USA,81989,102,,,,,,,,,,,,
+shipping_address,135,,,,,,,,,,776 Cedar Blvd,Houston,USA,99173,103,,,,,,,,,,,,
+shipping_address,136,,,,,,,,,,773 Oak Ave,Dallas,USA,68556,103,,,,,,,,,,,,
+shipping_address,137,,,,,,,,,,371 Oak Ave,Austin,USA,24707,104,,,,,,,,,,,,
+shipping_address,138,,,,,,,,,,561 Cedar Blvd,Austin,USA,80341,105,,,,,,,,,,,,
+shipping_address,139,,,,,,,,,,336 Park Ave,Los Angeles,USA,99167,106,,,,,,,,,,,,
+shipping_address,140,,,,,,,,,,598 Park Ave,Los Angeles,USA,76895,107,,,,,,,,,,,,
+shipping_address,141,,,,,,,,,,57 Park Ave,Chicago,USA,77272,108,,,,,,,,,,,,
+shipping_address,142,,,,,,,,,,578 Main St,Dallas,USA,70604,109,,,,,,,,,,,,
+shipping_address,143,,,,,,,,,,316 Main St,San Antonio,USA,43352,110,,,,,,,,,,,,
+shipping_address,144,,,,,,,,,,837 Main St,Houston,USA,85800,110,,,,,,,,,,,,
+shipping_address,145,,,,,,,,,,434 Elm St,Los Angeles,USA,80931,111,,,,,,,,,,,,
+shipping_address,146,,,,,,,,,,958 Oak Ave,San Diego,USA,14159,112,,,,,,,,,,,,
+shipping_address,147,,,,,,,,,,294 Washington Blvd,Chicago,USA,27750,112,,,,,,,,,,,,
+shipping_address,148,,,,,,,,,,747 Washington Blvd,Philadelphia,USA,60132,113,,,,,,,,,,,,
+shipping_address,149,,,,,,,,,,460 Washington Blvd,San Antonio,USA,20518,113,,,,,,,,,,,,
+shipping_address,150,,,,,,,,,,678 Maple Dr,Philadelphia,USA,25549,114,,,,,,,,,,,,
+shipping_address,151,,,,,,,,,,183 Washington Blvd,Dallas,USA,26691,114,,,,,,,,,,,,
+shipping_address,152,,,,,,,,,,229 Main St,New York,USA,49107,115,,,,,,,,,,,,
+shipping_address,153,,,,,,,,,,475 Washington Blvd,Dallas,USA,59712,115,,,,,,,,,,,,
+shipping_address,154,,,,,,,,,,254 Park Ave,Philadelphia,USA,30332,116,,,,,,,,,,,,
+shipping_address,155,,,,,,,,,,283 Cedar Blvd,Los Angeles,USA,14222,116,,,,,,,,,,,,
+shipping_address,156,,,,,,,,,,430 Main St,Houston,USA,37011,117,,,,,,,,,,,,
+shipping_address,157,,,,,,,,,,69 Oak Ave,Austin,USA,14400,117,,,,,,,,,,,,
+shipping_address,158,,,,,,,,,,689 Main St,Houston,USA,15798,118,,,,,,,,,,,,
+shipping_address,159,,,,,,,,,,240 Cedar Blvd,New York,USA,28367,119,,,,,,,,,,,,
+shipping_address,160,,,,,,,,,,297 Cedar Blvd,Austin,USA,51799,120,,,,,,,,,,,,
+shipping_address,161,,,,,,,,,,792 Elm St,Houston,USA,49552,121,,,,,,,,,,,,
+shipping_address,162,,,,,,,,,,677 Cedar Blvd,San Antonio,USA,49387,122,,,,,,,,,,,,
+shipping_address,163,,,,,,,,,,282 Main St,Dallas,USA,87550,122,,,,,,,,,,,,
+shipping_address,164,,,,,,,,,,934 Maple Dr,San Antonio,USA,82856,123,,,,,,,,,,,,
+shipping_address,165,,,,,,,,,,508 Main St,Philadelphia,USA,94320,123,,,,,,,,,,,,
+shipping_address,166,,,,,,,,,,805 Elm St,San Antonio,USA,63511,124,,,,,,,,,,,,
+shipping_address,167,,,,,,,,,,153 Pine Rd,San Antonio,USA,34101,124,,,,,,,,,,,,
+shipping_address,168,,,,,,,,,,485 Cedar Blvd,Houston,USA,49418,125,,,,,,,,,,,,
+shipping_address,169,,,,,,,,,,879 Maple Dr,San Diego,USA,17552,125,,,,,,,,,,,,
+shipping_address,170,,,,,,,,,,992 Washington Blvd,Dallas,USA,79467,126,,,,,,,,,,,,
+shipping_address,171,,,,,,,,,,249 Pine Rd,Houston,USA,53288,127,,,,,,,,,,,,
+shipping_address,172,,,,,,,,,,945 Park Ave,Philadelphia,USA,22119,128,,,,,,,,,,,,
+shipping_address,173,,,,,,,,,,549 Cedar Blvd,New York,USA,45187,128,,,,,,,,,,,,
+shipping_address,174,,,,,,,,,,620 Main St,Los Angeles,USA,34662,129,,,,,,,,,,,,
+shipping_address,175,,,,,,,,,,602 Cedar Blvd,San Diego,USA,37379,130,,,,,,,,,,,,
+shipping_address,176,,,,,,,,,,891 Elm St,Phoenix,USA,12009,130,,,,,,,,,,,,
+shipping_address,177,,,,,,,,,,195 Oak Ave,San Diego,USA,41797,131,,,,,,,,,,,,
+shipping_address,178,,,,,,,,,,721 Cedar Blvd,San Antonio,USA,41369,132,,,,,,,,,,,,
+shipping_address,179,,,,,,,,,,566 Elm St,Phoenix,USA,59894,132,,,,,,,,,,,,
+shipping_address,180,,,,,,,,,,665 Elm St,Phoenix,USA,44283,133,,,,,,,,,,,,
+shipping_address,181,,,,,,,,,,904 Park Ave,San Diego,USA,22924,134,,,,,,,,,,,,
+shipping_address,182,,,,,,,,,,740 Park Ave,Philadelphia,USA,36624,135,,,,,,,,,,,,
+shipping_address,183,,,,,,,,,,380 Elm St,San Antonio,USA,15992,135,,,,,,,,,,,,
+shipping_address,184,,,,,,,,,,227 Maple Dr,New York,USA,44180,136,,,,,,,,,,,,
+shipping_address,185,,,,,,,,,,599 Washington Blvd,Phoenix,USA,29976,137,,,,,,,,,,,,
+shipping_address,186,,,,,,,,,,236 Washington Blvd,Austin,USA,42208,138,,,,,,,,,,,,
+shipping_address,187,,,,,,,,,,671 Elm St,Phoenix,USA,74044,139,,,,,,,,,,,,
+shipping_address,188,,,,,,,,,,658 Park Ave,San Diego,USA,32050,140,,,,,,,,,,,,
+shipping_address,189,,,,,,,,,,751 Elm St,Chicago,USA,28344,140,,,,,,,,,,,,
+shipping_address,190,,,,,,,,,,501 Maple Dr,Dallas,USA,94123,141,,,,,,,,,,,,
+shipping_address,191,,,,,,,,,,981 Main St,Dallas,USA,14433,141,,,,,,,,,,,,
+shipping_address,192,,,,,,,,,,77 Main St,New York,USA,64053,142,,,,,,,,,,,,
+shipping_address,193,,,,,,,,,,141 Cedar Blvd,Los Angeles,USA,29795,142,,,,,,,,,,,,
+shipping_address,194,,,,,,,,,,518 Park Ave,Philadelphia,USA,17923,143,,,,,,,,,,,,
+shipping_address,195,,,,,,,,,,683 Park Ave,San Diego,USA,12061,144,,,,,,,,,,,,
+shipping_address,196,,,,,,,,,,7 Washington Blvd,New York,USA,12192,144,,,,,,,,,,,,
+shipping_address,197,,,,,,,,,,282 Pine Rd,New York,USA,75826,145,,,,,,,,,,,,
+shipping_address,198,,,,,,,,,,691 Washington Blvd,Chicago,USA,24026,146,,,,,,,,,,,,
+shipping_address,199,,,,,,,,,,941 Oak Ave,Dallas,USA,29516,146,,,,,,,,,,,,
+shipping_address,200,,,,,,,,,,635 Pine Rd,Philadelphia,USA,45038,147,,,,,,,,,,,,
+shipping_address,201,,,,,,,,,,81 Elm St,San Antonio,USA,70161,148,,,,,,,,,,,,
+shipping_address,202,,,,,,,,,,579 Cedar Blvd,Houston,USA,49318,148,,,,,,,,,,,,
+shipping_address,203,,,,,,,,,,869 Oak Ave,New York,USA,22255,149,,,,,,,,,,,,
+shipping_address,204,,,,,,,,,,416 Washington Blvd,San Antonio,USA,82443,149,,,,,,,,,,,,
+shipping_address,205,,,,,,,,,,653 Main St,Chicago,USA,20837,150,,,,,,,,,,,,
+shipping_address,206,,,,,,,,,,445 Elm St,Austin,USA,22499,151,,,,,,,,,,,,
+shipping_address,207,,,,,,,,,,942 Main St,Houston,USA,37710,152,,,,,,,,,,,,
+shipping_address,208,,,,,,,,,,923 Park Ave,Phoenix,USA,16102,152,,,,,,,,,,,,
+shipping_address,209,,,,,,,,,,701 Pine Rd,Dallas,USA,83860,153,,,,,,,,,,,,
+shipping_address,210,,,,,,,,,,674 Main St,Chicago,USA,51220,153,,,,,,,,,,,,
+shipping_address,211,,,,,,,,,,213 Maple Dr,San Antonio,USA,20084,154,,,,,,,,,,,,
+shipping_address,212,,,,,,,,,,578 Cedar Blvd,Austin,USA,61007,155,,,,,,,,,,,,
+shipping_address,213,,,,,,,,,,554 Elm St,San Antonio,USA,28343,156,,,,,,,,,,,,
+shipping_address,214,,,,,,,,,,810 Oak Ave,Dallas,USA,55332,156,,,,,,,,,,,,
+shipping_address,215,,,,,,,,,,448 Cedar Blvd,Los Angeles,USA,54642,157,,,,,,,,,,,,
+shipping_address,216,,,,,,,,,,629 Washington Blvd,Philadelphia,USA,13883,158,,,,,,,,,,,,
+shipping_address,217,,,,,,,,,,650 Pine Rd,San Diego,USA,74304,158,,,,,,,,,,,,
+shipping_address,218,,,,,,,,,,567 Washington Blvd,San Antonio,USA,34345,159,,,,,,,,,,,,
+shipping_address,219,,,,,,,,,,677 Washington Blvd,Los Angeles,USA,91083,160,,,,,,,,,,,,
+shipping_address,220,,,,,,,,,,303 Cedar Blvd,Los Angeles,USA,20752,160,,,,,,,,,,,,
+shipping_address,221,,,,,,,,,,390 Maple Dr,San Antonio,USA,51507,161,,,,,,,,,,,,
+shipping_address,222,,,,,,,,,,94 Main St,Phoenix,USA,68292,162,,,,,,,,,,,,
+shipping_address,223,,,,,,,,,,277 Oak Ave,Chicago,USA,21442,163,,,,,,,,,,,,
+shipping_address,224,,,,,,,,,,460 Washington Blvd,Los Angeles,USA,13442,164,,,,,,,,,,,,
+shipping_address,225,,,,,,,,,,568 Oak Ave,Austin,USA,88386,165,,,,,,,,,,,,
+shipping_address,226,,,,,,,,,,885 Washington Blvd,New York,USA,48253,166,,,,,,,,,,,,
+shipping_address,227,,,,,,,,,,424 Washington Blvd,Los Angeles,USA,83339,166,,,,,,,,,,,,
+shipping_address,228,,,,,,,,,,249 Maple Dr,San Antonio,USA,32216,167,,,,,,,,,,,,
+shipping_address,229,,,,,,,,,,143 Pine Rd,Phoenix,USA,45180,167,,,,,,,,,,,,
+shipping_address,230,,,,,,,,,,65 Maple Dr,San Antonio,USA,46170,168,,,,,,,,,,,,
+shipping_address,231,,,,,,,,,,496 Oak Ave,Philadelphia,USA,42990,169,,,,,,,,,,,,
+shipping_address,232,,,,,,,,,,739 Park Ave,Austin,USA,90828,170,,,,,,,,,,,,
+shipping_address,233,,,,,,,,,,201 Park Ave,Los Angeles,USA,27758,170,,,,,,,,,,,,
+shipping_address,234,,,,,,,,,,972 Washington Blvd,Philadelphia,USA,91289,171,,,,,,,,,,,,
+shipping_address,235,,,,,,,,,,883 Elm St,San Diego,USA,53874,172,,,,,,,,,,,,
+shipping_address,236,,,,,,,,,,844 Maple Dr,Phoenix,USA,52030,173,,,,,,,,,,,,
+shipping_address,237,,,,,,,,,,712 Cedar Blvd,San Diego,USA,51180,174,,,,,,,,,,,,
+shipping_address,238,,,,,,,,,,182 Washington Blvd,Philadelphia,USA,48200,174,,,,,,,,,,,,
+shipping_address,239,,,,,,,,,,649 Park Ave,Austin,USA,41775,175,,,,,,,,,,,,
+shipping_address,240,,,,,,,,,,334 Washington Blvd,Phoenix,USA,61502,175,,,,,,,,,,,,
+shipping_address,241,,,,,,,,,,955 Cedar Blvd,Austin,USA,81516,176,,,,,,,,,,,,
+shipping_address,242,,,,,,,,,,787 Main St,San Diego,USA,37479,177,,,,,,,,,,,,
+shipping_address,243,,,,,,,,,,299 Oak Ave,San Antonio,USA,98208,178,,,,,,,,,,,,
+shipping_address,244,,,,,,,,,,649 Pine Rd,Houston,USA,43119,179,,,,,,,,,,,,
+shipping_address,245,,,,,,,,,,733 Washington Blvd,San Antonio,USA,19694,180,,,,,,,,,,,,
+shipping_address,246,,,,,,,,,,460 Park Ave,Austin,USA,62534,180,,,,,,,,,,,,
+shipping_address,247,,,,,,,,,,946 Washington Blvd,Dallas,USA,14818,181,,,,,,,,,,,,
+shipping_address,248,,,,,,,,,,369 Oak Ave,Los Angeles,USA,42536,182,,,,,,,,,,,,
+shipping_address,249,,,,,,,,,,674 Elm St,Chicago,USA,94803,182,,,,,,,,,,,,
+shipping_address,250,,,,,,,,,,577 Washington Blvd,Philadelphia,USA,66420,183,,,,,,,,,,,,
+shipping_address,251,,,,,,,,,,109 Main St,Los Angeles,USA,43913,183,,,,,,,,,,,,
+shipping_address,252,,,,,,,,,,765 Cedar Blvd,San Diego,USA,59036,184,,,,,,,,,,,,
+shipping_address,253,,,,,,,,,,791 Maple Dr,Philadelphia,USA,13219,185,,,,,,,,,,,,
+shipping_address,254,,,,,,,,,,303 Washington Blvd,Los Angeles,USA,25213,186,,,,,,,,,,,,
+shipping_address,255,,,,,,,,,,748 Maple Dr,Philadelphia,USA,50880,187,,,,,,,,,,,,
+shipping_address,256,,,,,,,,,,352 Park Ave,Houston,USA,78303,187,,,,,,,,,,,,
+shipping_address,257,,,,,,,,,,488 Oak Ave,San Diego,USA,69303,188,,,,,,,,,,,,
+shipping_address,258,,,,,,,,,,308 Main St,Los Angeles,USA,12960,189,,,,,,,,,,,,
+shipping_address,259,,,,,,,,,,664 Oak Ave,Chicago,USA,41970,190,,,,,,,,,,,,
+shipping_address,260,,,,,,,,,,529 Maple Dr,Dallas,USA,30989,190,,,,,,,,,,,,
+shipping_address,261,,,,,,,,,,437 Park Ave,Houston,USA,63090,191,,,,,,,,,,,,
+shipping_address,262,,,,,,,,,,191 Washington Blvd,San Antonio,USA,13826,192,,,,,,,,,,,,
+shipping_address,263,,,,,,,,,,756 Cedar Blvd,San Diego,USA,87621,192,,,,,,,,,,,,
+shipping_address,264,,,,,,,,,,5 Cedar Blvd,Houston,USA,46483,193,,,,,,,,,,,,
+shipping_address,265,,,,,,,,,,829 Oak Ave,Austin,USA,23336,194,,,,,,,,,,,,
+shipping_address,266,,,,,,,,,,819 Maple Dr,Philadelphia,USA,52727,194,,,,,,,,,,,,
+shipping_address,267,,,,,,,,,,117 Pine Rd,San Diego,USA,79168,195,,,,,,,,,,,,
+shipping_address,268,,,,,,,,,,321 Washington Blvd,Austin,USA,61451,196,,,,,,,,,,,,
+shipping_address,269,,,,,,,,,,602 Oak Ave,Philadelphia,USA,56135,196,,,,,,,,,,,,
+shipping_address,270,,,,,,,,,,633 Maple Dr,Phoenix,USA,90541,197,,,,,,,,,,,,
+shipping_address,271,,,,,,,,,,605 Oak Ave,Chicago,USA,51049,197,,,,,,,,,,,,
+shipping_address,272,,,,,,,,,,313 Oak Ave,Chicago,USA,58929,198,,,,,,,,,,,,
+shipping_address,273,,,,,,,,,,524 Washington Blvd,San Antonio,USA,88174,199,,,,,,,,,,,,
+shipping_address,274,,,,,,,,,,142 Washington Blvd,San Antonio,USA,34347,199,,,,,,,,,,,,
+shipping_address,275,,,,,,,,,,551 Maple Dr,Dallas,USA,31871,200,,,,,,,,,,,,
+bucket,1,,,,,,,,,,,,,,5,,,,2025-01-12T01:57:21,,,,,,,,
+bucket,2,,,,,,,,,,,,,,169,,,,2023-04-21T00:40:14,,,,,,,,
+bucket,3,,,,,,,,,,,,,,158,,,,2023-12-22T15:45:28,,,,,,,,
+bucket,4,,,,,,,,,,,,,,24,,,,2024-08-18T01:52:55,,,,,,,,
+bucket,5,,,,,,,,,,,,,,34,,,,2023-05-19T18:30:14,,,,,,,,
+bucket,6,,,,,,,,,,,,,,47,,,,2023-06-09T02:45:42,,,,,,,,
+bucket,7,,,,,,,,,,,,,,15,,,,2023-06-10T07:37:55,,,,,,,,
+bucket,8,,,,,,,,,,,,,,26,,,,2024-05-01T18:35:23,,,,,,,,
+bucket,9,,,,,,,,,,,,,,33,,,,2024-07-24T23:41:34,,,,,,,,
+bucket,10,,,,,,,,,,,,,,103,,,,2024-04-09T21:02:50,,,,,,,,
+bucket,11,,,,,,,,,,,,,,102,,,,2023-08-02T00:33:02,,,,,,,,
+bucket,12,,,,,,,,,,,,,,150,,,,2024-08-17T12:52:29,,,,,,,,
+bucket,13,,,,,,,,,,,,,,60,,,,2023-07-26T20:03:04,,,,,,,,
+bucket,14,,,,,,,,,,,,,,129,,,,2025-09-23T15:41:32,,,,,,,,
+bucket,15,,,,,,,,,,,,,,39,,,,2025-11-17T21:30:00,,,,,,,,
+bucket,16,,,,,,,,,,,,,,188,,,,2023-08-10T21:56:54,,,,,,,,
+bucket,17,,,,,,,,,,,,,,119,,,,2023-04-17T06:34:10,,,,,,,,
+bucket,18,,,,,,,,,,,,,,193,,,,2025-04-04T02:46:55,,,,,,,,
+bucket,19,,,,,,,,,,,,,,133,,,,2025-05-25T01:01:07,,,,,,,,
+bucket,20,,,,,,,,,,,,,,85,,,,2023-01-14T03:57:40,,,,,,,,
+bucket,21,,,,,,,,,,,,,,25,,,,2025-08-06T02:21:01,,,,,,,,
+bucket,22,,,,,,,,,,,,,,89,,,,2025-10-06T18:30:36,,,,,,,,
+bucket,23,,,,,,,,,,,,,,108,,,,2023-09-12T22:42:30,,,,,,,,
+bucket,24,,,,,,,,,,,,,,137,,,,2024-11-14T16:05:44,,,,,,,,
+bucket,25,,,,,,,,,,,,,,167,,,,2024-06-29T13:13:37,,,,,,,,
+bucket,26,,,,,,,,,,,,,,153,,,,2023-11-27T23:16:58,,,,,,,,
+bucket,27,,,,,,,,,,,,,,40,,,,2025-09-02T16:31:15,,,,,,,,
+bucket,28,,,,,,,,,,,,,,79,,,,2023-08-24T03:38:11,,,,,,,,
+bucket,29,,,,,,,,,,,,,,86,,,,2024-10-01T13:39:26,,,,,,,,
+bucket,30,,,,,,,,,,,,,,73,,,,2025-08-15T00:58:42,,,,,,,,
+bucket,31,,,,,,,,,,,,,,62,,,,2025-12-02T13:02:31,,,,,,,,
+bucket,32,,,,,,,,,,,,,,6,,,,2024-11-18T05:15:57,,,,,,,,
+bucket,33,,,,,,,,,,,,,,190,,,,2023-12-04T11:28:07,,,,,,,,
+bucket,34,,,,,,,,,,,,,,76,,,,2023-05-15T15:57:50,,,,,,,,
+bucket,35,,,,,,,,,,,,,,20,,,,2023-06-06T01:36:39,,,,,,,,
+bucket,36,,,,,,,,,,,,,,149,,,,2023-08-06T12:04:05,,,,,,,,
+bucket,37,,,,,,,,,,,,,,112,,,,2023-07-11T07:38:02,,,,,,,,
+bucket,38,,,,,,,,,,,,,,65,,,,2025-07-04T20:54:31,,,,,,,,
+bucket,39,,,,,,,,,,,,,,187,,,,2024-08-19T13:44:50,,,,,,,,
+bucket,40,,,,,,,,,,,,,,45,,,,2024-06-30T02:11:54,,,,,,,,
+bucket,41,,,,,,,,,,,,,,194,,,,2024-10-29T00:46:21,,,,,,,,
+bucket,42,,,,,,,,,,,,,,152,,,,2024-05-03T13:32:47,,,,,,,,
+bucket,43,,,,,,,,,,,,,,179,,,,2023-08-06T05:14:50,,,,,,,,
+bucket,44,,,,,,,,,,,,,,2,,,,2024-01-20T22:08:44,,,,,,,,
+bucket,45,,,,,,,,,,,,,,157,,,,2024-03-06T06:06:09,,,,,,,,
+bucket,46,,,,,,,,,,,,,,41,,,,2025-09-28T09:11:48,,,,,,,,
+bucket,47,,,,,,,,,,,,,,7,,,,2023-05-11T21:01:11,,,,,,,,
+bucket,48,,,,,,,,,,,,,,191,,,,2024-01-21T12:20:14,,,,,,,,
+bucket,49,,,,,,,,,,,,,,4,,,,2025-05-09T16:07:18,,,,,,,,
+bucket,50,,,,,,,,,,,,,,96,,,,2025-07-22T14:52:08,,,,,,,,
+bucket,51,,,,,,,,,,,,,,165,,,,2025-07-21T01:54:52,,,,,,,,
+bucket,52,,,,,,,,,,,,,,72,,,,2025-08-01T20:42:45,,,,,,,,
+bucket,53,,,,,,,,,,,,,,142,,,,2024-03-18T14:37:03,,,,,,,,
+bucket,54,,,,,,,,,,,,,,143,,,,2025-12-08T14:48:50,,,,,,,,
+bucket,55,,,,,,,,,,,,,,172,,,,2023-02-11T16:05:10,,,,,,,,
+bucket,56,,,,,,,,,,,,,,70,,,,2025-10-19T19:07:52,,,,,,,,
+bucket,57,,,,,,,,,,,,,,37,,,,2024-04-13T14:18:08,,,,,,,,
+bucket,58,,,,,,,,,,,,,,80,,,,2023-11-16T03:34:17,,,,,,,,
+bucket,59,,,,,,,,,,,,,,123,,,,2025-03-15T07:05:11,,,,,,,,
+bucket,60,,,,,,,,,,,,,,93,,,,2025-07-31T19:52:25,,,,,,,,
+bucket,61,,,,,,,,,,,,,,88,,,,2025-03-02T12:22:41,,,,,,,,
+bucket,62,,,,,,,,,,,,,,21,,,,2023-10-21T01:15:07,,,,,,,,
+bucket,63,,,,,,,,,,,,,,111,,,,2024-08-31T13:32:11,,,,,,,,
+bucket,64,,,,,,,,,,,,,,146,,,,2024-04-04T02:36:22,,,,,,,,
+bucket,65,,,,,,,,,,,,,,67,,,,2025-09-30T18:57:19,,,,,,,,
+bucket,66,,,,,,,,,,,,,,55,,,,2023-03-26T18:29:04,,,,,,,,
+bucket,67,,,,,,,,,,,,,,28,,,,2024-01-07T19:16:55,,,,,,,,
+bucket,68,,,,,,,,,,,,,,95,,,,2025-02-07T18:45:05,,,,,,,,
+bucket,69,,,,,,,,,,,,,,124,,,,2024-08-22T10:51:25,,,,,,,,
+bucket,70,,,,,,,,,,,,,,186,,,,2023-06-25T03:23:18,,,,,,,,
+bucket,71,,,,,,,,,,,,,,46,,,,2024-01-10T12:10:45,,,,,,,,
+bucket,72,,,,,,,,,,,,,,78,,,,2025-02-15T01:47:13,,,,,,,,
+bucket,73,,,,,,,,,,,,,,83,,,,2025-09-18T05:26:00,,,,,,,,
+bucket,74,,,,,,,,,,,,,,1,,,,2025-07-11T15:18:24,,,,,,,,
+bucket,75,,,,,,,,,,,,,,171,,,,2023-04-21T07:31:09,,,,,,,,
+bucket,76,,,,,,,,,,,,,,98,,,,2025-03-31T15:56:53,,,,,,,,
+bucket,77,,,,,,,,,,,,,,154,,,,2023-01-19T17:53:26,,,,,,,,
+bucket,78,,,,,,,,,,,,,,59,,,,2024-07-14T22:43:00,,,,,,,,
+bucket,79,,,,,,,,,,,,,,197,,,,2024-05-06T14:57:20,,,,,,,,
+bucket,80,,,,,,,,,,,,,,106,,,,2023-07-25T00:40:42,,,,,,,,
+bucket,81,,,,,,,,,,,,,,115,,,,2024-08-23T22:22:30,,,,,,,,
+bucket,82,,,,,,,,,,,,,,52,,,,2025-06-01T22:45:24,,,,,,,,
+bucket,83,,,,,,,,,,,,,,12,,,,2024-10-15T18:55:47,,,,,,,,
+bucket,84,,,,,,,,,,,,,,82,,,,2024-07-21T15:33:50,,,,,,,,
+bucket,85,,,,,,,,,,,,,,10,,,,2025-04-28T17:38:10,,,,,,,,
+bucket,86,,,,,,,,,,,,,,184,,,,2025-11-26T21:55:30,,,,,,,,
+bucket,87,,,,,,,,,,,,,,49,,,,2023-09-26T09:20:38,,,,,,,,
+bucket,88,,,,,,,,,,,,,,136,,,,2025-01-01T16:41:52,,,,,,,,
+bucket,89,,,,,,,,,,,,,,121,,,,2023-04-24T09:19:59,,,,,,,,
+bucket,90,,,,,,,,,,,,,,117,,,,2023-01-26T22:13:33,,,,,,,,
+bucket,91,,,,,,,,,,,,,,196,,,,2025-07-01T10:29:54,,,,,,,,
+bucket,92,,,,,,,,,,,,,,164,,,,2023-04-15T21:47:48,,,,,,,,
+bucket,93,,,,,,,,,,,,,,100,,,,2023-01-22T10:15:22,,,,,,,,
+bucket,94,,,,,,,,,,,,,,63,,,,2024-02-12T06:58:32,,,,,,,,
+bucket,95,,,,,,,,,,,,,,51,,,,2023-12-02T03:28:47,,,,,,,,
+bucket,96,,,,,,,,,,,,,,178,,,,2023-03-03T20:51:10,,,,,,,,
+bucket,97,,,,,,,,,,,,,,148,,,,2023-04-04T22:26:32,,,,,,,,
+bucket,98,,,,,,,,,,,,,,122,,,,2024-09-10T05:35:03,,,,,,,,
+bucket,99,,,,,,,,,,,,,,192,,,,2025-02-25T23:48:44,,,,,,,,
+bucket,100,,,,,,,,,,,,,,19,,,,2024-03-21T01:02:21,,,,,,,,
+bucket,101,,,,,,,,,,,,,,32,,,,2025-09-03T10:48:50,,,,,,,,
+bucket,102,,,,,,,,,,,,,,104,,,,2025-02-17T08:27:33,,,,,,,,
+bucket,103,,,,,,,,,,,,,,128,,,,2024-10-07T08:25:38,,,,,,,,
+bucket,104,,,,,,,,,,,,,,17,,,,2024-10-20T00:01:45,,,,,,,,
+bucket,105,,,,,,,,,,,,,,84,,,,2025-12-26T05:23:49,,,,,,,,
+bucket,106,,,,,,,,,,,,,,177,,,,2024-09-16T21:59:20,,,,,,,,
+bucket,107,,,,,,,,,,,,,,173,,,,2023-05-09T01:07:53,,,,,,,,
+bucket,108,,,,,,,,,,,,,,185,,,,2025-09-22T00:57:39,,,,,,,,
+bucket,109,,,,,,,,,,,,,,101,,,,2025-04-13T12:35:10,,,,,,,,
+bucket,110,,,,,,,,,,,,,,97,,,,2025-04-15T05:14:40,,,,,,,,
+bucket,111,,,,,,,,,,,,,,18,,,,2025-08-14T23:53:56,,,,,,,,
+bucket,112,,,,,,,,,,,,,,13,,,,2023-08-26T04:20:22,,,,,,,,
+bucket,113,,,,,,,,,,,,,,182,,,,2024-03-07T00:44:49,,,,,,,,
+bucket,114,,,,,,,,,,,,,,87,,,,2023-05-10T20:43:29,,,,,,,,
+bucket,115,,,,,,,,,,,,,,66,,,,2024-04-26T10:09:58,,,,,,,,
+bucket,116,,,,,,,,,,,,,,134,,,,2023-05-03T18:08:14,,,,,,,,
+bucket,117,,,,,,,,,,,,,,189,,,,2025-03-05T06:49:14,,,,,,,,
+bucket,118,,,,,,,,,,,,,,166,,,,2023-11-12T15:45:05,,,,,,,,
+bucket,119,,,,,,,,,,,,,,120,,,,2023-08-30T08:52:45,,,,,,,,
+bucket,120,,,,,,,,,,,,,,38,,,,2025-04-13T06:04:30,,,,,,,,
+bucket,121,,,,,,,,,,,,,,91,,,,2024-05-22T14:08:02,,,,,,,,
+bucket,122,,,,,,,,,,,,,,42,,,,2024-08-29T23:31:34,,,,,,,,
+bucket,123,,,,,,,,,,,,,,175,,,,2025-06-29T23:57:43,,,,,,,,
+bucket,124,,,,,,,,,,,,,,162,,,,2025-09-12T08:12:12,,,,,,,,
+bucket,125,,,,,,,,,,,,,,163,,,,2025-10-06T11:46:25,,,,,,,,
+bucket,126,,,,,,,,,,,,,,132,,,,2025-11-23T23:35:46,,,,,,,,
+bucket,127,,,,,,,,,,,,,,156,,,,2025-09-26T02:32:25,,,,,,,,
+bucket,128,,,,,,,,,,,,,,135,,,,2023-04-13T16:56:56,,,,,,,,
+bucket,129,,,,,,,,,,,,,,16,,,,2024-04-26T19:57:24,,,,,,,,
+bucket,130,,,,,,,,,,,,,,160,,,,2025-12-21T08:31:29,,,,,,,,
+bucket,131,,,,,,,,,,,,,,53,,,,2024-11-10T14:39:42,,,,,,,,
+bucket,132,,,,,,,,,,,,,,198,,,,2024-01-06T17:02:48,,,,,,,,
+bucket,133,,,,,,,,,,,,,,181,,,,2023-03-31T22:53:24,,,,,,,,
+bucket,134,,,,,,,,,,,,,,110,,,,2024-01-15T18:51:57,,,,,,,,
+bucket,135,,,,,,,,,,,,,,161,,,,2023-05-14T22:14:45,,,,,,,,
+bucket,136,,,,,,,,,,,,,,54,,,,2024-11-05T22:43:20,,,,,,,,
+bucket,137,,,,,,,,,,,,,,61,,,,2023-06-30T04:17:35,,,,,,,,
+bucket,138,,,,,,,,,,,,,,31,,,,2024-12-05T06:55:38,,,,,,,,
+bucket,139,,,,,,,,,,,,,,151,,,,2025-08-09T04:04:44,,,,,,,,
+bucket,140,,,,,,,,,,,,,,23,,,,2025-08-03T18:55:02,,,,,,,,
+bucket,141,,,,,,,,,,,,,,90,,,,2023-03-27T11:36:56,,,,,,,,
+bucket,142,,,,,,,,,,,,,,68,,,,2024-04-25T11:10:09,,,,,,,,
+bucket,143,,,,,,,,,,,,,,195,,,,2025-10-31T17:14:47,,,,,,,,
+bucket,144,,,,,,,,,,,,,,170,,,,2025-10-19T05:58:12,,,,,,,,
+bucket,145,,,,,,,,,,,,,,77,,,,2023-09-30T20:33:14,,,,,,,,
+bucket,146,,,,,,,,,,,,,,64,,,,2023-07-05T13:09:29,,,,,,,,
+bucket,147,,,,,,,,,,,,,,27,,,,2023-01-20T16:11:03,,,,,,,,
+bucket,148,,,,,,,,,,,,,,109,,,,2023-08-02T03:37:35,,,,,,,,
+bucket,149,,,,,,,,,,,,,,56,,,,2025-12-25T17:48:04,,,,,,,,
+bucket,150,,,,,,,,,,,,,,155,,,,2023-01-18T15:10:52,,,,,,,,
+bucket,151,,,,,,,,,,,,,,113,,,,2023-09-12T12:07:23,,,,,,,,
+bucket,152,,,,,,,,,,,,,,11,,,,2025-02-10T03:36:55,,,,,,,,
+bucket,153,,,,,,,,,,,,,,139,,,,2024-06-22T14:06:14,,,,,,,,
+bucket,154,,,,,,,,,,,,,,94,,,,2025-03-23T11:03:11,,,,,,,,
+bucket,155,,,,,,,,,,,,,,140,,,,2025-03-14T11:27:54,,,,,,,,
+bucket,156,,,,,,,,,,,,,,69,,,,2024-02-07T17:25:38,,,,,,,,
+bucket,157,,,,,,,,,,,,,,30,,,,2023-09-17T08:49:48,,,,,,,,
+bucket,158,,,,,,,,,,,,,,147,,,,2024-07-31T16:17:50,,,,,,,,
+bucket,159,,,,,,,,,,,,,,29,,,,2023-07-17T04:18:57,,,,,,,,
+bucket,160,,,,,,,,,,,,,,131,,,,2024-02-22T12:15:58,,,,,,,,
+bucket,161,,,,,,,,,,,,,,141,,,,2023-07-03T09:28:24,,,,,,,,
+bucket,162,,,,,,,,,,,,,,183,,,,2023-02-15T14:28:49,,,,,,,,
+bucket,163,,,,,,,,,,,,,,174,,,,2024-06-04T10:06:58,,,,,,,,
+bucket,164,,,,,,,,,,,,,,118,,,,2024-10-28T22:22:48,,,,,,,,
+bucket,165,,,,,,,,,,,,,,44,,,,2024-02-27T12:10:17,,,,,,,,
+bucket,166,,,,,,,,,,,,,,199,,,,2025-03-24T18:42:02,,,,,,,,
+bucket,167,,,,,,,,,,,,,,138,,,,2023-04-10T05:19:13,,,,,,,,
+bucket,168,,,,,,,,,,,,,,58,,,,2024-02-13T11:28:24,,,,,,,,
+bucket,169,,,,,,,,,,,,,,71,,,,2025-06-14T19:07:57,,,,,,,,
+bucket,170,,,,,,,,,,,,,,9,,,,2025-09-01T20:07:11,,,,,,,,
+bucket,171,,,,,,,,,,,,,,75,,,,2023-04-30T17:22:44,,,,,,,,
+bucket,172,,,,,,,,,,,,,,57,,,,2025-02-09T17:43:19,,,,,,,,
+bucket,173,,,,,,,,,,,,,,8,,,,2024-12-08T03:00:11,,,,,,,,
+bucket,174,,,,,,,,,,,,,,145,,,,2025-03-04T11:19:43,,,,,,,,
+bucket,175,,,,,,,,,,,,,,22,,,,2024-07-13T10:23:31,,,,,,,,
+bucket,176,,,,,,,,,,,,,,43,,,,2023-03-28T02:55:11,,,,,,,,
+bucket,177,,,,,,,,,,,,,,180,,,,2025-02-15T02:48:39,,,,,,,,
+bucket,178,,,,,,,,,,,,,,114,,,,2025-05-30T15:02:48,,,,,,,,
+bucket,179,,,,,,,,,,,,,,107,,,,2023-09-17T05:47:21,,,,,,,,
+bucket,180,,,,,,,,,,,,,,200,,,,2024-07-25T04:23:38,,,,,,,,
+order,1,,,,,,,,,,,,,,41,55,,pending,2023-06-09T20:34:23,,1299.93,,paypal,,,,
+order,2,,,,,,,,,,,,,,1,1,121,shipped,2023-01-20T02:07:57,2023-01-22T04:07:57,486.11,"Fragile items, handle with care",paypal,,,,
+order,3,,,,,,,,,,,,,,10,12,107,shipped,2023-12-15T18:32:15,2023-12-17T05:32:15,1775.55,,credit_card,,,,
+order,4,,,,,,,,,,,,,,96,127,,pending,2025-02-18T21:26:34,,355.57,Ring the bell twice,paypal,,,,
+order,5,,,,,,,,,,,,,,133,180,120,shipped,2024-09-14T19:33:42,2024-09-16T11:33:42,2818.3,Call before delivery,bank_transfer,,,,
+order,6,,,,,,,,,,,,,,142,193,75,shipped,2023-01-13T09:06:44,2023-01-14T17:06:44,563.91,,apple_pay,,,,
+order,7,,,,,,,,,,,,,,152,208,,confirmed,2023-10-31T13:52:33,2023-11-01T09:52:33,5136.78,,credit_card,,,,
+order,8,,,,,,,,,,,,,,7,9,178,pending,2025-04-21T06:16:06,,4047.52,Please leave at the door,bank_transfer,,,,
+order,9,,,,,,,,,,,,,,195,267,136,confirmed,2024-04-22T16:49:39,2024-04-24T22:49:39,2997.22,Please leave at the door,apple_pay,,,,
+order,10,,,,,,,,,,,,,,37,50,60,delivered,2023-05-25T12:17:04,2023-05-27T12:17:04,908.39,Call before delivery,apple_pay,,,,
+order,11,,,,,,,,,,,,,,149,203,101,pending,2025-02-24T03:42:46,,11214.24,,google_pay,,,,
+order,12,,,,,,,,,,,,,,16,20,,confirmed,2025-10-26T01:41:58,2025-10-27T15:41:58,4929.68,,bank_transfer,,,,
+order,13,,,,,,,,,,,,,,101,133,60,pending,2024-05-09T02:03:04,,951.92,"Fragile items, handle with care",paypal,,,,
+order,14,,,,,,,,,,,,,,200,275,116,delivered,2023-08-30T10:07:31,2023-09-01T03:07:31,9348.74,Call before delivery,apple_pay,,,,
+order,15,,,,,,,,,,,,,,138,186,119,shipped,2023-11-19T13:14:22,2023-11-20T05:14:22,2082.27,"Fragile items, handle with care",credit_card,,,,
+order,16,,,,,,,,,,,,,,176,241,,pending,2025-12-30T17:17:57,,1957.07,,paypal,,,,
+order,17,,,,,,,,,,,,,,38,51,,delivered,2024-01-21T14:16:01,2024-01-24T08:16:01,825.33,Leave with neighbor if absent,credit_card,,,,
+order,18,,,,,,,,,,,,,,67,90,,delivered,2023-02-18T06:49:27,2023-02-21T06:49:27,1590.25,Ring the bell twice,google_pay,,,,
+order,19,,,,,,,,,,,,,,25,33,,confirmed,2023-06-08T07:22:52,2023-06-08T23:22:52,7117.33,Please leave at the door,credit_card,,,,
+order,20,,,,,,,,,,,,,,200,275,103,shipped,2023-07-23T01:25:02,2023-07-23T12:25:02,3480.8,,google_pay,,,,
+order,21,,,,,,,,,,,,,,67,90,,confirmed,2023-02-03T20:46:10,2023-02-06T05:46:10,5295.26,Call before delivery,paypal,,,,
+order,22,,,,,,,,,,,,,,85,112,,pending,2023-03-08T07:50:02,,1626.86,,paypal,,,,
+order,23,,,,,,,,,,,,,,111,145,175,delivered,2025-02-09T16:55:57,2025-02-10T15:55:57,2806.75,Ring the bell twice,bank_transfer,,,,
+order,24,,,,,,,,,,,,,,48,65,39,pending,2024-03-10T17:44:02,,9749.51,,google_pay,,,,
+order,25,,,,,,,,,,,,,,158,216,106,delivered,2025-10-02T12:17:16,2025-10-02T20:17:16,1013.96,Leave with neighbor if absent,credit_card,,,,
+order,26,,,,,,,,,,,,,,99,130,135,confirmed,2024-10-13T06:12:25,2024-10-16T04:12:25,621.22,,credit_card,,,,
+order,27,,,,,,,,,,,,,,183,251,125,shipped,2025-01-15T03:55:55,2025-01-17T20:55:55,7879.15,,bank_transfer,,,,
+order,28,,,,,,,,,,,,,,70,93,57,pending,2023-02-10T11:41:52,,3985.5,Please leave at the door,bank_transfer,,,,
+order,29,,,,,,,,,,,,,,121,161,,confirmed,2025-06-26T04:41:05,2025-06-26T17:41:05,4455.34,Ring the bell twice,paypal,,,,
+order,30,,,,,,,,,,,,,,69,92,100,shipped,2023-12-07T20:15:24,2023-12-08T19:15:24,4120.72,Ring the bell twice,paypal,,,,
+order,31,,,,,,,,,,,,,,152,208,152,pending,2025-12-19T17:24:12,,9453.72,,bank_transfer,,,,
+order,32,,,,,,,,,,,,,,145,197,,delivered,2025-05-24T18:13:15,2025-05-27T16:13:15,248.69,"Fragile items, handle with care",bank_transfer,,,,
+order,33,,,,,,,,,,,,,,126,170,155,confirmed,2023-05-21T05:02:20,2023-05-21T08:02:20,9928.76,,google_pay,,,,
+order,34,,,,,,,,,,,,,,1,2,34,shipped,2025-08-12T00:36:13,2025-08-12T23:36:13,5324.29,Please leave at the door,bank_transfer,,,,
+order,35,,,,,,,,,,,,,,6,8,,confirmed,2025-06-30T06:22:30,2025-06-30T21:22:30,18637.22,,google_pay,,,,
+order,36,,,,,,,,,,,,,,19,24,,delivered,2025-12-30T11:04:50,2025-12-31T00:04:50,6038.23,Leave with neighbor if absent,bank_transfer,,,,
+order,37,,,,,,,,,,,,,,83,109,,delivered,2023-09-02T16:10:13,2023-09-05T07:10:13,843.09,"Fragile items, handle with care",bank_transfer,,,,
+order,38,,,,,,,,,,,,,,182,249,,confirmed,2023-12-13T18:53:11,2023-12-15T19:53:11,792.11,Leave with neighbor if absent,bank_transfer,,,,
+order,39,,,,,,,,,,,,,,33,44,,delivered,2023-01-03T19:01:50,2023-01-04T00:01:50,3086.07,,paypal,,,,
+order,40,,,,,,,,,,,,,,82,107,128,confirmed,2025-09-20T15:45:36,2025-09-22T10:45:36,1831.17,Ring the bell twice,credit_card,,,,
+order,41,,,,,,,,,,,,,,89,118,,pending,2023-09-18T19:17:47,,4551.4,,bank_transfer,,,,
+order,42,,,,,,,,,,,,,,3,4,18,shipped,2023-11-22T17:35:48,2023-11-24T02:35:48,4774.42,Please leave at the door,credit_card,,,,
+order,43,,,,,,,,,,,,,,13,16,,confirmed,2024-11-11T18:01:51,2024-11-13T23:01:51,8784.81,,apple_pay,,,,
+order,44,,,,,,,,,,,,,,90,119,,confirmed,2023-06-07T13:31:50,2023-06-08T10:31:50,9392.73,Call before delivery,apple_pay,,,,
+order,45,,,,,,,,,,,,,,9,11,27,pending,2023-02-01T04:33:43,,708.65,"Fragile items, handle with care",bank_transfer,,,,
+order,46,,,,,,,,,,,,,,97,128,24,shipped,2023-04-27T12:17:34,2023-04-30T02:17:34,2540.06,,credit_card,,,,
+order,47,,,,,,,,,,,,,,168,230,,confirmed,2025-08-01T10:26:31,2025-08-01T17:26:31,10569.55,,credit_card,,,,
+order,48,,,,,,,,,,,,,,53,70,,shipped,2024-09-27T19:03:33,2024-09-29T08:03:33,2741.26,Ring the bell twice,bank_transfer,,,,
+order,49,,,,,,,,,,,,,,25,33,126,confirmed,2024-09-02T08:27:22,2024-09-02T15:27:22,942.87,Please leave at the door,bank_transfer,,,,
+order,50,,,,,,,,,,,,,,110,143,,delivered,2024-04-02T13:35:57,2024-04-03T15:35:57,8064.26,Please leave at the door,credit_card,,,,
+order,51,,,,,,,,,,,,,,53,70,21,delivered,2025-09-18T09:28:20,2025-09-19T00:28:20,5540.41,,bank_transfer,,,,
+order,52,,,,,,,,,,,,,,121,161,165,delivered,2025-10-23T21:21:34,2025-10-24T21:21:34,3276.42,,bank_transfer,,,,
+order,53,,,,,,,,,,,,,,95,126,113,delivered,2024-11-23T11:42:24,2024-11-24T21:42:24,7125.69,Leave with neighbor if absent,paypal,,,,
+order,54,,,,,,,,,,,,,,145,197,,pending,2023-08-23T18:33:35,,10407.93,,credit_card,,,,
+order,55,,,,,,,,,,,,,,139,187,16,delivered,2025-07-05T02:35:43,2025-07-07T21:35:43,5299.76,,apple_pay,,,,
+order,56,,,,,,,,,,,,,,176,241,,delivered,2025-06-08T16:20:10,2025-06-10T07:20:10,4431.62,,credit_card,,,,
+order,57,,,,,,,,,,,,,,183,250,133,confirmed,2025-02-18T23:41:58,2025-02-19T15:41:58,3166.6,"Fragile items, handle with care",apple_pay,,,,
+order,58,,,,,,,,,,,,,,43,57,109,pending,2023-10-27T09:20:57,,327.53,Ring the bell twice,apple_pay,,,,
+order,59,,,,,,,,,,,,,,161,221,18,pending,2025-07-13T08:59:04,,408.0,,apple_pay,,,,
+order,60,,,,,,,,,,,,,,102,134,4,delivered,2024-03-05T01:30:46,2024-03-05T16:30:46,6787.91,"Fragile items, handle with care",apple_pay,,,,
+order,61,,,,,,,,,,,,,,38,51,26,shipped,2023-06-14T02:21:05,2023-06-16T23:21:05,6175.97,,bank_transfer,,,,
+order,62,,,,,,,,,,,,,,68,91,156,delivered,2025-10-14T04:15:13,2025-10-14T09:15:13,2244.62,Leave with neighbor if absent,paypal,,,,
+order,63,,,,,,,,,,,,,,104,137,,delivered,2025-08-18T09:49:30,2025-08-18T14:49:30,3979.43,,apple_pay,,,,
+order,64,,,,,,,,,,,,,,177,242,,shipped,2023-03-18T13:42:02,2023-03-20T13:42:02,4148.95,,credit_card,,,,
+order,65,,,,,,,,,,,,,,78,101,,pending,2024-03-11T12:04:50,,9091.03,"Fragile items, handle with care",paypal,,,,
+order,66,,,,,,,,,,,,,,77,100,107,pending,2024-05-13T10:50:16,,13204.08,,paypal,,,,
+order,67,,,,,,,,,,,,,,55,73,,shipped,2025-01-22T13:59:24,2025-01-22T21:59:24,875.99,"Fragile items, handle with care",google_pay,,,,
+order,68,,,,,,,,,,,,,,17,21,135,pending,2025-02-26T06:41:50,,1105.14,Ring the bell twice,paypal,,,,
+order,69,,,,,,,,,,,,,,52,69,13,shipped,2024-01-23T13:40:16,2024-01-24T15:40:16,2676.39,,bank_transfer,,,,
+order,70,,,,,,,,,,,,,,119,159,,pending,2025-09-14T01:47:40,,8763.74,,paypal,,,,
+order,71,,,,,,,,,,,,,,126,170,,delivered,2023-10-03T20:47:59,2023-10-06T19:47:59,10023.45,,bank_transfer,,,,
+order,72,,,,,,,,,,,,,,42,56,8,delivered,2025-12-06T02:12:34,2025-12-06T09:12:34,5687.86,,paypal,,,,
+order,73,,,,,,,,,,,,,,200,275,,confirmed,2023-12-10T20:33:58,2023-12-12T07:33:58,391.95,,apple_pay,,,,
+order,74,,,,,,,,,,,,,,6,8,,confirmed,2025-01-06T11:37:29,2025-01-06T13:37:29,372.48,Leave with neighbor if absent,paypal,,,,
+order,75,,,,,,,,,,,,,,156,214,97,shipped,2025-09-25T11:05:44,2025-09-27T22:05:44,3833.45,Ring the bell twice,bank_transfer,,,,
+order,76,,,,,,,,,,,,,,120,160,160,delivered,2025-11-17T23:42:09,2025-11-18T13:42:09,15340.66,,credit_card,,,,
+order,77,,,,,,,,,,,,,,170,233,,shipped,2025-05-22T04:38:18,2025-05-23T19:38:18,12730.14,,credit_card,,,,
+order,78,,,,,,,,,,,,,,17,21,,shipped,2024-03-05T12:02:33,2024-03-06T22:02:33,4063.23,Ring the bell twice,bank_transfer,,,,
+order,79,,,,,,,,,,,,,,39,53,,delivered,2023-03-30T04:42:47,2023-03-31T21:42:47,6293.46,Please leave at the door,paypal,,,,
+order,80,,,,,,,,,,,,,,168,230,108,delivered,2024-04-04T04:56:22,2024-04-06T06:56:22,1678.14,,credit_card,,,,
+order,81,,,,,,,,,,,,,,182,248,,confirmed,2024-06-17T02:11:41,2024-06-19T23:11:41,644.51,,apple_pay,,,,
+order,82,,,,,,,,,,,,,,130,176,,confirmed,2023-09-22T01:33:43,2023-09-23T15:33:43,3718.43,,credit_card,,,,
+order,83,,,,,,,,,,,,,,33,45,,confirmed,2025-05-18T10:12:38,2025-05-20T05:12:38,4975.62,Ring the bell twice,credit_card,,,,
+order,84,,,,,,,,,,,,,,91,120,85,shipped,2024-04-22T00:58:07,2024-04-23T10:58:07,2480.21,Leave with neighbor if absent,google_pay,,,,
+order,85,,,,,,,,,,,,,,119,159,163,pending,2024-12-31T22:52:29,,1296.59,Ring the bell twice,apple_pay,,,,
+order,86,,,,,,,,,,,,,,129,174,77,delivered,2025-11-23T10:15:07,2025-11-23T17:15:07,6183.61,"Fragile items, handle with care",paypal,,,,
+order,87,,,,,,,,,,,,,,52,69,,delivered,2024-09-27T15:46:39,2024-09-28T10:46:39,5379.34,"Fragile items, handle with care",bank_transfer,,,,
+order,88,,,,,,,,,,,,,,200,275,46,shipped,2025-01-27T10:19:53,2025-01-27T18:19:53,1053.07,,credit_card,,,,
+order,89,,,,,,,,,,,,,,71,94,41,delivered,2023-09-19T22:04:41,2023-09-20T10:04:41,3249.23,,paypal,,,,
+order,90,,,,,,,,,,,,,,112,147,123,delivered,2024-09-18T15:35:56,2024-09-18T16:35:56,1629.49,,credit_card,,,,
+order,91,,,,,,,,,,,,,,52,69,,confirmed,2023-01-22T20:49:58,2023-01-22T23:49:58,3921.38,Ring the bell twice,credit_card,,,,
+order,92,,,,,,,,,,,,,,58,78,99,shipped,2024-04-29T19:38:34,2024-04-30T17:38:34,9180.42,Please leave at the door,credit_card,,,,
+order,93,,,,,,,,,,,,,,77,100,,shipped,2024-12-09T06:09:53,2024-12-11T14:09:53,1256.68,,paypal,,,,
+order,94,,,,,,,,,,,,,,126,170,104,pending,2023-10-20T17:01:54,,1428.83,Ring the bell twice,paypal,,,,
+order,95,,,,,,,,,,,,,,187,255,,confirmed,2023-11-25T01:44:32,2023-11-25T17:44:32,284.8,Please leave at the door,bank_transfer,,,,
+order,96,,,,,,,,,,,,,,97,128,,pending,2025-04-10T16:18:26,,331.01,Please leave at the door,credit_card,,,,
+order,97,,,,,,,,,,,,,,13,16,32,shipped,2024-10-09T10:31:09,2024-10-11T23:31:09,3938.58,Ring the bell twice,paypal,,,,
+order,98,,,,,,,,,,,,,,178,243,26,shipped,2024-04-12T18:26:06,2024-04-13T12:26:06,1458.71,Call before delivery,apple_pay,,,,
+order,99,,,,,,,,,,,,,,131,177,28,delivered,2024-03-15T04:04:20,2024-03-16T06:04:20,2438.17,Ring the bell twice,google_pay,,,,
+order,100,,,,,,,,,,,,,,200,275,,shipped,2025-03-23T16:18:01,2025-03-25T21:18:01,8032.64,"Fragile items, handle with care",bank_transfer,,,,
+order,101,,,,,,,,,,,,,,11,14,,delivered,2023-11-19T15:23:34,2023-11-21T10:23:34,634.44,Please leave at the door,paypal,,,,
+order,102,,,,,,,,,,,,,,4,5,,delivered,2023-06-21T13:09:46,2023-06-22T09:09:46,3339.67,,credit_card,,,,
+order,103,,,,,,,,,,,,,,20,25,,delivered,2024-02-02T12:20:56,2024-02-04T02:20:56,1090.84,,bank_transfer,,,,
+order,104,,,,,,,,,,,,,,13,16,,shipped,2023-09-29T09:21:19,2023-10-01T08:21:19,528.31,,bank_transfer,,,,
+order,105,,,,,,,,,,,,,,190,259,,pending,2023-05-28T13:47:58,,135.5,"Fragile items, handle with care",credit_card,,,,
+order,106,,,,,,,,,,,,,,170,232,113,shipped,2024-05-25T13:21:49,2024-05-26T01:21:49,7425.15,,bank_transfer,,,,
+order,107,,,,,,,,,,,,,,47,63,117,shipped,2024-09-14T14:04:07,2024-09-16T16:04:07,1924.98,,apple_pay,,,,
+order,108,,,,,,,,,,,,,,167,228,16,confirmed,2023-06-25T15:03:14,2023-06-26T05:03:14,717.04,,apple_pay,,,,
+order,109,,,,,,,,,,,,,,124,167,,shipped,2023-10-09T13:53:00,2023-10-09T17:53:00,5479.16,,paypal,,,,
+order,110,,,,,,,,,,,,,,125,168,17,shipped,2024-09-30T21:47:19,2024-10-02T14:47:19,1063.91,,credit_card,,,,
+order,111,,,,,,,,,,,,,,197,270,,pending,2025-11-06T13:36:27,,3377.16,Ring the bell twice,apple_pay,,,,
+order,112,,,,,,,,,,,,,,124,167,,delivered,2025-10-28T00:55:34,2025-10-28T20:55:34,5587.72,,google_pay,,,,
+order,113,,,,,,,,,,,,,,14,17,,delivered,2025-09-26T11:38:33,2025-09-29T03:38:33,6310.33,Call before delivery,paypal,,,,
+order,114,,,,,,,,,,,,,,193,264,72,pending,2024-05-13T02:05:42,,4012.62,Ring the bell twice,google_pay,,,,
+order,115,,,,,,,,,,,,,,141,191,,pending,2024-09-18T11:15:21,,151.12,,apple_pay,,,,
+order,116,,,,,,,,,,,,,,147,200,,delivered,2023-05-17T17:37:05,2023-05-19T10:37:05,7847.67,,credit_card,,,,
+order,117,,,,,,,,,,,,,,191,261,10,pending,2023-06-09T10:49:13,,1147.44,,credit_card,,,,
+order,118,,,,,,,,,,,,,,159,218,168,delivered,2025-02-28T16:12:16,2025-03-02T12:12:16,3360.48,Please leave at the door,bank_transfer,,,,
+order,119,,,,,,,,,,,,,,58,78,159,delivered,2024-05-30T16:50:11,2024-06-01T15:50:11,3376.57,Call before delivery,apple_pay,,,,
+order,120,,,,,,,,,,,,,,25,33,163,shipped,2023-01-04T09:54:29,2023-01-07T08:54:29,8105.65,,google_pay,,,,
+order,121,,,,,,,,,,,,,,180,245,,delivered,2023-03-13T02:43:53,2023-03-13T20:43:53,8628.61,Call before delivery,apple_pay,,,,
+order,122,,,,,,,,,,,,,,66,89,101,confirmed,2023-10-19T08:07:29,2023-10-21T19:07:29,2919.16,,paypal,,,,
+order,123,,,,,,,,,,,,,,28,37,,pending,2023-03-14T05:39:32,,16571.01,,apple_pay,,,,
+order,124,,,,,,,,,,,,,,169,231,13,delivered,2025-02-13T21:40:47,2025-02-16T11:40:47,5710.46,"Fragile items, handle with care",google_pay,,,,
+order,125,,,,,,,,,,,,,,178,243,169,shipped,2023-07-19T10:25:11,2023-07-22T03:25:11,14230.84,,apple_pay,,,,
+order,126,,,,,,,,,,,,,,156,213,88,shipped,2024-03-01T00:23:37,2024-03-03T10:23:37,3493.82,"Fragile items, handle with care",paypal,,,,
+order,127,,,,,,,,,,,,,,106,139,81,confirmed,2025-12-25T17:36:12,2025-12-26T19:36:12,16938.04,,paypal,,,,
+order,128,,,,,,,,,,,,,,183,251,173,confirmed,2025-12-02T14:43:28,2025-12-03T13:43:28,3854.43,,google_pay,,,,
+order,129,,,,,,,,,,,,,,178,243,,delivered,2023-06-29T06:37:10,2023-07-01T12:37:10,9131.38,Leave with neighbor if absent,google_pay,,,,
+order,130,,,,,,,,,,,,,,109,142,98,confirmed,2025-03-23T00:47:11,2025-03-23T07:47:11,1739.28,Ring the bell twice,credit_card,,,,
+order,131,,,,,,,,,,,,,,69,92,,confirmed,2024-03-21T05:48:07,2024-03-21T13:48:07,599.41,Ring the bell twice,bank_transfer,,,,
+order,132,,,,,,,,,,,,,,193,264,,pending,2024-07-11T04:39:01,,692.47,,google_pay,,,,
+order,133,,,,,,,,,,,,,,58,78,179,shipped,2024-01-05T02:12:04,2024-01-05T09:12:04,7652.7,,apple_pay,,,,
+order,134,,,,,,,,,,,,,,107,140,65,confirmed,2025-05-07T16:41:49,2025-05-10T01:41:49,1583.79,,paypal,,,,
+order,135,,,,,,,,,,,,,,194,265,46,pending,2023-10-28T14:07:03,,5707.6,"Fragile items, handle with care",paypal,,,,
+order,136,,,,,,,,,,,,,,189,258,72,shipped,2024-08-08T22:58:09,2024-08-09T15:58:09,17958.12,,paypal,,,,
+order,137,,,,,,,,,,,,,,66,89,40,pending,2024-05-28T12:16:26,,1157.08,,paypal,,,,
+order,138,,,,,,,,,,,,,,153,209,,shipped,2025-08-29T11:21:32,2025-09-01T02:21:32,12567.49,,google_pay,,,,
+order,139,,,,,,,,,,,,,,92,121,48,pending,2024-05-08T18:38:33,,11603.78,"Fragile items, handle with care",google_pay,,,,
+order,140,,,,,,,,,,,,,,107,140,55,shipped,2023-05-23T19:58:43,2023-05-25T14:58:43,723.14,Leave with neighbor if absent,bank_transfer,,,,
+order,141,,,,,,,,,,,,,,56,74,,pending,2025-05-22T00:04:25,,4841.54,,credit_card,,,,
+order,142,,,,,,,,,,,,,,115,152,,confirmed,2025-09-24T17:21:02,2025-09-24T23:21:02,1028.28,,bank_transfer,,,,
+order,143,,,,,,,,,,,,,,30,40,73,pending,2024-02-03T14:23:21,,6132.56,,google_pay,,,,
+order,144,,,,,,,,,,,,,,132,179,167,confirmed,2025-01-26T05:23:42,2025-01-27T23:23:42,3750.98,Call before delivery,google_pay,,,,
+order,145,,,,,,,,,,,,,,25,33,161,pending,2025-04-15T17:09:19,,4306.58,Ring the bell twice,paypal,,,,
+order,146,,,,,,,,,,,,,,176,241,180,delivered,2023-06-11T10:40:20,2023-06-11T20:40:20,6998.69,Please leave at the door,paypal,,,,
+order,147,,,,,,,,,,,,,,118,158,14,confirmed,2023-02-28T20:30:15,2023-03-02T05:30:15,3814.9,Call before delivery,google_pay,,,,
+order,148,,,,,,,,,,,,,,148,201,116,delivered,2024-02-06T19:05:41,2024-02-09T03:05:41,249.87,Please leave at the door,bank_transfer,,,,
+order,149,,,,,,,,,,,,,,100,131,159,pending,2025-04-10T20:04:14,,18494.03,Please leave at the door,google_pay,,,,
+order,150,,,,,,,,,,,,,,180,245,,pending,2024-07-09T16:01:39,,9314.2,Leave with neighbor if absent,bank_transfer,,,,
+order,151,,,,,,,,,,,,,,156,213,,delivered,2024-03-13T07:43:51,2024-03-15T08:43:51,1800.11,Please leave at the door,apple_pay,,,,
+order,152,,,,,,,,,,,,,,122,162,101,shipped,2025-04-08T17:07:11,2025-04-09T12:07:11,353.0,,bank_transfer,,,,
+order,153,,,,,,,,,,,,,,3,4,147,delivered,2023-07-11T10:32:23,2023-07-14T07:32:23,13584.19,Call before delivery,google_pay,,,,
+order,154,,,,,,,,,,,,,,79,102,166,confirmed,2024-06-18T03:43:07,2024-06-19T00:43:07,7089.68,Ring the bell twice,paypal,,,,
+order,155,,,,,,,,,,,,,,158,217,172,pending,2023-10-29T21:00:23,,9047.09,,google_pay,,,,
+order,156,,,,,,,,,,,,,,166,226,,shipped,2024-03-27T12:19:00,2024-03-28T01:19:00,7419.86,,paypal,,,,
+order,157,,,,,,,,,,,,,,125,169,168,confirmed,2024-07-08T19:04:59,2024-07-09T08:04:59,5774.18,,bank_transfer,,,,
+order,158,,,,,,,,,,,,,,18,22,85,shipped,2024-05-08T15:55:06,2024-05-09T11:55:06,13097.47,,google_pay,,,,
+order,159,,,,,,,,,,,,,,94,125,81,confirmed,2024-10-27T08:27:25,2024-10-28T13:27:25,16288.53,Leave with neighbor if absent,apple_pay,,,,
+order,160,,,,,,,,,,,,,,93,122,,delivered,2025-11-21T16:35:07,2025-11-24T04:35:07,11009.55,,apple_pay,,,,
+order,161,,,,,,,,,,,,,,199,274,45,pending,2025-01-26T11:36:32,,8425.59,"Fragile items, handle with care",bank_transfer,,,,
+order,162,,,,,,,,,,,,,,138,186,,pending,2024-02-13T22:05:56,,383.79,Please leave at the door,credit_card,,,,
+order,163,,,,,,,,,,,,,,130,175,152,confirmed,2025-06-22T22:26:59,2025-06-23T03:26:59,18031.06,Leave with neighbor if absent,google_pay,,,,
+order,164,,,,,,,,,,,,,,140,189,,shipped,2025-10-12T19:27:44,2025-10-14T22:27:44,9430.75,,paypal,,,,
+order,165,,,,,,,,,,,,,,188,257,131,pending,2023-07-27T23:27:18,,6327.8,,apple_pay,,,,
+order,166,,,,,,,,,,,,,,129,174,158,confirmed,2025-10-26T10:26:41,2025-10-29T04:26:41,10295.87,,paypal,,,,
+order,167,,,,,,,,,,,,,,41,55,,confirmed,2025-05-29T19:19:43,2025-06-01T09:19:43,948.84,Please leave at the door,bank_transfer,,,,
+order,168,,,,,,,,,,,,,,57,76,95,confirmed,2023-12-27T00:15:46,2023-12-27T06:15:46,6972.07,,paypal,,,,
+order,169,,,,,,,,,,,,,,93,123,,pending,2024-12-30T14:43:27,,7620.61,,credit_card,,,,
+order,170,,,,,,,,,,,,,,27,36,146,confirmed,2024-02-14T01:08:04,2024-02-16T02:08:04,6909.72,,apple_pay,,,,
+order,171,,,,,,,,,,,,,,151,206,58,delivered,2025-03-13T14:35:20,2025-03-15T12:35:20,6577.19,,bank_transfer,,,,
+order,172,,,,,,,,,,,,,,124,166,,delivered,2025-02-18T13:50:19,2025-02-19T11:50:19,587.65,Call before delivery,paypal,,,,
+order,173,,,,,,,,,,,,,,132,179,41,shipped,2023-11-25T13:55:45,2023-11-26T05:55:45,5475.75,,paypal,,,,
+order,174,,,,,,,,,,,,,,85,112,,delivered,2025-01-18T00:14:30,2025-01-19T03:14:30,11028.0,"Fragile items, handle with care",google_pay,,,,
+order,175,,,,,,,,,,,,,,166,227,33,confirmed,2023-02-04T20:50:56,2023-02-05T14:50:56,1624.0,Please leave at the door,google_pay,,,,
+order,176,,,,,,,,,,,,,,147,200,47,delivered,2023-03-28T20:33:02,2023-03-28T23:33:02,2536.82,Call before delivery,bank_transfer,,,,
+order,177,,,,,,,,,,,,,,56,74,,delivered,2025-07-31T04:55:27,2025-08-01T02:55:27,13623.67,,paypal,,,,
+order,178,,,,,,,,,,,,,,154,211,,confirmed,2025-06-24T02:37:20,2025-06-26T20:37:20,6962.84,"Fragile items, handle with care",bank_transfer,,,,
+order,179,,,,,,,,,,,,,,186,254,18,confirmed,2024-12-05T10:35:32,2024-12-07T11:35:32,6362.7,"Fragile items, handle with care",apple_pay,,,,
+order,180,,,,,,,,,,,,,,28,37,130,delivered,2023-11-11T08:06:02,2023-11-12T04:06:02,2357.72,Call before delivery,google_pay,,,,
+order,181,,,,,,,,,,,,,,46,62,137,pending,2025-08-12T23:28:22,,4313.95,,credit_card,,,,
+order,182,,,,,,,,,,,,,,169,231,1,delivered,2025-07-26T11:09:56,2025-07-29T06:09:56,4737.69,,apple_pay,,,,
+order,183,,,,,,,,,,,,,,12,15,,delivered,2023-12-23T11:52:03,2023-12-25T12:52:03,5668.81,,bank_transfer,,,,
+order,184,,,,,,,,,,,,,,190,259,123,confirmed,2024-10-22T23:23:40,2024-10-23T10:23:40,1401.08,,bank_transfer,,,,
+order,185,,,,,,,,,,,,,,140,189,2,pending,2024-02-05T11:39:58,,8246.58,Please leave at the door,google_pay,,,,
+order,186,,,,,,,,,,,,,,97,128,,delivered,2025-12-04T09:48:08,2025-12-06T08:48:08,313.9,"Fragile items, handle with care",credit_card,,,,
+order,187,,,,,,,,,,,,,,110,144,,delivered,2024-02-10T22:04:40,2024-02-12T21:04:40,8989.83,Leave with neighbor if absent,google_pay,,,,
+order,188,,,,,,,,,,,,,,175,240,143,delivered,2023-11-13T10:15:00,2023-11-14T09:15:00,1183.66,,bank_transfer,,,,
+order,189,,,,,,,,,,,,,,143,194,,shipped,2024-01-30T05:30:58,2024-02-01T08:30:58,21893.29,Call before delivery,paypal,,,,
+order,190,,,,,,,,,,,,,,192,262,,confirmed,2024-11-24T18:15:49,2024-11-25T07:15:49,2095.86,,paypal,,,,
+order,191,,,,,,,,,,,,,,103,136,,pending,2025-05-05T06:58:08,,6766.68,,paypal,,,,
+order,192,,,,,,,,,,,,,,163,223,,delivered,2023-05-22T12:01:42,2023-05-24T20:01:42,3981.81,Call before delivery,credit_card,,,,
+order,193,,,,,,,,,,,,,,68,91,10,delivered,2024-07-30T01:44:08,2024-08-01T05:44:08,106.52,,google_pay,,,,
+order,194,,,,,,,,,,,,,,74,97,,delivered,2023-09-30T06:34:52,2023-09-30T08:34:52,988.52,,paypal,,,,
+order,195,,,,,,,,,,,,,,74,97,,confirmed,2023-02-22T05:02:50,2023-02-23T03:02:50,1163.64,,credit_card,,,,
+order,196,,,,,,,,,,,,,,62,82,71,delivered,2023-09-02T13:57:58,2023-09-04T11:57:58,4733.89,,apple_pay,,,,
+order,197,,,,,,,,,,,,,,151,206,18,pending,2025-03-15T06:50:49,,1835.97,Leave with neighbor if absent,google_pay,,,,
+order,198,,,,,,,,,,,,,,186,254,,shipped,2024-06-23T18:48:36,2024-06-24T23:48:36,8632.24,Ring the bell twice,google_pay,,,,
+order,199,,,,,,,,,,,,,,117,157,45,delivered,2025-06-12T02:04:34,2025-06-14T19:04:34,1079.17,,credit_card,,,,
+order,200,,,,,,,,,,,,,,19,24,,shipped,2024-06-12T02:50:49,2024-06-14T23:50:49,10374.53,Leave with neighbor if absent,google_pay,,,,
+order,201,,,,,,,,,,,,,,178,243,63,shipped,2024-08-08T18:34:18,2024-08-11T05:34:18,2560.99,,apple_pay,,,,
+order,202,,,,,,,,,,,,,,8,10,98,confirmed,2023-06-30T14:47:47,2023-07-01T20:47:47,1327.68,,bank_transfer,,,,
+order,203,,,,,,,,,,,,,,91,120,,confirmed,2025-12-24T16:24:33,2025-12-26T05:24:33,463.8,,credit_card,,,,
+order,204,,,,,,,,,,,,,,173,236,46,delivered,2023-04-29T02:33:35,2023-04-30T19:33:35,861.89,Ring the bell twice,bank_transfer,,,,
+order,205,,,,,,,,,,,,,,147,200,,confirmed,2023-10-11T22:41:53,2023-10-14T14:41:53,916.67,Ring the bell twice,paypal,,,,
+order,206,,,,,,,,,,,,,,189,258,52,confirmed,2024-02-17T07:01:46,2024-02-19T05:01:46,1089.63,Call before delivery,paypal,,,,
+order,207,,,,,,,,,,,,,,31,41,,delivered,2025-11-15T20:06:07,2025-11-15T21:06:07,2376.7,Please leave at the door,google_pay,,,,
+order,208,,,,,,,,,,,,,,124,167,148,shipped,2025-08-22T04:09:38,2025-08-24T19:09:38,623.79,,paypal,,,,
+order,209,,,,,,,,,,,,,,72,95,,confirmed,2023-12-12T00:13:08,2023-12-12T07:13:08,1798.3,,google_pay,,,,
+order,210,,,,,,,,,,,,,,123,164,176,confirmed,2025-02-19T13:38:01,2025-02-22T00:38:01,4241.98,,credit_card,,,,
+order,211,,,,,,,,,,,,,,118,158,173,confirmed,2025-12-06T15:37:54,2025-12-08T16:37:54,2251.38,Call before delivery,google_pay,,,,
+order,212,,,,,,,,,,,,,,84,111,,confirmed,2025-08-09T22:01:23,2025-08-12T21:01:23,1176.58,Ring the bell twice,bank_transfer,,,,
+order,213,,,,,,,,,,,,,,69,92,48,delivered,2025-08-10T09:25:47,2025-08-12T16:25:47,2083.89,,paypal,,,,
+order,214,,,,,,,,,,,,,,180,246,,shipped,2024-07-21T03:05:37,2024-07-23T13:05:37,612.77,,paypal,,,,
+order,215,,,,,,,,,,,,,,34,46,,confirmed,2023-06-05T03:24:49,2023-06-08T03:24:49,10996.75,,apple_pay,,,,
+order,216,,,,,,,,,,,,,,51,68,3,confirmed,2023-08-21T07:33:20,2023-08-23T13:33:20,1998.25,"Fragile items, handle with care",apple_pay,,,,
+order,217,,,,,,,,,,,,,,162,222,144,pending,2025-01-25T22:30:57,,7866.14,Call before delivery,apple_pay,,,,
+order,218,,,,,,,,,,,,,,177,242,66,delivered,2023-04-04T06:19:06,2023-04-04T19:19:06,5641.75,,apple_pay,,,,
+order,219,,,,,,,,,,,,,,67,90,66,shipped,2024-07-13T17:12:10,2024-07-13T20:12:10,3569.14,Call before delivery,apple_pay,,,,
+order,220,,,,,,,,,,,,,,90,119,167,confirmed,2025-06-15T02:40:00,2025-06-16T15:40:00,4816.48,,bank_transfer,,,,
+order,221,,,,,,,,,,,,,,173,236,,delivered,2024-11-25T06:45:44,2024-11-26T19:45:44,13183.15,"Fragile items, handle with care",apple_pay,,,,
+order,222,,,,,,,,,,,,,,43,57,,delivered,2024-10-17T06:27:30,2024-10-17T16:27:30,6821.72,"Fragile items, handle with care",credit_card,,,,
+order,223,,,,,,,,,,,,,,88,116,75,shipped,2024-05-01T23:27:30,2024-05-04T02:27:30,8655.63,,bank_transfer,,,,
+order,224,,,,,,,,,,,,,,200,275,116,delivered,2025-06-30T17:57:18,2025-07-01T15:57:18,8282.39,Please leave at the door,paypal,,,,
+order,225,,,,,,,,,,,,,,33,44,180,pending,2025-10-25T09:59:22,,5981.51,"Fragile items, handle with care",paypal,,,,
+order,226,,,,,,,,,,,,,,102,134,122,pending,2023-05-29T10:30:03,,6249.6,,credit_card,,,,
+order,227,,,,,,,,,,,,,,135,182,40,pending,2023-06-11T10:43:54,,10820.7,Leave with neighbor if absent,apple_pay,,,,
+order,228,,,,,,,,,,,,,,59,79,33,confirmed,2024-03-17T10:49:20,2024-03-20T06:49:20,9480.48,Please leave at the door,paypal,,,,
+order,229,,,,,,,,,,,,,,9,11,,delivered,2024-05-20T04:23:01,2024-05-23T02:23:01,1748.9,,bank_transfer,,,,
+order,230,,,,,,,,,,,,,,114,150,152,delivered,2025-12-19T17:15:57,2025-12-22T01:15:57,10176.46,,google_pay,,,,
+order,231,,,,,,,,,,,,,,80,104,23,delivered,2025-01-18T05:16:34,2025-01-19T21:16:34,504.48,,bank_transfer,,,,
+order,232,,,,,,,,,,,,,,67,90,134,confirmed,2024-04-16T14:01:07,2024-04-18T11:01:07,11589.8,,bank_transfer,,,,
+order,233,,,,,,,,,,,,,,137,185,,delivered,2025-12-04T09:55:21,2025-12-06T00:55:21,8900.02,,credit_card,,,,
+order,234,,,,,,,,,,,,,,75,98,49,delivered,2023-01-12T05:06:21,2023-01-15T05:06:21,1057.61,,apple_pay,,,,
+order,235,,,,,,,,,,,,,,64,86,97,confirmed,2025-09-30T12:16:57,2025-10-01T22:16:57,25376.46,,credit_card,,,,
+order,236,,,,,,,,,,,,,,161,221,,shipped,2025-03-13T12:37:08,2025-03-15T01:37:08,7502.55,Leave with neighbor if absent,google_pay,,,,
+order,237,,,,,,,,,,,,,,106,139,75,pending,2023-04-17T08:31:16,,4816.63,,apple_pay,,,,
+order,238,,,,,,,,,,,,,,116,155,,confirmed,2025-12-24T03:30:40,2025-12-25T21:30:40,3453.78,"Fragile items, handle with care",credit_card,,,,
+order,239,,,,,,,,,,,,,,13,16,,shipped,2023-10-16T20:15:21,2023-10-18T07:15:21,2408.2,,paypal,,,,
+order,240,,,,,,,,,,,,,,187,255,4,delivered,2023-12-28T15:48:16,2023-12-29T19:48:16,715.44,,bank_transfer,,,,
+order,241,,,,,,,,,,,,,,80,104,9,shipped,2024-07-30T22:41:12,2024-07-31T09:41:12,6747.42,Please leave at the door,paypal,,,,
+order,242,,,,,,,,,,,,,,69,92,47,confirmed,2023-04-21T21:24:51,2023-04-23T06:24:51,1972.36,Please leave at the door,apple_pay,,,,
+order,243,,,,,,,,,,,,,,32,42,,delivered,2024-08-20T18:18:19,2024-08-22T02:18:19,1164.56,Ring the bell twice,credit_card,,,,
+order,244,,,,,,,,,,,,,,118,158,,confirmed,2025-03-20T13:28:28,2025-03-23T02:28:28,1072.51,Leave with neighbor if absent,apple_pay,,,,
+order,245,,,,,,,,,,,,,,83,109,,pending,2025-09-04T08:56:36,,4203.78,,bank_transfer,,,,
+order,246,,,,,,,,,,,,,,164,224,14,confirmed,2023-11-05T16:57:14,2023-11-06T07:57:14,5881.96,,paypal,,,,
+order,247,,,,,,,,,,,,,,84,110,,pending,2023-09-17T23:38:46,,6478.26,Ring the bell twice,apple_pay,,,,
+order,248,,,,,,,,,,,,,,3,4,,delivered,2025-06-21T16:07:17,2025-06-22T12:07:17,2029.21,Call before delivery,bank_transfer,,,,
+order,249,,,,,,,,,,,,,,64,86,159,shipped,2025-02-15T14:20:20,2025-02-15T22:20:20,19137.27,,credit_card,,,,
+order,250,,,,,,,,,,,,,,166,226,28,confirmed,2025-12-25T11:24:29,2025-12-28T02:24:29,6465.88,,paypal,,,,
+order,251,,,,,,,,,,,,,,143,194,,pending,2024-11-12T12:37:33,,261.95,,apple_pay,,,,
+order,252,,,,,,,,,,,,,,186,254,,delivered,2024-01-25T10:37:59,2024-01-27T19:37:59,1083.42,Leave with neighbor if absent,google_pay,,,,
+order,253,,,,,,,,,,,,,,139,187,140,shipped,2023-10-22T19:21:21,2023-10-24T13:21:21,4515.18,Leave with neighbor if absent,apple_pay,,,,
+order,254,,,,,,,,,,,,,,154,211,116,shipped,2023-04-17T23:54:18,2023-04-19T09:54:18,1590.3,,google_pay,,,,
+order,255,,,,,,,,,,,,,,117,156,48,pending,2025-09-18T03:20:08,,1040.37,,google_pay,,,,
+order,256,,,,,,,,,,,,,,199,273,,delivered,2024-05-13T04:20:32,2024-05-14T05:20:32,7983.59,,google_pay,,,,
+order,257,,,,,,,,,,,,,,197,270,105,shipped,2025-08-10T07:45:34,2025-08-10T22:45:34,991.21,,credit_card,,,,
+order,258,,,,,,,,,,,,,,169,231,,confirmed,2023-03-10T00:08:04,2023-03-10T23:08:04,5086.89,Ring the bell twice,credit_card,,,,
+order,259,,,,,,,,,,,,,,28,37,147,delivered,2023-10-25T15:59:10,2023-10-28T06:59:10,6665.28,,google_pay,,,,
+order,260,,,,,,,,,,,,,,180,246,156,pending,2023-03-18T06:02:41,,10193.22,Ring the bell twice,credit_card,,,,
+order,261,,,,,,,,,,,,,,168,230,164,pending,2023-05-05T05:00:20,,1089.46,,bank_transfer,,,,
+order,262,,,,,,,,,,,,,,191,261,,pending,2024-07-27T07:52:35,,15156.53,Leave with neighbor if absent,google_pay,,,,
+order,263,,,,,,,,,,,,,,136,184,,pending,2023-04-20T08:15:34,,12718.63,,paypal,,,,
+order,264,,,,,,,,,,,,,,25,33,49,confirmed,2023-12-25T20:58:31,2023-12-28T16:58:31,1187.86,,paypal,,,,
+order,265,,,,,,,,,,,,,,161,221,,delivered,2025-05-17T11:32:10,2025-05-18T01:32:10,10417.19,,google_pay,,,,
+order,266,,,,,,,,,,,,,,173,236,,pending,2025-12-27T08:58:40,,394.58,"Fragile items, handle with care",paypal,,,,
+order,267,,,,,,,,,,,,,,141,191,41,delivered,2025-02-23T00:18:38,2025-02-24T22:18:38,5086.18,,bank_transfer,,,,
+order,268,,,,,,,,,,,,,,84,111,,delivered,2024-10-02T13:16:19,2024-10-04T07:16:19,2546.6,Ring the bell twice,google_pay,,,,
+order,269,,,,,,,,,,,,,,145,197,,shipped,2024-08-05T15:21:53,2024-08-07T14:21:53,4930.05,,apple_pay,,,,
+order,270,,,,,,,,,,,,,,102,134,,pending,2023-02-23T20:19:35,,674.94,"Fragile items, handle with care",google_pay,,,,
+order,271,,,,,,,,,,,,,,78,101,,confirmed,2024-04-11T13:15:41,2024-04-13T06:15:41,7993.78,Leave with neighbor if absent,credit_card,,,,
+order,272,,,,,,,,,,,,,,142,192,92,confirmed,2023-05-27T11:16:44,2023-05-28T05:16:44,8119.4,,bank_transfer,,,,
+order,273,,,,,,,,,,,,,,150,205,77,pending,2023-12-28T22:39:05,,9940.73,,google_pay,,,,
+order,274,,,,,,,,,,,,,,146,198,,delivered,2023-04-30T22:16:58,2023-05-01T21:16:58,1142.68,,apple_pay,,,,
+order,275,,,,,,,,,,,,,,25,33,,delivered,2023-02-28T01:18:50,2023-02-28T12:18:50,2017.59,,credit_card,,,,
+order,276,,,,,,,,,,,,,,90,119,,pending,2024-10-09T01:03:17,,5968.84,,paypal,,,,
+order,277,,,,,,,,,,,,,,3,4,11,shipped,2023-03-26T02:02:10,2023-03-29T00:02:10,905.08,"Fragile items, handle with care",google_pay,,,,
+order,278,,,,,,,,,,,,,,84,110,101,delivered,2023-08-26T23:36:58,2023-08-29T16:36:58,15483.98,Ring the bell twice,credit_card,,,,
+order,279,,,,,,,,,,,,,,111,145,87,pending,2024-09-04T13:24:17,,1986.64,,apple_pay,,,,
+order,280,,,,,,,,,,,,,,191,261,22,delivered,2025-05-01T12:36:10,2025-05-04T05:36:10,757.16,"Fragile items, handle with care",apple_pay,,,,
+order,281,,,,,,,,,,,,,,196,268,125,delivered,2025-01-17T02:05:25,2025-01-18T04:05:25,3571.35,,google_pay,,,,
+order,282,,,,,,,,,,,,,,189,258,111,shipped,2024-01-12T10:09:41,2024-01-12T22:09:41,1566.28,,credit_card,,,,
+order,283,,,,,,,,,,,,,,109,142,89,pending,2024-06-25T01:51:29,,6490.72,"Fragile items, handle with care",bank_transfer,,,,
+order,284,,,,,,,,,,,,,,90,119,12,confirmed,2025-08-26T01:54:53,2025-08-27T03:54:53,247.05,"Fragile items, handle with care",bank_transfer,,,,
+order,285,,,,,,,,,,,,,,194,265,,confirmed,2023-06-24T13:31:19,2023-06-25T08:31:19,685.52,Please leave at the door,bank_transfer,,,,
+order,286,,,,,,,,,,,,,,88,116,6,shipped,2024-04-18T23:37:31,2024-04-20T02:37:31,4957.83,Ring the bell twice,google_pay,,,,
+order,287,,,,,,,,,,,,,,53,70,37,pending,2025-05-02T12:44:56,,7275.33,,apple_pay,,,,
+order,288,,,,,,,,,,,,,,170,232,73,confirmed,2024-02-01T20:06:10,2024-02-03T07:06:10,3179.78,,credit_card,,,,
+order,289,,,,,,,,,,,,,,168,230,70,shipped,2023-04-14T10:56:44,2023-04-15T00:56:44,7260.99,Leave with neighbor if absent,credit_card,,,,
+order,290,,,,,,,,,,,,,,167,229,,pending,2023-12-26T02:35:26,,6658.18,,bank_transfer,,,,
+order,291,,,,,,,,,,,,,,153,209,118,pending,2023-10-17T14:08:38,,2420.71,Ring the bell twice,credit_card,,,,
+order,292,,,,,,,,,,,,,,136,184,41,pending,2024-06-02T04:22:38,,1696.18,,bank_transfer,,,,
+order,293,,,,,,,,,,,,,,91,120,,shipped,2024-01-02T22:21:06,2024-01-03T06:21:06,264.95,,bank_transfer,,,,
+order,294,,,,,,,,,,,,,,8,10,101,confirmed,2023-12-17T10:19:57,2023-12-17T22:19:57,1980.23,,apple_pay,,,,
+order,295,,,,,,,,,,,,,,174,237,40,delivered,2024-10-10T07:18:52,2024-10-11T23:18:52,9409.61,,google_pay,,,,
+order,296,,,,,,,,,,,,,,115,152,,confirmed,2023-11-18T04:28:11,2023-11-18T22:28:11,323.5,,bank_transfer,,,,
+order,297,,,,,,,,,,,,,,35,47,,confirmed,2023-08-14T11:40:24,2023-08-16T04:40:24,973.81,,credit_card,,,,
+order,298,,,,,,,,,,,,,,137,185,38,pending,2023-10-14T01:03:30,,7724.47,,bank_transfer,,,,
+order,299,,,,,,,,,,,,,,106,139,,shipped,2024-11-19T04:24:15,2024-11-20T00:24:15,3506.1,Call before delivery,paypal,,,,
+order,300,,,,,,,,,,,,,,34,46,,shipped,2023-02-10T16:44:25,2023-02-11T22:44:25,1157.71,Ring the bell twice,google_pay,,,,
+line_item,1,,,,,,,,,,,,,,,,1,,,,,,,,88,2,1446.06
+line_item,2,,,,,,,,,,,,,,,,1,,,,,,,,4,1,34.26
+line_item,3,,,,,,,,,,,,,,,,2,,,,,,,,18,2,51.89
+line_item,4,,,,,,,,,,,,,,,,2,,,,,,,,65,3,49.85
+line_item,5,,,,,,,,,,,,,,,,2,,,,,,,,109,3,47.68
+line_item,6,,,,,,,,,,,,,,,,2,,,,,,,,78,2,69.63
+line_item,7,,,,,,,,,,,,,,,,3,,,,,,,,110,2,213.69
+line_item,8,,,,,,,,,,,,,,,,3,,,,,,,,50,2,23.37
+line_item,9,,,,,,,,,,,,,,,,4,,,,,,,,21,1,35.07
+line_item,10,,,,,,,,,,,,,,,,4,,,,,,,,25,1,74.56
+line_item,11,,,,,,,,,,,,,,,,5,,,,,,,,98,2,28.15
+line_item,12,,,,,,,,,,,,,,,,5,,,,,,,,2,1,528.6
+line_item,13,,,,,,,,,,,,,,,,5,,,,,,,,119,3,230.11
+line_item,14,,,,,,,,,,,,,,,,5,,,,,,,,35,3,37.0
+line_item,15,,,,,,,,,,,,,,,,6,,,,,,,,97,1,720.91
+line_item,16,,,,,,,,,,,,,,,,6,,,,,,,,27,1,242.15
+line_item,17,,,,,,,,,,,,,,,,7,,,,,,,,111,2,78.27
+line_item,18,,,,,,,,,,,,,,,,7,,,,,,,,79,2,42.23
+line_item,19,,,,,,,,,,,,,,,,7,,,,,,,,63,1,150.77
+line_item,20,,,,,,,,,,,,,,,,7,,,,,,,,89,2,2342.71
+line_item,21,,,,,,,,,,,,,,,,8,,,,,,,,100,2,261.12
+line_item,22,,,,,,,,,,,,,,,,8,,,,,,,,6,3,185.05
+line_item,23,,,,,,,,,,,,,,,,8,,,,,,,,78,2,69.63
+line_item,24,,,,,,,,,,,,,,,,8,,,,,,,,95,2,74.08
+line_item,25,,,,,,,,,,,,,,,,9,,,,,,,,67,1,46.15
+line_item,26,,,,,,,,,,,,,,,,10,,,,,,,,59,1,782.2
+line_item,27,,,,,,,,,,,,,,,,10,,,,,,,,106,3,2032.83
+line_item,28,,,,,,,,,,,,,,,,10,,,,,,,,113,3,726.65
+line_item,29,,,,,,,,,,,,,,,,10,,,,,,,,6,2,185.05
+line_item,30,,,,,,,,,,,,,,,,11,,,,,,,,72,2,43.71
+line_item,31,,,,,,,,,,,,,,,,12,,,,,,,,25,2,74.56
+line_item,32,,,,,,,,,,,,,,,,13,,,,,,,,51,2,971.8
+line_item,33,,,,,,,,,,,,,,,,13,,,,,,,,114,2,57.37
+line_item,34,,,,,,,,,,,,,,,,13,,,,,,,,39,1,1013.31
+line_item,35,,,,,,,,,,,,,,,,13,,,,,,,,100,2,261.12
+line_item,36,,,,,,,,,,,,,,,,14,,,,,,,,79,3,42.23
+line_item,37,,,,,,,,,,,,,,,,14,,,,,,,,118,3,52.04
+line_item,38,,,,,,,,,,,,,,,,14,,,,,,,,7,1,63.01
+line_item,39,,,,,,,,,,,,,,,,15,,,,,,,,107,3,868.62
+line_item,40,,,,,,,,,,,,,,,,15,,,,,,,,83,3,115.17
+line_item,41,,,,,,,,,,,,,,,,15,,,,,,,,58,1,884.69
+line_item,42,,,,,,,,,,,,,,,,15,,,,,,,,12,1,92.84
+line_item,43,,,,,,,,,,,,,,,,16,,,,,,,,51,2,971.8
+line_item,44,,,,,,,,,,,,,,,,16,,,,,,,,53,2,198.83
+line_item,45,,,,,,,,,,,,,,,,17,,,,,,,,23,2,53.12
+line_item,46,,,,,,,,,,,,,,,,18,,,,,,,,113,1,726.65
+line_item,47,,,,,,,,,,,,,,,,18,,,,,,,,59,2,782.2
+line_item,48,,,,,,,,,,,,,,,,19,,,,,,,,89,3,2342.71
+line_item,49,,,,,,,,,,,,,,,,19,,,,,,,,84,1,102.46
+line_item,50,,,,,,,,,,,,,,,,19,,,,,,,,117,3,32.14
+line_item,51,,,,,,,,,,,,,,,,20,,,,,,,,12,1,92.84
+line_item,52,,,,,,,,,,,,,,,,21,,,,,,,,82,3,52.14
+line_item,53,,,,,,,,,,,,,,,,21,,,,,,,,47,2,28.91
+line_item,54,,,,,,,,,,,,,,,,21,,,,,,,,11,3,206.44
+line_item,55,,,,,,,,,,,,,,,,21,,,,,,,,68,3,31.84
+line_item,56,,,,,,,,,,,,,,,,22,,,,,,,,49,2,190.27
+line_item,57,,,,,,,,,,,,,,,,22,,,,,,,,71,1,696.61
+line_item,58,,,,,,,,,,,,,,,,23,,,,,,,,117,3,32.14
+line_item,59,,,,,,,,,,,,,,,,23,,,,,,,,43,3,176.76
+line_item,60,,,,,,,,,,,,,,,,24,,,,,,,,21,1,35.07
+line_item,61,,,,,,,,,,,,,,,,24,,,,,,,,112,1,757.25
+line_item,62,,,,,,,,,,,,,,,,25,,,,,,,,54,2,1608.58
+line_item,63,,,,,,,,,,,,,,,,26,,,,,,,,94,2,41.44
+line_item,64,,,,,,,,,,,,,,,,26,,,,,,,,99,3,236.84
+line_item,65,,,,,,,,,,,,,,,,26,,,,,,,,58,1,884.69
+line_item,66,,,,,,,,,,,,,,,,27,,,,,,,,116,1,147.29
+line_item,67,,,,,,,,,,,,,,,,28,,,,,,,,1,2,642.79
+line_item,68,,,,,,,,,,,,,,,,28,,,,,,,,80,1,36.48
+line_item,69,,,,,,,,,,,,,,,,29,,,,,,,,64,1,38.38
+line_item,70,,,,,,,,,,,,,,,,29,,,,,,,,110,3,213.69
+line_item,71,,,,,,,,,,,,,,,,29,,,,,,,,70,2,76.63
+line_item,72,,,,,,,,,,,,,,,,29,,,,,,,,104,1,18.69
+line_item,73,,,,,,,,,,,,,,,,30,,,,,,,,76,2,168.08
+line_item,74,,,,,,,,,,,,,,,,30,,,,,,,,85,2,38.3
+line_item,75,,,,,,,,,,,,,,,,31,,,,,,,,57,1,46.15
+line_item,76,,,,,,,,,,,,,,,,31,,,,,,,,11,3,206.44
+line_item,77,,,,,,,,,,,,,,,,31,,,,,,,,77,2,114.45
+line_item,78,,,,,,,,,,,,,,,,31,,,,,,,,1,3,642.79
+line_item,79,,,,,,,,,,,,,,,,32,,,,,,,,7,1,63.01
+line_item,80,,,,,,,,,,,,,,,,32,,,,,,,,24,1,214.09
+line_item,81,,,,,,,,,,,,,,,,33,,,,,,,,5,1,1154.2
+line_item,82,,,,,,,,,,,,,,,,33,,,,,,,,19,3,1003.61
+line_item,83,,,,,,,,,,,,,,,,33,,,,,,,,110,3,213.69
+line_item,84,,,,,,,,,,,,,,,,34,,,,,,,,43,1,176.76
+line_item,85,,,,,,,,,,,,,,,,34,,,,,,,,118,1,52.04
+line_item,86,,,,,,,,,,,,,,,,34,,,,,,,,12,2,92.84
+line_item,87,,,,,,,,,,,,,,,,35,,,,,,,,21,2,35.07
+line_item,88,,,,,,,,,,,,,,,,35,,,,,,,,87,3,48.56
+line_item,89,,,,,,,,,,,,,,,,36,,,,,,,,59,3,782.2
+line_item,90,,,,,,,,,,,,,,,,36,,,,,,,,96,2,1595.83
+line_item,91,,,,,,,,,,,,,,,,37,,,,,,,,12,2,92.84
+line_item,92,,,,,,,,,,,,,,,,38,,,,,,,,48,1,616.75
+line_item,93,,,,,,,,,,,,,,,,38,,,,,,,,115,2,935.3
+line_item,94,,,,,,,,,,,,,,,,38,,,,,,,,49,3,190.27
+line_item,95,,,,,,,,,,,,,,,,39,,,,,,,,38,2,28.28
+line_item,96,,,,,,,,,,,,,,,,40,,,,,,,,16,2,1130.46
+line_item,97,,,,,,,,,,,,,,,,40,,,,,,,,89,2,2342.71
+line_item,98,,,,,,,,,,,,,,,,41,,,,,,,,68,1,31.84
+line_item,99,,,,,,,,,,,,,,,,41,,,,,,,,27,1,242.15
+line_item,100,,,,,,,,,,,,,,,,41,,,,,,,,90,3,93.65
+line_item,101,,,,,,,,,,,,,,,,41,,,,,,,,79,3,42.23
+line_item,102,,,,,,,,,,,,,,,,42,,,,,,,,62,3,252.11
+line_item,103,,,,,,,,,,,,,,,,43,,,,,,,,55,2,137.5
+line_item,104,,,,,,,,,,,,,,,,43,,,,,,,,78,2,69.63
+line_item,105,,,,,,,,,,,,,,,,43,,,,,,,,109,3,47.68
+line_item,106,,,,,,,,,,,,,,,,44,,,,,,,,119,3,230.11
+line_item,107,,,,,,,,,,,,,,,,44,,,,,,,,17,2,52.18
+line_item,108,,,,,,,,,,,,,,,,44,,,,,,,,79,3,42.23
+line_item,109,,,,,,,,,,,,,,,,45,,,,,,,,64,3,38.38
+line_item,110,,,,,,,,,,,,,,,,45,,,,,,,,104,1,18.69
+line_item,111,,,,,,,,,,,,,,,,45,,,,,,,,24,3,214.09
+line_item,112,,,,,,,,,,,,,,,,45,,,,,,,,114,2,57.37
+line_item,113,,,,,,,,,,,,,,,,46,,,,,,,,1,1,642.79
+line_item,114,,,,,,,,,,,,,,,,46,,,,,,,,16,2,1130.46
+line_item,115,,,,,,,,,,,,,,,,47,,,,,,,,95,1,74.08
+line_item,116,,,,,,,,,,,,,,,,48,,,,,,,,53,3,198.83
+line_item,117,,,,,,,,,,,,,,,,48,,,,,,,,6,3,185.05
+line_item,118,,,,,,,,,,,,,,,,48,,,,,,,,43,1,176.76
+line_item,119,,,,,,,,,,,,,,,,48,,,,,,,,45,1,18.83
+line_item,120,,,,,,,,,,,,,,,,49,,,,,,,,89,2,2342.71
+line_item,121,,,,,,,,,,,,,,,,49,,,,,,,,37,1,817.83
+line_item,122,,,,,,,,,,,,,,,,50,,,,,,,,39,2,1013.31
+line_item,123,,,,,,,,,,,,,,,,50,,,,,,,,65,1,49.85
+line_item,124,,,,,,,,,,,,,,,,50,,,,,,,,71,1,696.61
+line_item,125,,,,,,,,,,,,,,,,51,,,,,,,,44,3,50.33
+line_item,126,,,,,,,,,,,,,,,,51,,,,,,,,51,3,971.8
+line_item,127,,,,,,,,,,,,,,,,51,,,,,,,,93,1,40.4
+line_item,128,,,,,,,,,,,,,,,,52,,,,,,,,25,2,74.56
+line_item,129,,,,,,,,,,,,,,,,52,,,,,,,,43,3,176.76
+line_item,130,,,,,,,,,,,,,,,,53,,,,,,,,118,3,52.04
+line_item,131,,,,,,,,,,,,,,,,53,,,,,,,,61,1,1050.94
+line_item,132,,,,,,,,,,,,,,,,53,,,,,,,,103,2,38.89
+line_item,133,,,,,,,,,,,,,,,,53,,,,,,,,5,1,1154.2
+line_item,134,,,,,,,,,,,,,,,,54,,,,,,,,115,2,935.3
+line_item,135,,,,,,,,,,,,,,,,54,,,,,,,,111,2,78.27
+line_item,136,,,,,,,,,,,,,,,,54,,,,,,,,69,3,90.08
+line_item,137,,,,,,,,,,,,,,,,54,,,,,,,,43,1,176.76
+line_item,138,,,,,,,,,,,,,,,,55,,,,,,,,73,2,783.59
+line_item,139,,,,,,,,,,,,,,,,55,,,,,,,,93,3,40.4
+line_item,140,,,,,,,,,,,,,,,,55,,,,,,,,87,3,48.56
+line_item,141,,,,,,,,,,,,,,,,56,,,,,,,,27,3,242.15
+line_item,142,,,,,,,,,,,,,,,,57,,,,,,,,103,2,38.89
+line_item,143,,,,,,,,,,,,,,,,57,,,,,,,,118,1,52.04
+line_item,144,,,,,,,,,,,,,,,,57,,,,,,,,114,1,57.37
+line_item,145,,,,,,,,,,,,,,,,58,,,,,,,,108,2,66.13
+line_item,146,,,,,,,,,,,,,,,,58,,,,,,,,4,3,34.26
+line_item,147,,,,,,,,,,,,,,,,58,,,,,,,,44,3,50.33
+line_item,148,,,,,,,,,,,,,,,,59,,,,,,,,74,2,23.32
+line_item,149,,,,,,,,,,,,,,,,59,,,,,,,,78,1,69.63
+line_item,150,,,,,,,,,,,,,,,,60,,,,,,,,111,2,78.27
+line_item,151,,,,,,,,,,,,,,,,61,,,,,,,,91,2,1623.29
+line_item,152,,,,,,,,,,,,,,,,61,,,,,,,,5,1,1154.2
+line_item,153,,,,,,,,,,,,,,,,61,,,,,,,,35,2,37.0
+line_item,154,,,,,,,,,,,,,,,,62,,,,,,,,48,2,616.75
+line_item,155,,,,,,,,,,,,,,,,62,,,,,,,,58,1,884.69
+line_item,156,,,,,,,,,,,,,,,,63,,,,,,,,23,1,53.12
+line_item,157,,,,,,,,,,,,,,,,63,,,,,,,,15,1,15.98
+line_item,158,,,,,,,,,,,,,,,,63,,,,,,,,48,1,616.75
+line_item,159,,,,,,,,,,,,,,,,64,,,,,,,,65,3,49.85
+line_item,160,,,,,,,,,,,,,,,,64,,,,,,,,4,1,34.26
+line_item,161,,,,,,,,,,,,,,,,64,,,,,,,,103,1,38.89
+line_item,162,,,,,,,,,,,,,,,,64,,,,,,,,62,2,252.11
+line_item,163,,,,,,,,,,,,,,,,65,,,,,,,,94,2,41.44
+line_item,164,,,,,,,,,,,,,,,,65,,,,,,,,112,1,757.25
+line_item,165,,,,,,,,,,,,,,,,65,,,,,,,,68,1,31.84
+line_item,166,,,,,,,,,,,,,,,,65,,,,,,,,40,3,52.62
+line_item,167,,,,,,,,,,,,,,,,66,,,,,,,,27,1,242.15
+line_item,168,,,,,,,,,,,,,,,,66,,,,,,,,93,2,40.4
+line_item,169,,,,,,,,,,,,,,,,67,,,,,,,,92,1,710.09
+line_item,170,,,,,,,,,,,,,,,,67,,,,,,,,111,2,78.27
+line_item,171,,,,,,,,,,,,,,,,67,,,,,,,,67,1,46.15
+line_item,172,,,,,,,,,,,,,,,,67,,,,,,,,15,3,15.98
+line_item,173,,,,,,,,,,,,,,,,68,,,,,,,,43,2,176.76
+line_item,174,,,,,,,,,,,,,,,,69,,,,,,,,14,3,76.81
+line_item,175,,,,,,,,,,,,,,,,70,,,,,,,,3,2,77.16
+line_item,176,,,,,,,,,,,,,,,,70,,,,,,,,74,3,23.32
+line_item,177,,,,,,,,,,,,,,,,70,,,,,,,,98,1,28.15
+line_item,178,,,,,,,,,,,,,,,,71,,,,,,,,26,2,275.04
+line_item,179,,,,,,,,,,,,,,,,71,,,,,,,,25,3,74.56
+line_item,180,,,,,,,,,,,,,,,,71,,,,,,,,37,2,817.83
+line_item,181,,,,,,,,,,,,,,,,72,,,,,,,,86,1,199.44
+line_item,182,,,,,,,,,,,,,,,,72,,,,,,,,16,2,1130.46
+line_item,183,,,,,,,,,,,,,,,,72,,,,,,,,35,1,37.0
+line_item,184,,,,,,,,,,,,,,,,72,,,,,,,,20,1,1590.16
+line_item,185,,,,,,,,,,,,,,,,73,,,,,,,,27,3,242.15
+line_item,186,,,,,,,,,,,,,,,,74,,,,,,,,71,1,696.61
+line_item,187,,,,,,,,,,,,,,,,74,,,,,,,,41,3,2307.58
+line_item,188,,,,,,,,,,,,,,,,74,,,,,,,,35,2,37.0
+line_item,189,,,,,,,,,,,,,,,,75,,,,,,,,22,2,984.76
+line_item,190,,,,,,,,,,,,,,,,75,,,,,,,,10,3,1020.65
+line_item,191,,,,,,,,,,,,,,,,76,,,,,,,,70,1,76.63
+line_item,192,,,,,,,,,,,,,,,,76,,,,,,,,57,1,46.15
+line_item,193,,,,,,,,,,,,,,,,76,,,,,,,,7,2,63.01
+line_item,194,,,,,,,,,,,,,,,,77,,,,,,,,14,2,76.81
+line_item,195,,,,,,,,,,,,,,,,78,,,,,,,,12,2,92.84
+line_item,196,,,,,,,,,,,,,,,,79,,,,,,,,23,3,53.12
+line_item,197,,,,,,,,,,,,,,,,79,,,,,,,,91,3,1623.29
+line_item,198,,,,,,,,,,,,,,,,79,,,,,,,,77,3,114.45
+line_item,199,,,,,,,,,,,,,,,,79,,,,,,,,115,3,935.3
+line_item,200,,,,,,,,,,,,,,,,80,,,,,,,,79,1,42.23
+line_item,201,,,,,,,,,,,,,,,,80,,,,,,,,46,3,48.33
+line_item,202,,,,,,,,,,,,,,,,80,,,,,,,,40,3,52.62
+line_item,203,,,,,,,,,,,,,,,,80,,,,,,,,43,3,176.76
+line_item,204,,,,,,,,,,,,,,,,81,,,,,,,,119,2,230.11
+line_item,205,,,,,,,,,,,,,,,,82,,,,,,,,12,3,92.84
+line_item,206,,,,,,,,,,,,,,,,82,,,,,,,,105,2,48.33
+line_item,207,,,,,,,,,,,,,,,,83,,,,,,,,59,2,782.2
+line_item,208,,,,,,,,,,,,,,,,84,,,,,,,,61,3,1050.94
+line_item,209,,,,,,,,,,,,,,,,84,,,,,,,,30,2,92.48
+line_item,210,,,,,,,,,,,,,,,,84,,,,,,,,29,2,142.56
+line_item,211,,,,,,,,,,,,,,,,84,,,,,,,,19,2,1003.61
+line_item,212,,,,,,,,,,,,,,,,85,,,,,,,,90,3,93.65
+line_item,213,,,,,,,,,,,,,,,,85,,,,,,,,118,2,52.04
+line_item,214,,,,,,,,,,,,,,,,86,,,,,,,,59,1,782.2
+line_item,215,,,,,,,,,,,,,,,,86,,,,,,,,63,2,150.77
+line_item,216,,,,,,,,,,,,,,,,86,,,,,,,,4,1,34.26
+line_item,217,,,,,,,,,,,,,,,,87,,,,,,,,62,1,252.11
+line_item,218,,,,,,,,,,,,,,,,87,,,,,,,,60,2,39.8
+line_item,219,,,,,,,,,,,,,,,,87,,,,,,,,109,2,47.68
+line_item,220,,,,,,,,,,,,,,,,88,,,,,,,,66,2,31.89
+line_item,221,,,,,,,,,,,,,,,,88,,,,,,,,14,3,76.81
+line_item,222,,,,,,,,,,,,,,,,89,,,,,,,,42,3,177.49
+line_item,223,,,,,,,,,,,,,,,,90,,,,,,,,102,2,28.56
+line_item,224,,,,,,,,,,,,,,,,91,,,,,,,,52,3,42.65
+line_item,225,,,,,,,,,,,,,,,,91,,,,,,,,76,1,168.08
+line_item,226,,,,,,,,,,,,,,,,91,,,,,,,,53,3,198.83
+line_item,227,,,,,,,,,,,,,,,,91,,,,,,,,31,1,43.02
+line_item,228,,,,,,,,,,,,,,,,92,,,,,,,,50,3,23.37
+line_item,229,,,,,,,,,,,,,,,,92,,,,,,,,9,3,42.33
+line_item,230,,,,,,,,,,,,,,,,92,,,,,,,,44,2,50.33
+line_item,231,,,,,,,,,,,,,,,,92,,,,,,,,27,2,242.15
+line_item,232,,,,,,,,,,,,,,,,93,,,,,,,,70,1,76.63
+line_item,233,,,,,,,,,,,,,,,,93,,,,,,,,89,3,2342.71
+line_item,234,,,,,,,,,,,,,,,,93,,,,,,,,31,3,43.02
+line_item,235,,,,,,,,,,,,,,,,94,,,,,,,,95,3,74.08
+line_item,236,,,,,,,,,,,,,,,,95,,,,,,,,15,2,15.98
+line_item,237,,,,,,,,,,,,,,,,95,,,,,,,,76,3,168.08
+line_item,238,,,,,,,,,,,,,,,,95,,,,,,,,77,1,114.45
+line_item,239,,,,,,,,,,,,,,,,95,,,,,,,,60,2,39.8
+line_item,240,,,,,,,,,,,,,,,,96,,,,,,,,40,1,52.62
+line_item,241,,,,,,,,,,,,,,,,96,,,,,,,,52,3,42.65
+line_item,242,,,,,,,,,,,,,,,,97,,,,,,,,88,3,1446.06
+line_item,243,,,,,,,,,,,,,,,,98,,,,,,,,42,1,177.49
+line_item,244,,,,,,,,,,,,,,,,98,,,,,,,,64,1,38.38
+line_item,245,,,,,,,,,,,,,,,,98,,,,,,,,83,1,115.17
+line_item,246,,,,,,,,,,,,,,,,98,,,,,,,,85,1,38.3
+line_item,247,,,,,,,,,,,,,,,,99,,,,,,,,97,1,720.91
+line_item,248,,,,,,,,,,,,,,,,100,,,,,,,,58,2,884.69
+line_item,249,,,,,,,,,,,,,,,,100,,,,,,,,69,2,90.08
+line_item,250,,,,,,,,,,,,,,,,101,,,,,,,,26,2,275.04
+line_item,251,,,,,,,,,,,,,,,,101,,,,,,,,27,2,242.15
+line_item,252,,,,,,,,,,,,,,,,101,,,,,,,,88,3,1446.06
+line_item,253,,,,,,,,,,,,,,,,101,,,,,,,,113,3,726.65
+line_item,254,,,,,,,,,,,,,,,,102,,,,,,,,118,3,52.04
+line_item,255,,,,,,,,,,,,,,,,102,,,,,,,,120,2,40.36
+line_item,256,,,,,,,,,,,,,,,,102,,,,,,,,56,1,101.01
+line_item,257,,,,,,,,,,,,,,,,103,,,,,,,,79,3,42.23
+line_item,258,,,,,,,,,,,,,,,,104,,,,,,,,109,1,47.68
+line_item,259,,,,,,,,,,,,,,,,104,,,,,,,,17,2,52.18
+line_item,260,,,,,,,,,,,,,,,,104,,,,,,,,110,3,213.69
+line_item,261,,,,,,,,,,,,,,,,104,,,,,,,,38,1,28.28
+line_item,262,,,,,,,,,,,,,,,,105,,,,,,,,91,3,1623.29
+line_item,263,,,,,,,,,,,,,,,,106,,,,,,,,15,1,15.98
+line_item,264,,,,,,,,,,,,,,,,106,,,,,,,,111,1,78.27
+line_item,265,,,,,,,,,,,,,,,,106,,,,,,,,37,2,817.83
+line_item,266,,,,,,,,,,,,,,,,107,,,,,,,,81,2,95.91
+line_item,267,,,,,,,,,,,,,,,,107,,,,,,,,41,2,2307.58
+line_item,268,,,,,,,,,,,,,,,,107,,,,,,,,92,2,710.09
+line_item,269,,,,,,,,,,,,,,,,107,,,,,,,,49,3,190.27
+line_item,270,,,,,,,,,,,,,,,,108,,,,,,,,85,2,38.3
+line_item,271,,,,,,,,,,,,,,,,108,,,,,,,,23,1,53.12
+line_item,272,,,,,,,,,,,,,,,,109,,,,,,,,72,2,43.71
+line_item,273,,,,,,,,,,,,,,,,109,,,,,,,,50,2,23.37
+line_item,274,,,,,,,,,,,,,,,,110,,,,,,,,37,3,817.83
+line_item,275,,,,,,,,,,,,,,,,110,,,,,,,,112,1,757.25
+line_item,276,,,,,,,,,,,,,,,,111,,,,,,,,2,3,528.6
+line_item,277,,,,,,,,,,,,,,,,111,,,,,,,,10,1,1020.65
+line_item,278,,,,,,,,,,,,,,,,112,,,,,,,,93,2,40.4
+line_item,279,,,,,,,,,,,,,,,,112,,,,,,,,114,3,57.37
+line_item,280,,,,,,,,,,,,,,,,113,,,,,,,,18,2,51.89
+line_item,281,,,,,,,,,,,,,,,,113,,,,,,,,11,2,206.44
+line_item,282,,,,,,,,,,,,,,,,113,,,,,,,,83,3,115.17
+line_item,283,,,,,,,,,,,,,,,,113,,,,,,,,104,3,18.69
+line_item,284,,,,,,,,,,,,,,,,114,,,,,,,,80,2,36.48
+line_item,285,,,,,,,,,,,,,,,,114,,,,,,,,24,3,214.09
+line_item,286,,,,,,,,,,,,,,,,114,,,,,,,,59,2,782.2
+line_item,287,,,,,,,,,,,,,,,,114,,,,,,,,66,2,31.89
+line_item,288,,,,,,,,,,,,,,,,115,,,,,,,,29,3,142.56
+line_item,289,,,,,,,,,,,,,,,,115,,,,,,,,24,1,214.09
+line_item,290,,,,,,,,,,,,,,,,115,,,,,,,,55,3,137.5
+line_item,291,,,,,,,,,,,,,,,,116,,,,,,,,109,3,47.68
+line_item,292,,,,,,,,,,,,,,,,116,,,,,,,,94,2,41.44
+line_item,293,,,,,,,,,,,,,,,,116,,,,,,,,31,2,43.02
+line_item,294,,,,,,,,,,,,,,,,116,,,,,,,,92,3,710.09
+line_item,295,,,,,,,,,,,,,,,,117,,,,,,,,5,3,1154.2
+line_item,296,,,,,,,,,,,,,,,,117,,,,,,,,73,2,783.59
+line_item,297,,,,,,,,,,,,,,,,117,,,,,,,,62,1,252.11
+line_item,298,,,,,,,,,,,,,,,,118,,,,,,,,89,3,2342.71
+line_item,299,,,,,,,,,,,,,,,,118,,,,,,,,11,3,206.44
+line_item,300,,,,,,,,,,,,,,,,118,,,,,,,,19,2,1003.61
+line_item,301,,,,,,,,,,,,,,,,118,,,,,,,,94,2,41.44
+line_item,302,,,,,,,,,,,,,,,,119,,,,,,,,67,3,46.15
+line_item,303,,,,,,,,,,,,,,,,120,,,,,,,,32,2,37.26
+line_item,304,,,,,,,,,,,,,,,,121,,,,,,,,88,3,1446.06
+line_item,305,,,,,,,,,,,,,,,,122,,,,,,,,79,2,42.23
+line_item,306,,,,,,,,,,,,,,,,122,,,,,,,,7,3,63.01
+line_item,307,,,,,,,,,,,,,,,,122,,,,,,,,116,1,147.29
+line_item,308,,,,,,,,,,,,,,,,123,,,,,,,,59,3,782.2
+line_item,309,,,,,,,,,,,,,,,,123,,,,,,,,66,3,31.89
+line_item,310,,,,,,,,,,,,,,,,123,,,,,,,,116,2,147.29
+line_item,311,,,,,,,,,,,,,,,,123,,,,,,,,61,2,1050.94
+line_item,312,,,,,,,,,,,,,,,,124,,,,,,,,103,1,38.89
+line_item,313,,,,,,,,,,,,,,,,124,,,,,,,,38,3,28.28
+line_item,314,,,,,,,,,,,,,,,,124,,,,,,,,22,3,984.76
+line_item,315,,,,,,,,,,,,,,,,125,,,,,,,,94,2,41.44
+line_item,316,,,,,,,,,,,,,,,,125,,,,,,,,101,1,225.86
+line_item,317,,,,,,,,,,,,,,,,125,,,,,,,,73,3,783.59
+line_item,318,,,,,,,,,,,,,,,,126,,,,,,,,75,3,40.43
+line_item,319,,,,,,,,,,,,,,,,126,,,,,,,,22,2,984.76
+line_item,320,,,,,,,,,,,,,,,,126,,,,,,,,74,3,23.32
+line_item,321,,,,,,,,,,,,,,,,126,,,,,,,,7,3,63.01
+line_item,322,,,,,,,,,,,,,,,,127,,,,,,,,37,2,817.83
+line_item,323,,,,,,,,,,,,,,,,128,,,,,,,,17,3,52.18
+line_item,324,,,,,,,,,,,,,,,,129,,,,,,,,109,2,47.68
+line_item,325,,,,,,,,,,,,,,,,130,,,,,,,,17,2,52.18
+line_item,326,,,,,,,,,,,,,,,,130,,,,,,,,79,2,42.23
+line_item,327,,,,,,,,,,,,,,,,130,,,,,,,,36,1,944.91
+line_item,328,,,,,,,,,,,,,,,,131,,,,,,,,78,1,69.63
+line_item,329,,,,,,,,,,,,,,,,132,,,,,,,,85,2,38.3
+line_item,330,,,,,,,,,,,,,,,,132,,,,,,,,58,1,884.69
+line_item,331,,,,,,,,,,,,,,,,133,,,,,,,,101,2,225.86
+line_item,332,,,,,,,,,,,,,,,,133,,,,,,,,90,1,93.65
+line_item,333,,,,,,,,,,,,,,,,133,,,,,,,,31,3,43.02
+line_item,334,,,,,,,,,,,,,,,,134,,,,,,,,44,1,50.33
+line_item,335,,,,,,,,,,,,,,,,135,,,,,,,,77,1,114.45
+line_item,336,,,,,,,,,,,,,,,,135,,,,,,,,120,2,40.36
+line_item,337,,,,,,,,,,,,,,,,136,,,,,,,,99,2,236.84
+line_item,338,,,,,,,,,,,,,,,,136,,,,,,,,50,3,23.37
+line_item,339,,,,,,,,,,,,,,,,136,,,,,,,,31,3,43.02
+line_item,340,,,,,,,,,,,,,,,,136,,,,,,,,85,1,38.3
+line_item,341,,,,,,,,,,,,,,,,137,,,,,,,,74,2,23.32
+line_item,342,,,,,,,,,,,,,,,,137,,,,,,,,94,1,41.44
+line_item,343,,,,,,,,,,,,,,,,138,,,,,,,,97,1,720.91
+line_item,344,,,,,,,,,,,,,,,,138,,,,,,,,105,1,48.33
+line_item,345,,,,,,,,,,,,,,,,138,,,,,,,,15,2,15.98
+line_item,346,,,,,,,,,,,,,,,,139,,,,,,,,61,3,1050.94
+line_item,347,,,,,,,,,,,,,,,,139,,,,,,,,39,1,1013.31
+line_item,348,,,,,,,,,,,,,,,,139,,,,,,,,96,2,1595.83
+line_item,349,,,,,,,,,,,,,,,,139,,,,,,,,97,3,720.91
+line_item,350,,,,,,,,,,,,,,,,140,,,,,,,,61,2,1050.94
+line_item,351,,,,,,,,,,,,,,,,140,,,,,,,,34,1,168.47
+line_item,352,,,,,,,,,,,,,,,,140,,,,,,,,19,2,1003.61
+line_item,353,,,,,,,,,,,,,,,,140,,,,,,,,68,2,31.84
+line_item,354,,,,,,,,,,,,,,,,141,,,,,,,,87,1,48.56
+line_item,355,,,,,,,,,,,,,,,,141,,,,,,,,41,1,2307.58
+line_item,356,,,,,,,,,,,,,,,,141,,,,,,,,68,3,31.84
+line_item,357,,,,,,,,,,,,,,,,141,,,,,,,,88,3,1446.06
+line_item,358,,,,,,,,,,,,,,,,142,,,,,,,,109,3,47.68
+line_item,359,,,,,,,,,,,,,,,,142,,,,,,,,56,2,101.01
+line_item,360,,,,,,,,,,,,,,,,142,,,,,,,,79,2,42.23
+line_item,361,,,,,,,,,,,,,,,,143,,,,,,,,35,2,37.0
+line_item,362,,,,,,,,,,,,,,,,143,,,,,,,,103,3,38.89
+line_item,363,,,,,,,,,,,,,,,,143,,,,,,,,13,3,774.61
+line_item,364,,,,,,,,,,,,,,,,144,,,,,,,,60,1,39.8
+line_item,365,,,,,,,,,,,,,,,,144,,,,,,,,99,3,236.84
+line_item,366,,,,,,,,,,,,,,,,144,,,,,,,,87,3,48.56
+line_item,367,,,,,,,,,,,,,,,,144,,,,,,,,96,3,1595.83
+line_item,368,,,,,,,,,,,,,,,,145,,,,,,,,67,3,46.15
+line_item,369,,,,,,,,,,,,,,,,145,,,,,,,,44,3,50.33
+line_item,370,,,,,,,,,,,,,,,,146,,,,,,,,41,1,2307.58
+line_item,371,,,,,,,,,,,,,,,,146,,,,,,,,71,3,696.61
+line_item,372,,,,,,,,,,,,,,,,147,,,,,,,,107,1,868.62
+line_item,373,,,,,,,,,,,,,,,,148,,,,,,,,53,1,198.83
+line_item,374,,,,,,,,,,,,,,,,149,,,,,,,,88,2,1446.06
+line_item,375,,,,,,,,,,,,,,,,150,,,,,,,,29,2,142.56
+line_item,376,,,,,,,,,,,,,,,,150,,,,,,,,93,1,40.4
+line_item,377,,,,,,,,,,,,,,,,150,,,,,,,,37,1,817.83
+line_item,378,,,,,,,,,,,,,,,,151,,,,,,,,80,1,36.48
+line_item,379,,,,,,,,,,,,,,,,152,,,,,,,,77,3,114.45
+line_item,380,,,,,,,,,,,,,,,,153,,,,,,,,77,1,114.45
+line_item,381,,,,,,,,,,,,,,,,153,,,,,,,,82,3,52.14
+line_item,382,,,,,,,,,,,,,,,,154,,,,,,,,12,3,92.84
+line_item,383,,,,,,,,,,,,,,,,155,,,,,,,,49,3,190.27
+line_item,384,,,,,,,,,,,,,,,,155,,,,,,,,85,3,38.3
+line_item,385,,,,,,,,,,,,,,,,156,,,,,,,,115,3,935.3
+line_item,386,,,,,,,,,,,,,,,,156,,,,,,,,15,1,15.98
+line_item,387,,,,,,,,,,,,,,,,157,,,,,,,,38,1,28.28
+line_item,388,,,,,,,,,,,,,,,,157,,,,,,,,60,3,39.8
+line_item,389,,,,,,,,,,,,,,,,157,,,,,,,,85,2,38.3
+line_item,390,,,,,,,,,,,,,,,,158,,,,,,,,99,3,236.84
+line_item,391,,,,,,,,,,,,,,,,158,,,,,,,,55,2,137.5
+line_item,392,,,,,,,,,,,,,,,,158,,,,,,,,89,2,2342.71
+line_item,393,,,,,,,,,,,,,,,,159,,,,,,,,100,2,261.12
+line_item,394,,,,,,,,,,,,,,,,159,,,,,,,,10,1,1020.65
+line_item,395,,,,,,,,,,,,,,,,160,,,,,,,,50,2,23.37
+line_item,396,,,,,,,,,,,,,,,,160,,,,,,,,43,1,176.76
+line_item,397,,,,,,,,,,,,,,,,160,,,,,,,,8,2,1205.05
+line_item,398,,,,,,,,,,,,,,,,160,,,,,,,,34,1,168.47
+line_item,399,,,,,,,,,,,,,,,,161,,,,,,,,119,1,230.11
+line_item,400,,,,,,,,,,,,,,,,161,,,,,,,,26,3,275.04
+line_item,401,,,,,,,,,,,,,,,,161,,,,,,,,79,2,42.23
+line_item,402,,,,,,,,,,,,,,,,161,,,,,,,,51,1,971.8
+line_item,403,,,,,,,,,,,,,,,,162,,,,,,,,70,2,76.63
+line_item,404,,,,,,,,,,,,,,,,162,,,,,,,,99,1,236.84
+line_item,405,,,,,,,,,,,,,,,,163,,,,,,,,117,2,32.14
+line_item,406,,,,,,,,,,,,,,,,164,,,,,,,,14,1,76.81
+line_item,407,,,,,,,,,,,,,,,,164,,,,,,,,5,3,1154.2
+line_item,408,,,,,,,,,,,,,,,,164,,,,,,,,10,3,1020.65
+line_item,409,,,,,,,,,,,,,,,,165,,,,,,,,100,2,261.12
+line_item,410,,,,,,,,,,,,,,,,165,,,,,,,,58,1,884.69
+line_item,411,,,,,,,,,,,,,,,,165,,,,,,,,3,3,77.16
+line_item,412,,,,,,,,,,,,,,,,166,,,,,,,,120,1,40.36
+line_item,413,,,,,,,,,,,,,,,,167,,,,,,,,35,2,37.0
+line_item,414,,,,,,,,,,,,,,,,167,,,,,,,,20,3,1590.16
+line_item,415,,,,,,,,,,,,,,,,167,,,,,,,,90,1,93.65
+line_item,416,,,,,,,,,,,,,,,,167,,,,,,,,43,3,176.76
+line_item,417,,,,,,,,,,,,,,,,168,,,,,,,,62,3,252.11
+line_item,418,,,,,,,,,,,,,,,,168,,,,,,,,56,1,101.01
+line_item,419,,,,,,,,,,,,,,,,168,,,,,,,,52,3,42.65
+line_item,420,,,,,,,,,,,,,,,,168,,,,,,,,109,1,47.68
+line_item,421,,,,,,,,,,,,,,,,169,,,,,,,,50,3,23.37
+line_item,422,,,,,,,,,,,,,,,,170,,,,,,,,16,2,1130.46
+line_item,423,,,,,,,,,,,,,,,,170,,,,,,,,73,2,783.59
+line_item,424,,,,,,,,,,,,,,,,170,,,,,,,,69,3,90.08
+line_item,425,,,,,,,,,,,,,,,,170,,,,,,,,120,2,40.36
+line_item,426,,,,,,,,,,,,,,,,171,,,,,,,,8,2,1205.05
+line_item,427,,,,,,,,,,,,,,,,171,,,,,,,,81,3,95.91
+line_item,428,,,,,,,,,,,,,,,,171,,,,,,,,83,2,115.17
+line_item,429,,,,,,,,,,,,,,,,171,,,,,,,,12,1,92.84
+line_item,430,,,,,,,,,,,,,,,,172,,,,,,,,98,1,28.15
+line_item,431,,,,,,,,,,,,,,,,172,,,,,,,,99,1,236.84
+line_item,432,,,,,,,,,,,,,,,,172,,,,,,,,38,3,28.28
+line_item,433,,,,,,,,,,,,,,,,172,,,,,,,,83,1,115.17
+line_item,434,,,,,,,,,,,,,,,,173,,,,,,,,85,2,38.3
+line_item,435,,,,,,,,,,,,,,,,173,,,,,,,,25,1,74.56
+line_item,436,,,,,,,,,,,,,,,,173,,,,,,,,39,3,1013.31
+line_item,437,,,,,,,,,,,,,,,,173,,,,,,,,90,3,93.65
+line_item,438,,,,,,,,,,,,,,,,174,,,,,,,,63,3,150.77
+line_item,439,,,,,,,,,,,,,,,,174,,,,,,,,11,2,206.44
+line_item,440,,,,,,,,,,,,,,,,174,,,,,,,,114,3,57.37
+line_item,441,,,,,,,,,,,,,,,,175,,,,,,,,18,1,51.89
+line_item,442,,,,,,,,,,,,,,,,175,,,,,,,,5,1,1154.2
+line_item,443,,,,,,,,,,,,,,,,176,,,,,,,,63,1,150.77
+line_item,444,,,,,,,,,,,,,,,,176,,,,,,,,50,3,23.37
+line_item,445,,,,,,,,,,,,,,,,177,,,,,,,,64,2,38.38
+line_item,446,,,,,,,,,,,,,,,,177,,,,,,,,69,1,90.08
+line_item,447,,,,,,,,,,,,,,,,177,,,,,,,,107,1,868.62
+line_item,448,,,,,,,,,,,,,,,,178,,,,,,,,8,3,1205.05
+line_item,449,,,,,,,,,,,,,,,,178,,,,,,,,44,1,50.33
+line_item,450,,,,,,,,,,,,,,,,178,,,,,,,,101,2,225.86
+line_item,451,,,,,,,,,,,,,,,,179,,,,,,,,28,3,249.43
+line_item,452,,,,,,,,,,,,,,,,180,,,,,,,,87,3,48.56
+line_item,453,,,,,,,,,,,,,,,,180,,,,,,,,112,3,757.25
+line_item,454,,,,,,,,,,,,,,,,180,,,,,,,,69,1,90.08
+line_item,455,,,,,,,,,,,,,,,,180,,,,,,,,20,1,1590.16
+line_item,456,,,,,,,,,,,,,,,,,,,,,,,1,95,4,74.08
+line_item,457,,,,,,,,,,,,,,,,,,,,,,,1,19,1,1003.61
+line_item,458,,,,,,,,,,,,,,,,,,,,,,,2,117,2,32.14
+line_item,459,,,,,,,,,,,,,,,,,,,,,,,2,118,1,52.04
+line_item,460,,,,,,,,,,,,,,,,,,,,,,,2,80,2,36.48
+line_item,461,,,,,,,,,,,,,,,,,,,,,,,2,6,1,185.05
+line_item,462,,,,,,,,,,,,,,,,,,,,,,,2,32,3,37.26
+line_item,463,,,,,,,,,,,,,,,,,,,,,,,3,59,2,782.2
+line_item,464,,,,,,,,,,,,,,,,,,,,,,,3,79,5,42.23
+line_item,465,,,,,,,,,,,,,,,,,,,,,,,4,105,1,48.33
+line_item,466,,,,,,,,,,,,,,,,,,,,,,,4,14,4,76.81
+line_item,467,,,,,,,,,,,,,,,,,,,,,,,5,103,3,38.89
+line_item,468,,,,,,,,,,,,,,,,,,,,,,,5,79,4,42.23
+line_item,469,,,,,,,,,,,,,,,,,,,,,,,5,29,3,142.56
+line_item,470,,,,,,,,,,,,,,,,,,,,,,,5,9,1,42.33
+line_item,471,,,,,,,,,,,,,,,,,,,,,,,5,26,5,275.04
+line_item,472,,,,,,,,,,,,,,,,,,,,,,,5,55,5,137.5
+line_item,473,,,,,,,,,,,,,,,,,,,,,,,6,42,2,177.49
+line_item,474,,,,,,,,,,,,,,,,,,,,,,,6,108,1,66.13
+line_item,475,,,,,,,,,,,,,,,,,,,,,,,6,102,5,28.56
+line_item,476,,,,,,,,,,,,,,,,,,,,,,,7,43,3,176.76
+line_item,477,,,,,,,,,,,,,,,,,,,,,,,7,9,2,42.33
+line_item,478,,,,,,,,,,,,,,,,,,,,,,,7,16,4,1130.46
+line_item,479,,,,,,,,,,,,,,,,,,,,,,,8,90,2,93.65
+line_item,480,,,,,,,,,,,,,,,,,,,,,,,8,48,4,616.75
+line_item,481,,,,,,,,,,,,,,,,,,,,,,,8,71,2,696.61
+line_item,482,,,,,,,,,,,,,,,,,,,,,,,9,6,5,185.05
+line_item,483,,,,,,,,,,,,,,,,,,,,,,,9,18,4,51.89
+line_item,484,,,,,,,,,,,,,,,,,,,,,,,9,13,2,774.61
+line_item,485,,,,,,,,,,,,,,,,,,,,,,,9,102,1,28.56
+line_item,486,,,,,,,,,,,,,,,,,,,,,,,9,109,4,47.68
+line_item,487,,,,,,,,,,,,,,,,,,,,,,,9,81,1,95.91
+line_item,488,,,,,,,,,,,,,,,,,,,,,,,10,1,1,642.79
+line_item,489,,,,,,,,,,,,,,,,,,,,,,,10,23,5,53.12
+line_item,490,,,,,,,,,,,,,,,,,,,,,,,11,54,4,1608.58
+line_item,491,,,,,,,,,,,,,,,,,,,,,,,11,89,2,2342.71
+line_item,492,,,,,,,,,,,,,,,,,,,,,,,11,104,2,18.69
+line_item,493,,,,,,,,,,,,,,,,,,,,,,,11,102,2,28.56
+line_item,494,,,,,,,,,,,,,,,,,,,,,,,12,67,2,46.15
+line_item,495,,,,,,,,,,,,,,,,,,,,,,,12,58,5,884.69
+line_item,496,,,,,,,,,,,,,,,,,,,,,,,12,53,1,198.83
+line_item,497,,,,,,,,,,,,,,,,,,,,,,,12,31,5,43.02
+line_item,498,,,,,,,,,,,,,,,,,,,,,,,13,92,1,710.09
+line_item,499,,,,,,,,,,,,,,,,,,,,,,,13,64,3,38.38
+line_item,500,,,,,,,,,,,,,,,,,,,,,,,13,79,3,42.23
+line_item,501,,,,,,,,,,,,,,,,,,,,,,,14,1,5,642.79
+line_item,502,,,,,,,,,,,,,,,,,,,,,,,14,72,1,43.71
+line_item,503,,,,,,,,,,,,,,,,,,,,,,,14,31,5,43.02
+line_item,504,,,,,,,,,,,,,,,,,,,,,,,14,25,3,74.56
+line_item,505,,,,,,,,,,,,,,,,,,,,,,,14,16,5,1130.46
+line_item,506,,,,,,,,,,,,,,,,,,,,,,,15,29,3,142.56
+line_item,507,,,,,,,,,,,,,,,,,,,,,,,15,60,1,39.8
+line_item,508,,,,,,,,,,,,,,,,,,,,,,,15,99,2,236.84
+line_item,509,,,,,,,,,,,,,,,,,,,,,,,15,81,1,95.91
+line_item,510,,,,,,,,,,,,,,,,,,,,,,,15,85,2,38.3
+line_item,511,,,,,,,,,,,,,,,,,,,,,,,15,27,4,242.15
+line_item,512,,,,,,,,,,,,,,,,,,,,,,,16,23,1,53.12
+line_item,513,,,,,,,,,,,,,,,,,,,,,,,16,21,3,35.07
+line_item,514,,,,,,,,,,,,,,,,,,,,,,,16,86,3,199.44
+line_item,515,,,,,,,,,,,,,,,,,,,,,,,16,119,2,230.11
+line_item,516,,,,,,,,,,,,,,,,,,,,,,,16,6,4,185.05
+line_item,517,,,,,,,,,,,,,,,,,,,,,,,17,43,4,176.76
+line_item,518,,,,,,,,,,,,,,,,,,,,,,,17,79,1,42.23
+line_item,519,,,,,,,,,,,,,,,,,,,,,,,17,104,1,18.69
+line_item,520,,,,,,,,,,,,,,,,,,,,,,,17,114,1,57.37
+line_item,521,,,,,,,,,,,,,,,,,,,,,,,18,23,1,53.12
+line_item,522,,,,,,,,,,,,,,,,,,,,,,,18,21,1,35.07
+line_item,523,,,,,,,,,,,,,,,,,,,,,,,18,101,2,225.86
+line_item,524,,,,,,,,,,,,,,,,,,,,,,,18,4,4,34.26
+line_item,525,,,,,,,,,,,,,,,,,,,,,,,18,63,5,150.77
+line_item,526,,,,,,,,,,,,,,,,,,,,,,,18,66,5,31.89
+line_item,527,,,,,,,,,,,,,,,,,,,,,,,19,54,3,1608.58
+line_item,528,,,,,,,,,,,,,,,,,,,,,,,19,26,2,275.04
+line_item,529,,,,,,,,,,,,,,,,,,,,,,,19,96,1,1595.83
+line_item,530,,,,,,,,,,,,,,,,,,,,,,,19,87,3,48.56
+line_item,531,,,,,,,,,,,,,,,,,,,,,,,20,13,4,774.61
+line_item,532,,,,,,,,,,,,,,,,,,,,,,,20,31,2,43.02
+line_item,533,,,,,,,,,,,,,,,,,,,,,,,20,95,4,74.08
+line_item,534,,,,,,,,,,,,,,,,,,,,,,,21,10,4,1020.65
+line_item,535,,,,,,,,,,,,,,,,,,,,,,,21,61,1,1050.94
+line_item,536,,,,,,,,,,,,,,,,,,,,,,,21,75,4,40.43
+line_item,537,,,,,,,,,,,,,,,,,,,,,,,22,28,4,249.43
+line_item,538,,,,,,,,,,,,,,,,,,,,,,,22,119,2,230.11
+line_item,539,,,,,,,,,,,,,,,,,,,,,,,22,79,4,42.23
+line_item,540,,,,,,,,,,,,,,,,,,,,,,,23,18,3,51.89
+line_item,541,,,,,,,,,,,,,,,,,,,,,,,23,59,3,782.2
+line_item,542,,,,,,,,,,,,,,,,,,,,,,,23,93,2,40.4
+line_item,543,,,,,,,,,,,,,,,,,,,,,,,23,25,3,74.56
+line_item,544,,,,,,,,,,,,,,,,,,,,,,,24,5,1,1154.2
+line_item,545,,,,,,,,,,,,,,,,,,,,,,,24,89,3,2342.71
+line_item,546,,,,,,,,,,,,,,,,,,,,,,,24,73,2,783.59
+line_item,547,,,,,,,,,,,,,,,,,,,,,,,25,110,4,213.69
+line_item,548,,,,,,,,,,,,,,,,,,,,,,,25,60,4,39.8
+line_item,549,,,,,,,,,,,,,,,,,,,,,,,26,98,3,28.15
+line_item,550,,,,,,,,,,,,,,,,,,,,,,,26,44,5,50.33
+line_item,551,,,,,,,,,,,,,,,,,,,,,,,26,29,2,142.56
+line_item,552,,,,,,,,,,,,,,,,,,,,,,,27,116,1,147.29
+line_item,553,,,,,,,,,,,,,,,,,,,,,,,27,22,4,984.76
+line_item,554,,,,,,,,,,,,,,,,,,,,,,,27,74,5,23.32
+line_item,555,,,,,,,,,,,,,,,,,,,,,,,27,71,4,696.61
+line_item,556,,,,,,,,,,,,,,,,,,,,,,,27,110,2,213.69
+line_item,557,,,,,,,,,,,,,,,,,,,,,,,27,30,5,92.48
+line_item,558,,,,,,,,,,,,,,,,,,,,,,,28,108,4,66.13
+line_item,559,,,,,,,,,,,,,,,,,,,,,,,28,60,2,39.8
+line_item,560,,,,,,,,,,,,,,,,,,,,,,,28,36,2,944.91
+line_item,561,,,,,,,,,,,,,,,,,,,,,,,28,2,3,528.6
+line_item,562,,,,,,,,,,,,,,,,,,,,,,,28,94,4,41.44
+line_item,563,,,,,,,,,,,,,,,,,,,,,,,29,29,5,142.56
+line_item,564,,,,,,,,,,,,,,,,,,,,,,,29,115,1,935.3
+line_item,565,,,,,,,,,,,,,,,,,,,,,,,29,119,4,230.11
+line_item,566,,,,,,,,,,,,,,,,,,,,,,,29,76,1,168.08
+line_item,567,,,,,,,,,,,,,,,,,,,,,,,29,20,1,1590.16
+line_item,568,,,,,,,,,,,,,,,,,,,,,,,29,117,4,32.14
+line_item,569,,,,,,,,,,,,,,,,,,,,,,,30,5,1,1154.2
+line_item,570,,,,,,,,,,,,,,,,,,,,,,,30,55,4,137.5
+line_item,571,,,,,,,,,,,,,,,,,,,,,,,30,68,4,31.84
+line_item,572,,,,,,,,,,,,,,,,,,,,,,,30,51,2,971.8
+line_item,573,,,,,,,,,,,,,,,,,,,,,,,30,62,1,252.11
+line_item,574,,,,,,,,,,,,,,,,,,,,,,,30,104,5,18.69
+line_item,575,,,,,,,,,,,,,,,,,,,,,,,31,89,4,2342.71
+line_item,576,,,,,,,,,,,,,,,,,,,,,,,31,94,2,41.44
+line_item,577,,,,,,,,,,,,,,,,,,,,,,,32,46,1,48.33
+line_item,578,,,,,,,,,,,,,,,,,,,,,,,32,38,1,28.28
+line_item,579,,,,,,,,,,,,,,,,,,,,,,,32,31,4,43.02
+line_item,580,,,,,,,,,,,,,,,,,,,,,,,33,21,5,35.07
+line_item,581,,,,,,,,,,,,,,,,,,,,,,,33,91,5,1623.29
+line_item,582,,,,,,,,,,,,,,,,,,,,,,,33,59,1,782.2
+line_item,583,,,,,,,,,,,,,,,,,,,,,,,33,110,4,213.69
+line_item,584,,,,,,,,,,,,,,,,,,,,,,,34,99,2,236.84
+line_item,585,,,,,,,,,,,,,,,,,,,,,,,34,18,3,51.89
+line_item,586,,,,,,,,,,,,,,,,,,,,,,,34,112,4,757.25
+line_item,587,,,,,,,,,,,,,,,,,,,,,,,34,91,1,1623.29
+line_item,588,,,,,,,,,,,,,,,,,,,,,,,34,52,1,42.65
+line_item,589,,,,,,,,,,,,,,,,,,,,,,,35,115,3,935.3
+line_item,590,,,,,,,,,,,,,,,,,,,,,,,35,89,4,2342.71
+line_item,591,,,,,,,,,,,,,,,,,,,,,,,35,43,3,176.76
+line_item,592,,,,,,,,,,,,,,,,,,,,,,,35,68,5,31.84
+line_item,593,,,,,,,,,,,,,,,,,,,,,,,35,5,5,1154.2
+line_item,594,,,,,,,,,,,,,,,,,,,,,,,36,102,3,28.56
+line_item,595,,,,,,,,,,,,,,,,,,,,,,,36,27,1,242.15
+line_item,596,,,,,,,,,,,,,,,,,,,,,,,36,101,5,225.86
+line_item,597,,,,,,,,,,,,,,,,,,,,,,,36,88,3,1446.06
+line_item,598,,,,,,,,,,,,,,,,,,,,,,,36,11,1,206.44
+line_item,599,,,,,,,,,,,,,,,,,,,,,,,36,80,1,36.48
+line_item,600,,,,,,,,,,,,,,,,,,,,,,,37,47,5,28.91
+line_item,601,,,,,,,,,,,,,,,,,,,,,,,37,60,1,39.8
+line_item,602,,,,,,,,,,,,,,,,,,,,,,,37,80,5,36.48
+line_item,603,,,,,,,,,,,,,,,,,,,,,,,37,6,2,185.05
+line_item,604,,,,,,,,,,,,,,,,,,,,,,,37,23,2,53.12
+line_item,605,,,,,,,,,,,,,,,,,,,,,,,38,31,4,43.02
+line_item,606,,,,,,,,,,,,,,,,,,,,,,,38,70,5,76.63
+line_item,607,,,,,,,,,,,,,,,,,,,,,,,38,15,2,15.98
+line_item,608,,,,,,,,,,,,,,,,,,,,,,,38,84,2,102.46
+line_item,609,,,,,,,,,,,,,,,,,,,,,,,39,46,4,48.33
+line_item,610,,,,,,,,,,,,,,,,,,,,,,,39,115,3,935.3
+line_item,611,,,,,,,,,,,,,,,,,,,,,,,39,35,1,37.0
+line_item,612,,,,,,,,,,,,,,,,,,,,,,,39,65,1,49.85
+line_item,613,,,,,,,,,,,,,,,,,,,,,,,40,45,5,18.83
+line_item,614,,,,,,,,,,,,,,,,,,,,,,,40,58,1,884.69
+line_item,615,,,,,,,,,,,,,,,,,,,,,,,40,63,4,150.77
+line_item,616,,,,,,,,,,,,,,,,,,,,,,,40,65,5,49.85
+line_item,617,,,,,,,,,,,,,,,,,,,,,,,41,116,1,147.29
+line_item,618,,,,,,,,,,,,,,,,,,,,,,,41,38,2,28.28
+line_item,619,,,,,,,,,,,,,,,,,,,,,,,41,58,4,884.69
+line_item,620,,,,,,,,,,,,,,,,,,,,,,,41,80,1,36.48
+line_item,621,,,,,,,,,,,,,,,,,,,,,,,41,48,1,616.75
+line_item,622,,,,,,,,,,,,,,,,,,,,,,,41,103,4,38.89
+line_item,623,,,,,,,,,,,,,,,,,,,,,,,42,37,2,817.83
+line_item,624,,,,,,,,,,,,,,,,,,,,,,,42,10,3,1020.65
+line_item,625,,,,,,,,,,,,,,,,,,,,,,,42,14,1,76.81
+line_item,626,,,,,,,,,,,,,,,,,,,,,,,43,64,2,38.38
+line_item,627,,,,,,,,,,,,,,,,,,,,,,,43,20,5,1590.16
+line_item,628,,,,,,,,,,,,,,,,,,,,,,,43,112,1,757.25
+line_item,629,,,,,,,,,,,,,,,,,,,,,,,44,54,2,1608.58
+line_item,630,,,,,,,,,,,,,,,,,,,,,,,44,88,4,1446.06
+line_item,631,,,,,,,,,,,,,,,,,,,,,,,44,70,3,76.63
+line_item,632,,,,,,,,,,,,,,,,,,,,,,,44,120,4,40.36
+line_item,633,,,,,,,,,,,,,,,,,,,,,,,45,95,1,74.08
+line_item,634,,,,,,,,,,,,,,,,,,,,,,,45,83,1,115.17
+line_item,635,,,,,,,,,,,,,,,,,,,,,,,45,3,2,77.16
+line_item,636,,,,,,,,,,,,,,,,,,,,,,,45,38,5,28.28
+line_item,637,,,,,,,,,,,,,,,,,,,,,,,45,25,3,74.56
+line_item,638,,,,,,,,,,,,,,,,,,,,,,,46,75,3,40.43
+line_item,639,,,,,,,,,,,,,,,,,,,,,,,46,44,4,50.33
+line_item,640,,,,,,,,,,,,,,,,,,,,,,,46,84,5,102.46
+line_item,641,,,,,,,,,,,,,,,,,,,,,,,46,83,5,115.17
+line_item,642,,,,,,,,,,,,,,,,,,,,,,,46,101,5,225.86
+line_item,643,,,,,,,,,,,,,,,,,,,,,,,47,59,3,782.2
+line_item,644,,,,,,,,,,,,,,,,,,,,,,,47,39,2,1013.31
+line_item,645,,,,,,,,,,,,,,,,,,,,,,,47,73,3,783.59
+line_item,646,,,,,,,,,,,,,,,,,,,,,,,47,17,2,52.18
+line_item,647,,,,,,,,,,,,,,,,,,,,,,,47,115,4,935.3
+line_item,648,,,,,,,,,,,,,,,,,,,,,,,48,37,2,817.83
+line_item,649,,,,,,,,,,,,,,,,,,,,,,,48,99,3,236.84
+line_item,650,,,,,,,,,,,,,,,,,,,,,,,48,109,3,47.68
+line_item,651,,,,,,,,,,,,,,,,,,,,,,,48,7,4,63.01
+line_item,652,,,,,,,,,,,,,,,,,,,,,,,49,80,5,36.48
+line_item,653,,,,,,,,,,,,,,,,,,,,,,,49,119,3,230.11
+line_item,654,,,,,,,,,,,,,,,,,,,,,,,49,21,2,35.07
+line_item,655,,,,,,,,,,,,,,,,,,,,,,,50,108,2,66.13
+line_item,656,,,,,,,,,,,,,,,,,,,,,,,50,91,2,1623.29
+line_item,657,,,,,,,,,,,,,,,,,,,,,,,50,89,2,2342.71
+line_item,658,,,,,,,,,,,,,,,,,,,,,,,51,6,5,185.05
+line_item,659,,,,,,,,,,,,,,,,,,,,,,,51,41,2,2307.58
+line_item,660,,,,,,,,,,,,,,,,,,,,,,,52,34,1,168.47
+line_item,661,,,,,,,,,,,,,,,,,,,,,,,52,48,3,616.75
+line_item,662,,,,,,,,,,,,,,,,,,,,,,,52,24,3,214.09
+line_item,663,,,,,,,,,,,,,,,,,,,,,,,52,27,2,242.15
+line_item,664,,,,,,,,,,,,,,,,,,,,,,,52,72,3,43.71
+line_item,665,,,,,,,,,,,,,,,,,,,,,,,53,70,1,76.63
+line_item,666,,,,,,,,,,,,,,,,,,,,,,,53,21,4,35.07
+line_item,667,,,,,,,,,,,,,,,,,,,,,,,53,69,4,90.08
+line_item,668,,,,,,,,,,,,,,,,,,,,,,,53,39,2,1013.31
+line_item,669,,,,,,,,,,,,,,,,,,,,,,,53,16,4,1130.46
+line_item,670,,,,,,,,,,,,,,,,,,,,,,,54,20,5,1590.16
+line_item,671,,,,,,,,,,,,,,,,,,,,,,,54,1,3,642.79
+line_item,672,,,,,,,,,,,,,,,,,,,,,,,54,95,3,74.08
+line_item,673,,,,,,,,,,,,,,,,,,,,,,,54,70,4,76.63
+line_item,674,,,,,,,,,,,,,,,,,,,,,,,55,97,5,720.91
+line_item,675,,,,,,,,,,,,,,,,,,,,,,,55,74,4,23.32
+line_item,676,,,,,,,,,,,,,,,,,,,,,,,55,86,3,199.44
+line_item,677,,,,,,,,,,,,,,,,,,,,,,,55,19,1,1003.61
+line_item,678,,,,,,,,,,,,,,,,,,,,,,,56,116,1,147.29
+line_item,679,,,,,,,,,,,,,,,,,,,,,,,56,6,3,185.05
+line_item,680,,,,,,,,,,,,,,,,,,,,,,,56,18,1,51.89
+line_item,681,,,,,,,,,,,,,,,,,,,,,,,56,87,4,48.56
+line_item,682,,,,,,,,,,,,,,,,,,,,,,,56,71,5,696.61
+line_item,683,,,,,,,,,,,,,,,,,,,,,,,57,58,3,884.69
+line_item,684,,,,,,,,,,,,,,,,,,,,,,,57,46,1,48.33
+line_item,685,,,,,,,,,,,,,,,,,,,,,,,57,12,5,92.84
+line_item,686,,,,,,,,,,,,,,,,,,,,,,,58,75,3,40.43
+line_item,687,,,,,,,,,,,,,,,,,,,,,,,58,68,2,31.84
+line_item,688,,,,,,,,,,,,,,,,,,,,,,,58,29,1,142.56
+line_item,689,,,,,,,,,,,,,,,,,,,,,,,59,69,4,90.08
+line_item,690,,,,,,,,,,,,,,,,,,,,,,,59,109,1,47.68
+line_item,691,,,,,,,,,,,,,,,,,,,,,,,60,51,1,971.8
+line_item,692,,,,,,,,,,,,,,,,,,,,,,,60,25,3,74.56
+line_item,693,,,,,,,,,,,,,,,,,,,,,,,60,63,4,150.77
+line_item,694,,,,,,,,,,,,,,,,,,,,,,,60,41,2,2307.58
+line_item,695,,,,,,,,,,,,,,,,,,,,,,,60,78,4,69.63
+line_item,696,,,,,,,,,,,,,,,,,,,,,,,60,66,3,31.89
+line_item,697,,,,,,,,,,,,,,,,,,,,,,,61,48,4,616.75
+line_item,698,,,,,,,,,,,,,,,,,,,,,,,61,2,5,528.6
+line_item,699,,,,,,,,,,,,,,,,,,,,,,,61,37,1,817.83
+line_item,700,,,,,,,,,,,,,,,,,,,,,,,61,45,2,18.83
+line_item,701,,,,,,,,,,,,,,,,,,,,,,,61,40,4,52.62
+line_item,702,,,,,,,,,,,,,,,,,,,,,,,62,103,4,38.89
+line_item,703,,,,,,,,,,,,,,,,,,,,,,,62,57,4,46.15
+line_item,704,,,,,,,,,,,,,,,,,,,,,,,62,37,2,817.83
+line_item,705,,,,,,,,,,,,,,,,,,,,,,,62,21,5,35.07
+line_item,706,,,,,,,,,,,,,,,,,,,,,,,62,104,5,18.69
+line_item,707,,,,,,,,,,,,,,,,,,,,,,,63,19,3,1003.61
+line_item,708,,,,,,,,,,,,,,,,,,,,,,,63,27,4,242.15
+line_item,709,,,,,,,,,,,,,,,,,,,,,,,64,43,1,176.76
+line_item,710,,,,,,,,,,,,,,,,,,,,,,,64,9,1,42.33
+line_item,711,,,,,,,,,,,,,,,,,,,,,,,64,120,4,40.36
+line_item,712,,,,,,,,,,,,,,,,,,,,,,,64,76,3,168.08
+line_item,713,,,,,,,,,,,,,,,,,,,,,,,64,97,4,720.91
+line_item,714,,,,,,,,,,,,,,,,,,,,,,,64,49,2,190.27
+line_item,715,,,,,,,,,,,,,,,,,,,,,,,65,60,2,39.8
+line_item,716,,,,,,,,,,,,,,,,,,,,,,,65,91,2,1623.29
+line_item,717,,,,,,,,,,,,,,,,,,,,,,,65,73,4,783.59
+line_item,718,,,,,,,,,,,,,,,,,,,,,,,65,97,3,720.91
+line_item,719,,,,,,,,,,,,,,,,,,,,,,,65,118,5,52.04
+line_item,720,,,,,,,,,,,,,,,,,,,,,,,65,18,4,51.89
+line_item,721,,,,,,,,,,,,,,,,,,,,,,,66,106,5,2032.83
+line_item,722,,,,,,,,,,,,,,,,,,,,,,,66,39,3,1013.31
+line_item,723,,,,,,,,,,,,,,,,,,,,,,,67,72,1,43.71
+line_item,724,,,,,,,,,,,,,,,,,,,,,,,67,95,2,74.08
+line_item,725,,,,,,,,,,,,,,,,,,,,,,,67,60,3,39.8
+line_item,726,,,,,,,,,,,,,,,,,,,,,,,67,29,3,142.56
+line_item,727,,,,,,,,,,,,,,,,,,,,,,,67,4,4,34.26
+line_item,728,,,,,,,,,,,,,,,,,,,,,,,68,84,3,102.46
+line_item,729,,,,,,,,,,,,,,,,,,,,,,,68,86,4,199.44
+line_item,730,,,,,,,,,,,,,,,,,,,,,,,69,63,2,150.77
+line_item,731,,,,,,,,,,,,,,,,,,,,,,,69,117,1,32.14
+line_item,732,,,,,,,,,,,,,,,,,,,,,,,69,89,1,2342.71
+line_item,733,,,,,,,,,,,,,,,,,,,,,,,70,64,3,38.38
+line_item,734,,,,,,,,,,,,,,,,,,,,,,,70,9,5,42.33
+line_item,735,,,,,,,,,,,,,,,,,,,,,,,70,77,4,114.45
+line_item,736,,,,,,,,,,,,,,,,,,,,,,,70,96,5,1595.83
+line_item,737,,,,,,,,,,,,,,,,,,,,,,,71,112,1,757.25
+line_item,738,,,,,,,,,,,,,,,,,,,,,,,71,34,3,168.47
+line_item,739,,,,,,,,,,,,,,,,,,,,,,,71,81,5,95.91
+line_item,740,,,,,,,,,,,,,,,,,,,,,,,71,88,5,1446.06
+line_item,741,,,,,,,,,,,,,,,,,,,,,,,71,61,1,1050.94
+line_item,742,,,,,,,,,,,,,,,,,,,,,,,72,21,3,35.07
+line_item,743,,,,,,,,,,,,,,,,,,,,,,,72,75,4,40.43
+line_item,744,,,,,,,,,,,,,,,,,,,,,,,72,8,2,1205.05
+line_item,745,,,,,,,,,,,,,,,,,,,,,,,72,19,3,1003.61
+line_item,746,,,,,,,,,,,,,,,,,,,,,,,73,7,4,63.01
+line_item,747,,,,,,,,,,,,,,,,,,,,,,,73,35,3,37.0
+line_item,748,,,,,,,,,,,,,,,,,,,,,,,73,47,1,28.91
+line_item,749,,,,,,,,,,,,,,,,,,,,,,,74,38,1,28.28
+line_item,750,,,,,,,,,,,,,,,,,,,,,,,74,68,5,31.84
+line_item,751,,,,,,,,,,,,,,,,,,,,,,,74,82,2,52.14
+line_item,752,,,,,,,,,,,,,,,,,,,,,,,74,120,2,40.36
+line_item,753,,,,,,,,,,,,,,,,,,,,,,,75,77,2,114.45
+line_item,754,,,,,,,,,,,,,,,,,,,,,,,75,97,5,720.91
+line_item,755,,,,,,,,,,,,,,,,,,,,,,,76,112,3,757.25
+line_item,756,,,,,,,,,,,,,,,,,,,,,,,76,41,3,2307.58
+line_item,757,,,,,,,,,,,,,,,,,,,,,,,76,106,3,2032.83
+line_item,758,,,,,,,,,,,,,,,,,,,,,,,76,109,1,47.68
+line_item,759,,,,,,,,,,,,,,,,,,,,,,,77,75,5,40.43
+line_item,760,,,,,,,,,,,,,,,,,,,,,,,77,46,3,48.33
+line_item,761,,,,,,,,,,,,,,,,,,,,,,,77,106,3,2032.83
+line_item,762,,,,,,,,,,,,,,,,,,,,,,,77,19,4,1003.61
+line_item,763,,,,,,,,,,,,,,,,,,,,,,,77,2,4,528.6
+line_item,764,,,,,,,,,,,,,,,,,,,,,,,77,18,3,51.89
+line_item,765,,,,,,,,,,,,,,,,,,,,,,,78,14,5,76.81
+line_item,766,,,,,,,,,,,,,,,,,,,,,,,78,28,2,249.43
+line_item,767,,,,,,,,,,,,,,,,,,,,,,,78,20,2,1590.16
+line_item,768,,,,,,,,,,,,,,,,,,,,,,,79,79,5,42.23
+line_item,769,,,,,,,,,,,,,,,,,,,,,,,79,89,1,2342.71
+line_item,770,,,,,,,,,,,,,,,,,,,,,,,79,107,4,868.62
+line_item,771,,,,,,,,,,,,,,,,,,,,,,,79,68,4,31.84
+line_item,772,,,,,,,,,,,,,,,,,,,,,,,79,109,1,47.68
+line_item,773,,,,,,,,,,,,,,,,,,,,,,,79,69,1,90.08
+line_item,774,,,,,,,,,,,,,,,,,,,,,,,80,119,3,230.11
+line_item,775,,,,,,,,,,,,,,,,,,,,,,,80,3,3,77.16
+line_item,776,,,,,,,,,,,,,,,,,,,,,,,80,62,3,252.11
+line_item,777,,,,,,,,,,,,,,,,,,,,,,,81,105,5,48.33
+line_item,778,,,,,,,,,,,,,,,,,,,,,,,81,57,5,46.15
+line_item,779,,,,,,,,,,,,,,,,,,,,,,,81,114,3,57.37
+line_item,780,,,,,,,,,,,,,,,,,,,,,,,82,91,1,1623.29
+line_item,781,,,,,,,,,,,,,,,,,,,,,,,82,39,2,1013.31
+line_item,782,,,,,,,,,,,,,,,,,,,,,,,82,4,2,34.26
+line_item,783,,,,,,,,,,,,,,,,,,,,,,,83,89,2,2342.71
+line_item,784,,,,,,,,,,,,,,,,,,,,,,,83,30,2,92.48
+line_item,785,,,,,,,,,,,,,,,,,,,,,,,83,40,2,52.62
+line_item,786,,,,,,,,,,,,,,,,,,,,,,,84,55,1,137.5
+line_item,787,,,,,,,,,,,,,,,,,,,,,,,84,89,1,2342.71
+line_item,788,,,,,,,,,,,,,,,,,,,,,,,85,100,4,261.12
+line_item,789,,,,,,,,,,,,,,,,,,,,,,,85,62,1,252.11
+line_item,790,,,,,,,,,,,,,,,,,,,,,,,86,14,5,76.81
+line_item,791,,,,,,,,,,,,,,,,,,,,,,,86,5,5,1154.2
+line_item,792,,,,,,,,,,,,,,,,,,,,,,,86,102,1,28.56
+line_item,793,,,,,,,,,,,,,,,,,,,,,,,87,16,3,1130.46
+line_item,794,,,,,,,,,,,,,,,,,,,,,,,87,117,1,32.14
+line_item,795,,,,,,,,,,,,,,,,,,,,,,,87,33,1,1559.12
+line_item,796,,,,,,,,,,,,,,,,,,,,,,,87,6,1,185.05
+line_item,797,,,,,,,,,,,,,,,,,,,,,,,87,9,5,42.33
+line_item,798,,,,,,,,,,,,,,,,,,,,,,,88,76,2,168.08
+line_item,799,,,,,,,,,,,,,,,,,,,,,,,88,116,3,147.29
+line_item,800,,,,,,,,,,,,,,,,,,,,,,,88,26,1,275.04
+line_item,801,,,,,,,,,,,,,,,,,,,,,,,89,19,3,1003.61
+line_item,802,,,,,,,,,,,,,,,,,,,,,,,89,109,5,47.68
+line_item,803,,,,,,,,,,,,,,,,,,,,,,,90,46,5,48.33
+line_item,804,,,,,,,,,,,,,,,,,,,,,,,90,21,2,35.07
+line_item,805,,,,,,,,,,,,,,,,,,,,,,,90,110,5,213.69
+line_item,806,,,,,,,,,,,,,,,,,,,,,,,90,65,5,49.85
+line_item,807,,,,,,,,,,,,,,,,,,,,,,,91,13,5,774.61
+line_item,808,,,,,,,,,,,,,,,,,,,,,,,91,105,1,48.33
+line_item,809,,,,,,,,,,,,,,,,,,,,,,,92,28,5,249.43
+line_item,810,,,,,,,,,,,,,,,,,,,,,,,92,92,1,710.09
+line_item,811,,,,,,,,,,,,,,,,,,,,,,,92,25,1,74.56
+line_item,812,,,,,,,,,,,,,,,,,,,,,,,92,37,2,817.83
+line_item,813,,,,,,,,,,,,,,,,,,,,,,,92,22,5,984.76
+line_item,814,,,,,,,,,,,,,,,,,,,,,,,92,116,4,147.29
+line_item,815,,,,,,,,,,,,,,,,,,,,,,,93,90,1,93.65
+line_item,816,,,,,,,,,,,,,,,,,,,,,,,93,76,2,168.08
+line_item,817,,,,,,,,,,,,,,,,,,,,,,,93,24,3,214.09
+line_item,818,,,,,,,,,,,,,,,,,,,,,,,93,57,4,46.15
+line_item,819,,,,,,,,,,,,,,,,,,,,,,,94,28,3,249.43
+line_item,820,,,,,,,,,,,,,,,,,,,,,,,94,66,1,31.89
+line_item,821,,,,,,,,,,,,,,,,,,,,,,,94,30,4,92.48
+line_item,822,,,,,,,,,,,,,,,,,,,,,,,94,53,1,198.83
+line_item,823,,,,,,,,,,,,,,,,,,,,,,,94,15,5,15.98
+line_item,824,,,,,,,,,,,,,,,,,,,,,,,95,64,3,38.38
+line_item,825,,,,,,,,,,,,,,,,,,,,,,,95,98,5,28.15
+line_item,826,,,,,,,,,,,,,,,,,,,,,,,95,47,1,28.91
+line_item,827,,,,,,,,,,,,,,,,,,,,,,,96,42,1,177.49
+line_item,828,,,,,,,,,,,,,,,,,,,,,,,96,64,4,38.38
+line_item,829,,,,,,,,,,,,,,,,,,,,,,,97,59,4,782.2
+line_item,830,,,,,,,,,,,,,,,,,,,,,,,97,77,2,114.45
+line_item,831,,,,,,,,,,,,,,,,,,,,,,,97,95,5,74.08
+line_item,832,,,,,,,,,,,,,,,,,,,,,,,97,40,4,52.62
+line_item,833,,,,,,,,,,,,,,,,,,,,,,,98,110,4,213.69
+line_item,834,,,,,,,,,,,,,,,,,,,,,,,98,55,3,137.5
+line_item,835,,,,,,,,,,,,,,,,,,,,,,,98,25,2,74.56
+line_item,836,,,,,,,,,,,,,,,,,,,,,,,98,9,1,42.33
+line_item,837,,,,,,,,,,,,,,,,,,,,,,,99,87,1,48.56
+line_item,838,,,,,,,,,,,,,,,,,,,,,,,99,14,1,76.81
+line_item,839,,,,,,,,,,,,,,,,,,,,,,,99,51,2,971.8
+line_item,840,,,,,,,,,,,,,,,,,,,,,,,99,57,4,46.15
+line_item,841,,,,,,,,,,,,,,,,,,,,,,,99,67,4,46.15
+line_item,842,,,,,,,,,,,,,,,,,,,,,,,100,14,3,76.81
+line_item,843,,,,,,,,,,,,,,,,,,,,,,,100,95,2,74.08
+line_item,844,,,,,,,,,,,,,,,,,,,,,,,100,119,3,230.11
+line_item,845,,,,,,,,,,,,,,,,,,,,,,,100,115,2,935.3
+line_item,846,,,,,,,,,,,,,,,,,,,,,,,100,22,5,984.76
+line_item,847,,,,,,,,,,,,,,,,,,,,,,,100,9,4,42.33
+line_item,848,,,,,,,,,,,,,,,,,,,,,,,101,30,4,92.48
+line_item,849,,,,,,,,,,,,,,,,,,,,,,,101,108,4,66.13
+line_item,850,,,,,,,,,,,,,,,,,,,,,,,102,98,5,28.15
+line_item,851,,,,,,,,,,,,,,,,,,,,,,,102,92,3,710.09
+line_item,852,,,,,,,,,,,,,,,,,,,,,,,102,99,4,236.84
+line_item,853,,,,,,,,,,,,,,,,,,,,,,,102,75,3,40.43
+line_item,854,,,,,,,,,,,,,,,,,,,,,,,103,86,3,199.44
+line_item,855,,,,,,,,,,,,,,,,,,,,,,,103,78,2,69.63
+line_item,856,,,,,,,,,,,,,,,,,,,,,,,103,52,4,42.65
+line_item,857,,,,,,,,,,,,,,,,,,,,,,,103,63,1,150.77
+line_item,858,,,,,,,,,,,,,,,,,,,,,,,103,66,1,31.89
+line_item,859,,,,,,,,,,,,,,,,,,,,,,,104,63,2,150.77
+line_item,860,,,,,,,,,,,,,,,,,,,,,,,104,64,1,38.38
+line_item,861,,,,,,,,,,,,,,,,,,,,,,,104,30,1,92.48
+line_item,862,,,,,,,,,,,,,,,,,,,,,,,104,81,1,95.91
+line_item,863,,,,,,,,,,,,,,,,,,,,,,,105,64,1,38.38
+line_item,864,,,,,,,,,,,,,,,,,,,,,,,105,87,2,48.56
+line_item,865,,,,,,,,,,,,,,,,,,,,,,,106,78,5,69.63
+line_item,866,,,,,,,,,,,,,,,,,,,,,,,106,87,5,48.56
+line_item,867,,,,,,,,,,,,,,,,,,,,,,,106,42,1,177.49
+line_item,868,,,,,,,,,,,,,,,,,,,,,,,106,20,1,1590.16
+line_item,869,,,,,,,,,,,,,,,,,,,,,,,106,39,5,1013.31
+line_item,870,,,,,,,,,,,,,,,,,,,,,,,107,102,4,28.56
+line_item,871,,,,,,,,,,,,,,,,,,,,,,,107,60,4,39.8
+line_item,872,,,,,,,,,,,,,,,,,,,,,,,107,26,5,275.04
+line_item,873,,,,,,,,,,,,,,,,,,,,,,,107,38,3,28.28
+line_item,874,,,,,,,,,,,,,,,,,,,,,,,107,85,5,38.3
+line_item,875,,,,,,,,,,,,,,,,,,,,,,,108,104,1,18.69
+line_item,876,,,,,,,,,,,,,,,,,,,,,,,108,111,4,78.27
+line_item,877,,,,,,,,,,,,,,,,,,,,,,,108,70,1,76.63
+line_item,878,,,,,,,,,,,,,,,,,,,,,,,108,3,4,77.16
+line_item,879,,,,,,,,,,,,,,,,,,,,,,,109,41,1,2307.58
+line_item,880,,,,,,,,,,,,,,,,,,,,,,,109,110,1,213.69
+line_item,881,,,,,,,,,,,,,,,,,,,,,,,109,49,2,190.27
+line_item,882,,,,,,,,,,,,,,,,,,,,,,,109,57,5,46.15
+line_item,883,,,,,,,,,,,,,,,,,,,,,,,109,59,3,782.2
+line_item,884,,,,,,,,,,,,,,,,,,,,,,,110,63,3,150.77
+line_item,885,,,,,,,,,,,,,,,,,,,,,,,110,56,4,101.01
+line_item,886,,,,,,,,,,,,,,,,,,,,,,,110,18,4,51.89
+line_item,887,,,,,,,,,,,,,,,,,,,,,,,111,73,4,783.59
+line_item,888,,,,,,,,,,,,,,,,,,,,,,,111,87,5,48.56
+line_item,889,,,,,,,,,,,,,,,,,,,,,,,112,74,1,23.32
+line_item,890,,,,,,,,,,,,,,,,,,,,,,,112,61,4,1050.94
+line_item,891,,,,,,,,,,,,,,,,,,,,,,,112,72,3,43.71
+line_item,892,,,,,,,,,,,,,,,,,,,,,,,112,110,4,213.69
+line_item,893,,,,,,,,,,,,,,,,,,,,,,,112,21,5,35.07
+line_item,894,,,,,,,,,,,,,,,,,,,,,,,112,65,4,49.85
+line_item,895,,,,,,,,,,,,,,,,,,,,,,,113,87,1,48.56
+line_item,896,,,,,,,,,,,,,,,,,,,,,,,113,46,5,48.33
+line_item,897,,,,,,,,,,,,,,,,,,,,,,,113,99,1,236.84
+line_item,898,,,,,,,,,,,,,,,,,,,,,,,113,37,2,817.83
+line_item,899,,,,,,,,,,,,,,,,,,,,,,,113,42,3,177.49
+line_item,900,,,,,,,,,,,,,,,,,,,,,,,113,8,3,1205.05
+line_item,901,,,,,,,,,,,,,,,,,,,,,,,114,4,1,34.26
+line_item,902,,,,,,,,,,,,,,,,,,,,,,,114,98,4,28.15
+line_item,903,,,,,,,,,,,,,,,,,,,,,,,114,115,3,935.3
+line_item,904,,,,,,,,,,,,,,,,,,,,,,,114,81,3,95.91
+line_item,905,,,,,,,,,,,,,,,,,,,,,,,114,44,4,50.33
+line_item,906,,,,,,,,,,,,,,,,,,,,,,,114,49,3,190.27
+line_item,907,,,,,,,,,,,,,,,,,,,,,,,115,85,2,38.3
+line_item,908,,,,,,,,,,,,,,,,,,,,,,,115,32,2,37.26
+line_item,909,,,,,,,,,,,,,,,,,,,,,,,116,76,1,168.08
+line_item,910,,,,,,,,,,,,,,,,,,,,,,,116,11,3,206.44
+line_item,911,,,,,,,,,,,,,,,,,,,,,,,116,117,1,32.14
+line_item,912,,,,,,,,,,,,,,,,,,,,,,,116,89,3,2342.71
+line_item,913,,,,,,,,,,,,,,,,,,,,,,,117,3,1,77.16
+line_item,914,,,,,,,,,,,,,,,,,,,,,,,117,69,4,90.08
+line_item,915,,,,,,,,,,,,,,,,,,,,,,,117,42,4,177.49
+line_item,916,,,,,,,,,,,,,,,,,,,,,,,118,66,4,31.89
+line_item,917,,,,,,,,,,,,,,,,,,,,,,,118,116,5,147.29
+line_item,918,,,,,,,,,,,,,,,,,,,,,,,118,54,1,1608.58
+line_item,919,,,,,,,,,,,,,,,,,,,,,,,118,35,3,37.0
+line_item,920,,,,,,,,,,,,,,,,,,,,,,,118,3,4,77.16
+line_item,921,,,,,,,,,,,,,,,,,,,,,,,118,90,5,93.65
+line_item,922,,,,,,,,,,,,,,,,,,,,,,,119,42,1,177.49
+line_item,923,,,,,,,,,,,,,,,,,,,,,,,119,74,2,23.32
+line_item,924,,,,,,,,,,,,,,,,,,,,,,,119,13,3,774.61
+line_item,925,,,,,,,,,,,,,,,,,,,,,,,119,104,4,18.69
+line_item,926,,,,,,,,,,,,,,,,,,,,,,,119,63,5,150.77
+line_item,927,,,,,,,,,,,,,,,,,,,,,,,120,22,4,984.76
+line_item,928,,,,,,,,,,,,,,,,,,,,,,,120,79,2,42.23
+line_item,929,,,,,,,,,,,,,,,,,,,,,,,120,39,4,1013.31
+line_item,930,,,,,,,,,,,,,,,,,,,,,,,120,47,1,28.91
+line_item,931,,,,,,,,,,,,,,,,,,,,,,,121,28,4,249.43
+line_item,932,,,,,,,,,,,,,,,,,,,,,,,121,37,2,817.83
+line_item,933,,,,,,,,,,,,,,,,,,,,,,,121,34,5,168.47
+line_item,934,,,,,,,,,,,,,,,,,,,,,,,121,7,1,63.01
+line_item,935,,,,,,,,,,,,,,,,,,,,,,,121,39,5,1013.31
+line_item,936,,,,,,,,,,,,,,,,,,,,,,,121,74,1,23.32
+line_item,937,,,,,,,,,,,,,,,,,,,,,,,122,44,4,50.33
+line_item,938,,,,,,,,,,,,,,,,,,,,,,,122,35,4,37.0
+line_item,939,,,,,,,,,,,,,,,,,,,,,,,122,9,2,42.33
+line_item,940,,,,,,,,,,,,,,,,,,,,,,,122,73,3,783.59
+line_item,941,,,,,,,,,,,,,,,,,,,,,,,122,103,1,38.89
+line_item,942,,,,,,,,,,,,,,,,,,,,,,,122,68,3,31.84
+line_item,943,,,,,,,,,,,,,,,,,,,,,,,123,103,2,38.89
+line_item,944,,,,,,,,,,,,,,,,,,,,,,,123,39,4,1013.31
+line_item,945,,,,,,,,,,,,,,,,,,,,,,,123,56,4,101.01
+line_item,946,,,,,,,,,,,,,,,,,,,,,,,123,85,3,38.3
+line_item,947,,,,,,,,,,,,,,,,,,,,,,,123,70,5,76.63
+line_item,948,,,,,,,,,,,,,,,,,,,,,,,123,41,5,2307.58
+line_item,949,,,,,,,,,,,,,,,,,,,,,,,124,86,1,199.44
+line_item,950,,,,,,,,,,,,,,,,,,,,,,,124,98,5,28.15
+line_item,951,,,,,,,,,,,,,,,,,,,,,,,124,71,2,696.61
+line_item,952,,,,,,,,,,,,,,,,,,,,,,,124,24,5,214.09
+line_item,953,,,,,,,,,,,,,,,,,,,,,,,124,113,4,726.65
+line_item,954,,,,,,,,,,,,,,,,,,,,,,,125,85,4,38.3
+line_item,955,,,,,,,,,,,,,,,,,,,,,,,125,106,3,2032.83
+line_item,956,,,,,,,,,,,,,,,,,,,,,,,125,96,5,1595.83
+line_item,957,,,,,,,,,,,,,,,,,,,,,,,126,110,1,213.69
+line_item,958,,,,,,,,,,,,,,,,,,,,,,,126,99,5,236.84
+line_item,959,,,,,,,,,,,,,,,,,,,,,,,126,117,2,32.14
+line_item,960,,,,,,,,,,,,,,,,,,,,,,,126,56,3,101.01
+line_item,961,,,,,,,,,,,,,,,,,,,,,,,126,120,4,40.36
+line_item,962,,,,,,,,,,,,,,,,,,,,,,,126,73,2,783.59
+line_item,963,,,,,,,,,,,,,,,,,,,,,,,127,20,3,1590.16
+line_item,964,,,,,,,,,,,,,,,,,,,,,,,127,96,4,1595.83
+line_item,965,,,,,,,,,,,,,,,,,,,,,,,127,88,4,1446.06
+line_item,966,,,,,,,,,,,,,,,,,,,,,,,128,111,2,78.27
+line_item,967,,,,,,,,,,,,,,,,,,,,,,,128,107,4,868.62
+line_item,968,,,,,,,,,,,,,,,,,,,,,,,128,117,3,32.14
+line_item,969,,,,,,,,,,,,,,,,,,,,,,,128,9,3,42.33
+line_item,970,,,,,,,,,,,,,,,,,,,,,,,129,33,2,1559.12
+line_item,971,,,,,,,,,,,,,,,,,,,,,,,129,88,4,1446.06
+line_item,972,,,,,,,,,,,,,,,,,,,,,,,129,77,2,114.45
+line_item,973,,,,,,,,,,,,,,,,,,,,,,,130,20,1,1590.16
+line_item,974,,,,,,,,,,,,,,,,,,,,,,,130,25,2,74.56
+line_item,975,,,,,,,,,,,,,,,,,,,,,,,131,60,4,39.8
+line_item,976,,,,,,,,,,,,,,,,,,,,,,,131,63,1,150.77
+line_item,977,,,,,,,,,,,,,,,,,,,,,,,131,72,2,43.71
+line_item,978,,,,,,,,,,,,,,,,,,,,,,,131,56,2,101.01
+line_item,979,,,,,,,,,,,,,,,,,,,,,,,132,18,3,51.89
+line_item,980,,,,,,,,,,,,,,,,,,,,,,,132,4,5,34.26
+line_item,981,,,,,,,,,,,,,,,,,,,,,,,132,34,2,168.47
+line_item,982,,,,,,,,,,,,,,,,,,,,,,,132,102,1,28.56
+line_item,983,,,,,,,,,,,,,,,,,,,,,,,133,101,1,225.86
+line_item,984,,,,,,,,,,,,,,,,,,,,,,,133,3,3,77.16
+line_item,985,,,,,,,,,,,,,,,,,,,,,,,133,8,5,1205.05
+line_item,986,,,,,,,,,,,,,,,,,,,,,,,133,111,3,78.27
+line_item,987,,,,,,,,,,,,,,,,,,,,,,,133,115,1,935.3
+line_item,988,,,,,,,,,,,,,,,,,,,,,,,134,115,1,935.3
+line_item,989,,,,,,,,,,,,,,,,,,,,,,,134,47,4,28.91
+line_item,990,,,,,,,,,,,,,,,,,,,,,,,134,86,2,199.44
+line_item,991,,,,,,,,,,,,,,,,,,,,,,,134,85,2,38.3
+line_item,992,,,,,,,,,,,,,,,,,,,,,,,134,114,1,57.37
+line_item,993,,,,,,,,,,,,,,,,,,,,,,,135,95,5,74.08
+line_item,994,,,,,,,,,,,,,,,,,,,,,,,135,65,5,49.85
+line_item,995,,,,,,,,,,,,,,,,,,,,,,,135,120,3,40.36
+line_item,996,,,,,,,,,,,,,,,,,,,,,,,135,16,4,1130.46
+line_item,997,,,,,,,,,,,,,,,,,,,,,,,135,67,1,46.15
+line_item,998,,,,,,,,,,,,,,,,,,,,,,,135,86,2,199.44
+line_item,999,,,,,,,,,,,,,,,,,,,,,,,136,16,5,1130.46
+line_item,1000,,,,,,,,,,,,,,,,,,,,,,,136,99,4,236.84
+line_item,1001,,,,,,,,,,,,,,,,,,,,,,,136,104,2,18.69
+line_item,1002,,,,,,,,,,,,,,,,,,,,,,,136,41,4,2307.58
+line_item,1003,,,,,,,,,,,,,,,,,,,,,,,136,43,2,176.76
+line_item,1004,,,,,,,,,,,,,,,,,,,,,,,136,107,2,868.62
+line_item,1005,,,,,,,,,,,,,,,,,,,,,,,137,23,3,53.12
+line_item,1006,,,,,,,,,,,,,,,,,,,,,,,137,28,4,249.43
+line_item,1007,,,,,,,,,,,,,,,,,,,,,,,138,33,5,1559.12
+line_item,1008,,,,,,,,,,,,,,,,,,,,,,,138,111,3,78.27
+line_item,1009,,,,,,,,,,,,,,,,,,,,,,,138,76,1,168.08
+line_item,1010,,,,,,,,,,,,,,,,,,,,,,,138,8,3,1205.05
+line_item,1011,,,,,,,,,,,,,,,,,,,,,,,138,63,5,150.77
+line_item,1012,,,,,,,,,,,,,,,,,,,,,,,139,61,2,1050.94
+line_item,1013,,,,,,,,,,,,,,,,,,,,,,,139,88,3,1446.06
+line_item,1014,,,,,,,,,,,,,,,,,,,,,,,139,32,4,37.26
+line_item,1015,,,,,,,,,,,,,,,,,,,,,,,139,36,3,944.91
+line_item,1016,,,,,,,,,,,,,,,,,,,,,,,139,113,3,726.65
+line_item,1017,,,,,,,,,,,,,,,,,,,,,,,140,83,5,115.17
+line_item,1018,,,,,,,,,,,,,,,,,,,,,,,140,116,1,147.29
+line_item,1019,,,,,,,,,,,,,,,,,,,,,,,141,89,2,2342.71
+line_item,1020,,,,,,,,,,,,,,,,,,,,,,,141,118,3,52.04
+line_item,1021,,,,,,,,,,,,,,,,,,,,,,,142,50,1,23.37
+line_item,1022,,,,,,,,,,,,,,,,,,,,,,,142,40,5,52.62
+line_item,1023,,,,,,,,,,,,,,,,,,,,,,,142,82,2,52.14
+line_item,1024,,,,,,,,,,,,,,,,,,,,,,,142,90,4,93.65
+line_item,1025,,,,,,,,,,,,,,,,,,,,,,,142,47,4,28.91
+line_item,1026,,,,,,,,,,,,,,,,,,,,,,,142,116,1,147.29
+line_item,1027,,,,,,,,,,,,,,,,,,,,,,,143,119,2,230.11
+line_item,1028,,,,,,,,,,,,,,,,,,,,,,,143,118,3,52.04
+line_item,1029,,,,,,,,,,,,,,,,,,,,,,,143,33,2,1559.12
+line_item,1030,,,,,,,,,,,,,,,,,,,,,,,143,39,2,1013.31
+line_item,1031,,,,,,,,,,,,,,,,,,,,,,,143,12,4,92.84
+line_item,1032,,,,,,,,,,,,,,,,,,,,,,,144,113,4,726.65
+line_item,1033,,,,,,,,,,,,,,,,,,,,,,,144,104,1,18.69
+line_item,1034,,,,,,,,,,,,,,,,,,,,,,,144,99,3,236.84
+line_item,1035,,,,,,,,,,,,,,,,,,,,,,,144,83,1,115.17
+line_item,1036,,,,,,,,,,,,,,,,,,,,,,,145,61,3,1050.94
+line_item,1037,,,,,,,,,,,,,,,,,,,,,,,145,95,4,74.08
+line_item,1038,,,,,,,,,,,,,,,,,,,,,,,145,53,1,198.83
+line_item,1039,,,,,,,,,,,,,,,,,,,,,,,145,119,2,230.11
+line_item,1040,,,,,,,,,,,,,,,,,,,,,,,145,108,3,66.13
+line_item,1041,,,,,,,,,,,,,,,,,,,,,,,146,9,5,42.33
+line_item,1042,,,,,,,,,,,,,,,,,,,,,,,146,46,3,48.33
+line_item,1043,,,,,,,,,,,,,,,,,,,,,,,146,54,4,1608.58
+line_item,1044,,,,,,,,,,,,,,,,,,,,,,,146,78,1,69.63
+line_item,1045,,,,,,,,,,,,,,,,,,,,,,,146,94,1,41.44
+line_item,1046,,,,,,,,,,,,,,,,,,,,,,,146,105,2,48.33
+line_item,1047,,,,,,,,,,,,,,,,,,,,,,,147,102,2,28.56
+line_item,1048,,,,,,,,,,,,,,,,,,,,,,,147,83,3,115.17
+line_item,1049,,,,,,,,,,,,,,,,,,,,,,,147,18,3,51.89
+line_item,1050,,,,,,,,,,,,,,,,,,,,,,,147,1,5,642.79
+line_item,1051,,,,,,,,,,,,,,,,,,,,,,,147,52,1,42.65
+line_item,1052,,,,,,,,,,,,,,,,,,,,,,,148,21,5,35.07
+line_item,1053,,,,,,,,,,,,,,,,,,,,,,,148,32,2,37.26
+line_item,1054,,,,,,,,,,,,,,,,,,,,,,,149,88,2,1446.06
+line_item,1055,,,,,,,,,,,,,,,,,,,,,,,149,53,3,198.83
+line_item,1056,,,,,,,,,,,,,,,,,,,,,,,149,102,2,28.56
+line_item,1057,,,,,,,,,,,,,,,,,,,,,,,149,41,5,2307.58
+line_item,1058,,,,,,,,,,,,,,,,,,,,,,,149,58,3,884.69
+line_item,1059,,,,,,,,,,,,,,,,,,,,,,,149,62,3,252.11
+line_item,1060,,,,,,,,,,,,,,,,,,,,,,,150,11,2,206.44
+line_item,1061,,,,,,,,,,,,,,,,,,,,,,,150,54,4,1608.58
+line_item,1062,,,,,,,,,,,,,,,,,,,,,,,150,48,4,616.75
+line_item,1063,,,,,,,,,,,,,,,,,,,,,,,151,29,2,142.56
+line_item,1064,,,,,,,,,,,,,,,,,,,,,,,151,3,1,77.16
+line_item,1065,,,,,,,,,,,,,,,,,,,,,,,151,119,4,230.11
+line_item,1066,,,,,,,,,,,,,,,,,,,,,,,151,72,2,43.71
+line_item,1067,,,,,,,,,,,,,,,,,,,,,,,151,83,3,115.17
+line_item,1068,,,,,,,,,,,,,,,,,,,,,,,151,79,2,42.23
+line_item,1069,,,,,,,,,,,,,,,,,,,,,,,152,52,4,42.65
+line_item,1070,,,,,,,,,,,,,,,,,,,,,,,152,80,5,36.48
+line_item,1071,,,,,,,,,,,,,,,,,,,,,,,153,20,5,1590.16
+line_item,1072,,,,,,,,,,,,,,,,,,,,,,,153,12,1,92.84
+line_item,1073,,,,,,,,,,,,,,,,,,,,,,,153,48,1,616.75
+line_item,1074,,,,,,,,,,,,,,,,,,,,,,,153,22,5,984.76
+line_item,1075,,,,,,,,,,,,,,,,,,,,,,,154,99,4,236.84
+line_item,1076,,,,,,,,,,,,,,,,,,,,,,,154,118,1,52.04
+line_item,1077,,,,,,,,,,,,,,,,,,,,,,,154,119,2,230.11
+line_item,1078,,,,,,,,,,,,,,,,,,,,,,,154,59,2,782.2
+line_item,1079,,,,,,,,,,,,,,,,,,,,,,,154,106,2,2032.83
+line_item,1080,,,,,,,,,,,,,,,,,,,,,,,155,37,2,817.83
+line_item,1081,,,,,,,,,,,,,,,,,,,,,,,155,96,4,1595.83
+line_item,1082,,,,,,,,,,,,,,,,,,,,,,,155,64,2,38.38
+line_item,1083,,,,,,,,,,,,,,,,,,,,,,,155,49,5,190.27
+line_item,1084,,,,,,,,,,,,,,,,,,,,,,,156,106,2,2032.83
+line_item,1085,,,,,,,,,,,,,,,,,,,,,,,156,37,4,817.83
+line_item,1086,,,,,,,,,,,,,,,,,,,,,,,156,94,2,41.44
+line_item,1087,,,,,,,,,,,,,,,,,,,,,,,157,102,2,28.56
+line_item,1088,,,,,,,,,,,,,,,,,,,,,,,157,19,5,1003.61
+line_item,1089,,,,,,,,,,,,,,,,,,,,,,,157,4,4,34.26
+line_item,1090,,,,,,,,,,,,,,,,,,,,,,,157,38,2,28.28
+line_item,1091,,,,,,,,,,,,,,,,,,,,,,,157,34,3,168.47
+line_item,1092,,,,,,,,,,,,,,,,,,,,,,,158,88,2,1446.06
+line_item,1093,,,,,,,,,,,,,,,,,,,,,,,158,83,3,115.17
+line_item,1094,,,,,,,,,,,,,,,,,,,,,,,158,59,4,782.2
+line_item,1095,,,,,,,,,,,,,,,,,,,,,,,158,11,2,206.44
+line_item,1096,,,,,,,,,,,,,,,,,,,,,,,158,2,4,528.6
+line_item,1097,,,,,,,,,,,,,,,,,,,,,,,158,61,4,1050.94
+line_item,1098,,,,,,,,,,,,,,,,,,,,,,,159,33,3,1559.12
+line_item,1099,,,,,,,,,,,,,,,,,,,,,,,159,10,2,1020.65
+line_item,1100,,,,,,,,,,,,,,,,,,,,,,,159,13,4,774.61
+line_item,1101,,,,,,,,,,,,,,,,,,,,,,,159,72,3,43.71
+line_item,1102,,,,,,,,,,,,,,,,,,,,,,,159,8,5,1205.05
+line_item,1103,,,,,,,,,,,,,,,,,,,,,,,159,7,5,63.01
+line_item,1104,,,,,,,,,,,,,,,,,,,,,,,160,1,5,642.79
+line_item,1105,,,,,,,,,,,,,,,,,,,,,,,160,33,5,1559.12
+line_item,1106,,,,,,,,,,,,,,,,,,,,,,,161,39,5,1013.31
+line_item,1107,,,,,,,,,,,,,,,,,,,,,,,161,51,1,971.8
+line_item,1108,,,,,,,,,,,,,,,,,,,,,,,161,86,5,199.44
+line_item,1109,,,,,,,,,,,,,,,,,,,,,,,161,48,2,616.75
+line_item,1110,,,,,,,,,,,,,,,,,,,,,,,161,17,3,52.18
+line_item,1111,,,,,,,,,,,,,,,,,,,,,,,162,65,3,49.85
+line_item,1112,,,,,,,,,,,,,,,,,,,,,,,162,64,4,38.38
+line_item,1113,,,,,,,,,,,,,,,,,,,,,,,162,120,2,40.36
+line_item,1114,,,,,,,,,,,,,,,,,,,,,,,163,41,5,2307.58
+line_item,1115,,,,,,,,,,,,,,,,,,,,,,,163,91,4,1623.29
+line_item,1116,,,,,,,,,,,,,,,,,,,,,,,164,34,1,168.47
+line_item,1117,,,,,,,,,,,,,,,,,,,,,,,164,15,2,15.98
+line_item,1118,,,,,,,,,,,,,,,,,,,,,,,164,41,4,2307.58
+line_item,1119,,,,,,,,,,,,,,,,,,,,,,,165,96,3,1595.83
+line_item,1120,,,,,,,,,,,,,,,,,,,,,,,165,47,3,28.91
+line_item,1121,,,,,,,,,,,,,,,,,,,,,,,165,119,5,230.11
+line_item,1122,,,,,,,,,,,,,,,,,,,,,,,165,56,3,101.01
+line_item,1123,,,,,,,,,,,,,,,,,,,,,,,166,41,2,2307.58
+line_item,1124,,,,,,,,,,,,,,,,,,,,,,,166,56,5,101.01
+line_item,1125,,,,,,,,,,,,,,,,,,,,,,,166,115,4,935.3
+line_item,1126,,,,,,,,,,,,,,,,,,,,,,,166,22,1,984.76
+line_item,1127,,,,,,,,,,,,,,,,,,,,,,,166,95,2,74.08
+line_item,1128,,,,,,,,,,,,,,,,,,,,,,,166,63,2,150.77
+line_item,1129,,,,,,,,,,,,,,,,,,,,,,,167,30,1,92.48
+line_item,1130,,,,,,,,,,,,,,,,,,,,,,,167,24,4,214.09
+line_item,1131,,,,,,,,,,,,,,,,,,,,,,,168,21,1,35.07
+line_item,1132,,,,,,,,,,,,,,,,,,,,,,,168,91,4,1623.29
+line_item,1133,,,,,,,,,,,,,,,,,,,,,,,168,60,1,39.8
+line_item,1134,,,,,,,,,,,,,,,,,,,,,,,168,56,4,101.01
+line_item,1135,,,,,,,,,,,,,,,,,,,,,,,169,91,4,1623.29
+line_item,1136,,,,,,,,,,,,,,,,,,,,,,,169,72,1,43.71
+line_item,1137,,,,,,,,,,,,,,,,,,,,,,,169,63,2,150.77
+line_item,1138,,,,,,,,,,,,,,,,,,,,,,,169,59,1,782.2
+line_item,1139,,,,,,,,,,,,,,,,,,,,,,,170,12,2,92.84
+line_item,1140,,,,,,,,,,,,,,,,,,,,,,,170,27,2,242.15
+line_item,1141,,,,,,,,,,,,,,,,,,,,,,,170,112,5,757.25
+line_item,1142,,,,,,,,,,,,,,,,,,,,,,,170,37,3,817.83
+line_item,1143,,,,,,,,,,,,,,,,,,,,,,,171,115,5,935.3
+line_item,1144,,,,,,,,,,,,,,,,,,,,,,,171,85,2,38.3
+line_item,1145,,,,,,,,,,,,,,,,,,,,,,,171,75,4,40.43
+line_item,1146,,,,,,,,,,,,,,,,,,,,,,,171,28,1,249.43
+line_item,1147,,,,,,,,,,,,,,,,,,,,,,,171,1,2,642.79
+line_item,1148,,,,,,,,,,,,,,,,,,,,,,,171,68,4,31.84
+line_item,1149,,,,,,,,,,,,,,,,,,,,,,,172,114,1,57.37
+line_item,1150,,,,,,,,,,,,,,,,,,,,,,,172,43,3,176.76
+line_item,1151,,,,,,,,,,,,,,,,,,,,,,,173,51,5,971.8
+line_item,1152,,,,,,,,,,,,,,,,,,,,,,,173,48,1,616.75
+line_item,1153,,,,,,,,,,,,,,,,,,,,,,,174,20,4,1590.16
+line_item,1154,,,,,,,,,,,,,,,,,,,,,,,174,4,4,34.26
+line_item,1155,,,,,,,,,,,,,,,,,,,,,,,174,11,3,206.44
+line_item,1156,,,,,,,,,,,,,,,,,,,,,,,174,59,5,782.2
+line_item,1157,,,,,,,,,,,,,,,,,,,,,,,175,43,5,176.76
+line_item,1158,,,,,,,,,,,,,,,,,,,,,,,175,6,4,185.05
+line_item,1159,,,,,,,,,,,,,,,,,,,,,,,176,94,2,41.44
+line_item,1160,,,,,,,,,,,,,,,,,,,,,,,176,117,2,32.14
+line_item,1161,,,,,,,,,,,,,,,,,,,,,,,176,103,1,38.89
+line_item,1162,,,,,,,,,,,,,,,,,,,,,,,176,73,3,783.59
+line_item,1163,,,,,,,,,,,,,,,,,,,,,,,177,103,5,38.89
+line_item,1164,,,,,,,,,,,,,,,,,,,,,,,177,8,5,1205.05
+line_item,1165,,,,,,,,,,,,,,,,,,,,,,,177,96,4,1595.83
+line_item,1166,,,,,,,,,,,,,,,,,,,,,,,177,10,1,1020.65
+line_item,1167,,,,,,,,,,,,,,,,,,,,,,,178,33,4,1559.12
+line_item,1168,,,,,,,,,,,,,,,,,,,,,,,178,23,1,53.12
+line_item,1169,,,,,,,,,,,,,,,,,,,,,,,178,31,1,43.02
+line_item,1170,,,,,,,,,,,,,,,,,,,,,,,178,99,2,236.84
+line_item,1171,,,,,,,,,,,,,,,,,,,,,,,178,111,2,78.27
+line_item,1172,,,,,,,,,,,,,,,,,,,,,,,179,100,2,261.12
+line_item,1173,,,,,,,,,,,,,,,,,,,,,,,179,52,1,42.65
+line_item,1174,,,,,,,,,,,,,,,,,,,,,,,179,37,3,817.83
+line_item,1175,,,,,,,,,,,,,,,,,,,,,,,179,83,4,115.17
+line_item,1176,,,,,,,,,,,,,,,,,,,,,,,179,97,4,720.91
+line_item,1177,,,,,,,,,,,,,,,,,,,,,,,180,116,3,147.29
+line_item,1178,,,,,,,,,,,,,,,,,,,,,,,180,88,1,1446.06
+line_item,1179,,,,,,,,,,,,,,,,,,,,,,,180,78,3,69.63
+line_item,1180,,,,,,,,,,,,,,,,,,,,,,,180,17,5,52.18
+line_item,1181,,,,,,,,,,,,,,,,,,,,,,,181,63,4,150.77
+line_item,1182,,,,,,,,,,,,,,,,,,,,,,,181,58,4,884.69
+line_item,1183,,,,,,,,,,,,,,,,,,,,,,,181,114,3,57.37
+line_item,1184,,,,,,,,,,,,,,,,,,,,,,,182,77,5,114.45
+line_item,1185,,,,,,,,,,,,,,,,,,,,,,,182,55,2,137.5
+line_item,1186,,,,,,,,,,,,,,,,,,,,,,,182,12,4,92.84
+line_item,1187,,,,,,,,,,,,,,,,,,,,,,,182,97,4,720.91
+line_item,1188,,,,,,,,,,,,,,,,,,,,,,,182,104,1,18.69
+line_item,1189,,,,,,,,,,,,,,,,,,,,,,,182,48,1,616.75
+line_item,1190,,,,,,,,,,,,,,,,,,,,,,,183,44,2,50.33
+line_item,1191,,,,,,,,,,,,,,,,,,,,,,,183,60,4,39.8
+line_item,1192,,,,,,,,,,,,,,,,,,,,,,,183,87,5,48.56
+line_item,1193,,,,,,,,,,,,,,,,,,,,,,,183,29,5,142.56
+line_item,1194,,,,,,,,,,,,,,,,,,,,,,,183,83,1,115.17
+line_item,1195,,,,,,,,,,,,,,,,,,,,,,,183,88,3,1446.06
+line_item,1196,,,,,,,,,,,,,,,,,,,,,,,184,56,3,101.01
+line_item,1197,,,,,,,,,,,,,,,,,,,,,,,184,11,2,206.44
+line_item,1198,,,,,,,,,,,,,,,,,,,,,,,184,117,2,32.14
+line_item,1199,,,,,,,,,,,,,,,,,,,,,,,184,103,3,38.89
+line_item,1200,,,,,,,,,,,,,,,,,,,,,,,184,62,2,252.11
+line_item,1201,,,,,,,,,,,,,,,,,,,,,,,185,55,1,137.5
+line_item,1202,,,,,,,,,,,,,,,,,,,,,,,185,38,5,28.28
+line_item,1203,,,,,,,,,,,,,,,,,,,,,,,185,73,1,783.59
+line_item,1204,,,,,,,,,,,,,,,,,,,,,,,185,7,5,63.01
+line_item,1205,,,,,,,,,,,,,,,,,,,,,,,185,71,4,696.61
+line_item,1206,,,,,,,,,,,,,,,,,,,,,,,185,10,4,1020.65
+line_item,1207,,,,,,,,,,,,,,,,,,,,,,,186,60,5,39.8
+line_item,1208,,,,,,,,,,,,,,,,,,,,,,,186,85,3,38.3
+line_item,1209,,,,,,,,,,,,,,,,,,,,,,,187,33,5,1559.12
+line_item,1210,,,,,,,,,,,,,,,,,,,,,,,187,75,1,40.43
+line_item,1211,,,,,,,,,,,,,,,,,,,,,,,187,11,1,206.44
+line_item,1212,,,,,,,,,,,,,,,,,,,,,,,187,99,4,236.84
+line_item,1213,,,,,,,,,,,,,,,,,,,,,,,188,101,4,225.86
+line_item,1214,,,,,,,,,,,,,,,,,,,,,,,188,24,1,214.09
+line_item,1215,,,,,,,,,,,,,,,,,,,,,,,188,108,1,66.13
+line_item,1216,,,,,,,,,,,,,,,,,,,,,,,189,113,4,726.65
+line_item,1217,,,,,,,,,,,,,,,,,,,,,,,189,91,4,1623.29
+line_item,1218,,,,,,,,,,,,,,,,,,,,,,,189,39,5,1013.31
+line_item,1219,,,,,,,,,,,,,,,,,,,,,,,189,41,3,2307.58
+line_item,1220,,,,,,,,,,,,,,,,,,,,,,,189,76,3,168.08
+line_item,1221,,,,,,,,,,,,,,,,,,,,,,,190,28,5,249.43
+line_item,1222,,,,,,,,,,,,,,,,,,,,,,,190,24,3,214.09
+line_item,1223,,,,,,,,,,,,,,,,,,,,,,,190,11,1,206.44
+line_item,1224,,,,,,,,,,,,,,,,,,,,,,,191,69,1,90.08
+line_item,1225,,,,,,,,,,,,,,,,,,,,,,,191,3,2,77.16
+line_item,1226,,,,,,,,,,,,,,,,,,,,,,,191,1,4,642.79
+line_item,1227,,,,,,,,,,,,,,,,,,,,,,,191,51,4,971.8
+line_item,1228,,,,,,,,,,,,,,,,,,,,,,,191,15,4,15.98
+line_item,1229,,,,,,,,,,,,,,,,,,,,,,,192,93,3,40.4
+line_item,1230,,,,,,,,,,,,,,,,,,,,,,,192,63,4,150.77
+line_item,1231,,,,,,,,,,,,,,,,,,,,,,,192,39,3,1013.31
+line_item,1232,,,,,,,,,,,,,,,,,,,,,,,192,80,1,36.48
+line_item,1233,,,,,,,,,,,,,,,,,,,,,,,192,105,2,48.33
+line_item,1234,,,,,,,,,,,,,,,,,,,,,,,192,79,2,42.23
+line_item,1235,,,,,,,,,,,,,,,,,,,,,,,193,25,1,74.56
+line_item,1236,,,,,,,,,,,,,,,,,,,,,,,193,15,2,15.98
+line_item,1237,,,,,,,,,,,,,,,,,,,,,,,194,27,2,242.15
+line_item,1238,,,,,,,,,,,,,,,,,,,,,,,194,62,2,252.11
+line_item,1239,,,,,,,,,,,,,,,,,,,,,,,195,108,2,66.13
+line_item,1240,,,,,,,,,,,,,,,,,,,,,,,195,81,1,95.91
+line_item,1241,,,,,,,,,,,,,,,,,,,,,,,195,110,3,213.69
+line_item,1242,,,,,,,,,,,,,,,,,,,,,,,195,102,4,28.56
+line_item,1243,,,,,,,,,,,,,,,,,,,,,,,195,69,2,90.08
+line_item,1244,,,,,,,,,,,,,,,,,,,,,,,196,55,2,137.5
+line_item,1245,,,,,,,,,,,,,,,,,,,,,,,196,3,4,77.16
+line_item,1246,,,,,,,,,,,,,,,,,,,,,,,196,15,4,15.98
+line_item,1247,,,,,,,,,,,,,,,,,,,,,,,196,22,4,984.76
+line_item,1248,,,,,,,,,,,,,,,,,,,,,,,196,116,1,147.29
+line_item,1249,,,,,,,,,,,,,,,,,,,,,,,197,75,4,40.43
+line_item,1250,,,,,,,,,,,,,,,,,,,,,,,197,32,1,37.26
+line_item,1251,,,,,,,,,,,,,,,,,,,,,,,197,26,3,275.04
+line_item,1252,,,,,,,,,,,,,,,,,,,,,,,197,38,1,28.28
+line_item,1253,,,,,,,,,,,,,,,,,,,,,,,197,73,1,783.59
+line_item,1254,,,,,,,,,,,,,,,,,,,,,,,198,54,5,1608.58
+line_item,1255,,,,,,,,,,,,,,,,,,,,,,,198,109,5,47.68
+line_item,1256,,,,,,,,,,,,,,,,,,,,,,,198,64,3,38.38
+line_item,1257,,,,,,,,,,,,,,,,,,,,,,,198,95,1,74.08
+line_item,1258,,,,,,,,,,,,,,,,,,,,,,,198,75,4,40.43
+line_item,1259,,,,,,,,,,,,,,,,,,,,,,,199,63,4,150.77
+line_item,1260,,,,,,,,,,,,,,,,,,,,,,,199,66,2,31.89
+line_item,1261,,,,,,,,,,,,,,,,,,,,,,,199,76,1,168.08
+line_item,1262,,,,,,,,,,,,,,,,,,,,,,,199,93,5,40.4
+line_item,1263,,,,,,,,,,,,,,,,,,,,,,,199,79,1,42.23
+line_item,1264,,,,,,,,,,,,,,,,,,,,,,,200,74,4,23.32
+line_item,1265,,,,,,,,,,,,,,,,,,,,,,,200,41,4,2307.58
+line_item,1266,,,,,,,,,,,,,,,,,,,,,,,200,71,1,696.61
+line_item,1267,,,,,,,,,,,,,,,,,,,,,,,200,9,4,42.33
+line_item,1268,,,,,,,,,,,,,,,,,,,,,,,200,35,5,37.0
+line_item,1269,,,,,,,,,,,,,,,,,,,,,,,201,58,2,884.69
+line_item,1270,,,,,,,,,,,,,,,,,,,,,,,201,90,3,93.65
+line_item,1271,,,,,,,,,,,,,,,,,,,,,,,201,56,2,101.01
+line_item,1272,,,,,,,,,,,,,,,,,,,,,,,201,3,4,77.16
+line_item,1273,,,,,,,,,,,,,,,,,,,,,,,202,57,5,46.15
+line_item,1274,,,,,,,,,,,,,,,,,,,,,,,202,30,3,92.48
+line_item,1275,,,,,,,,,,,,,,,,,,,,,,,202,65,5,49.85
+line_item,1276,,,,,,,,,,,,,,,,,,,,,,,202,29,4,142.56
+line_item,1277,,,,,,,,,,,,,,,,,,,,,,,203,114,4,57.37
+line_item,1278,,,,,,,,,,,,,,,,,,,,,,,203,38,4,28.28
+line_item,1279,,,,,,,,,,,,,,,,,,,,,,,203,93,3,40.4
+line_item,1280,,,,,,,,,,,,,,,,,,,,,,,204,103,3,38.89
+line_item,1281,,,,,,,,,,,,,,,,,,,,,,,204,109,1,47.68
+line_item,1282,,,,,,,,,,,,,,,,,,,,,,,204,21,4,35.07
+line_item,1283,,,,,,,,,,,,,,,,,,,,,,,204,80,2,36.48
+line_item,1284,,,,,,,,,,,,,,,,,,,,,,,204,27,2,242.15
+line_item,1285,,,,,,,,,,,,,,,,,,,,,,,205,21,1,35.07
+line_item,1286,,,,,,,,,,,,,,,,,,,,,,,205,78,4,69.63
+line_item,1287,,,,,,,,,,,,,,,,,,,,,,,205,63,4,150.77
+line_item,1288,,,,,,,,,,,,,,,,,,,,,,,206,31,1,43.02
+line_item,1289,,,,,,,,,,,,,,,,,,,,,,,206,27,3,242.15
+line_item,1290,,,,,,,,,,,,,,,,,,,,,,,206,72,3,43.71
+line_item,1291,,,,,,,,,,,,,,,,,,,,,,,206,7,3,63.01
+line_item,1292,,,,,,,,,,,,,,,,,,,,,,,207,23,5,53.12
+line_item,1293,,,,,,,,,,,,,,,,,,,,,,,207,106,1,2032.83
+line_item,1294,,,,,,,,,,,,,,,,,,,,,,,207,111,1,78.27
+line_item,1295,,,,,,,,,,,,,,,,,,,,,,,208,56,1,101.01
+line_item,1296,,,,,,,,,,,,,,,,,,,,,,,208,15,5,15.98
+line_item,1297,,,,,,,,,,,,,,,,,,,,,,,208,80,2,36.48
+line_item,1298,,,,,,,,,,,,,,,,,,,,,,,208,30,4,92.48
+line_item,1299,,,,,,,,,,,,,,,,,,,,,,,209,44,1,50.33
+line_item,1300,,,,,,,,,,,,,,,,,,,,,,,209,101,5,225.86
+line_item,1301,,,,,,,,,,,,,,,,,,,,,,,209,46,3,48.33
+line_item,1302,,,,,,,,,,,,,,,,,,,,,,,209,99,2,236.84
+line_item,1303,,,,,,,,,,,,,,,,,,,,,,,210,78,4,69.63
+line_item,1304,,,,,,,,,,,,,,,,,,,,,,,210,86,4,199.44
+line_item,1305,,,,,,,,,,,,,,,,,,,,,,,210,14,1,76.81
+line_item,1306,,,,,,,,,,,,,,,,,,,,,,,210,91,1,1623.29
+line_item,1307,,,,,,,,,,,,,,,,,,,,,,,210,7,5,63.01
+line_item,1308,,,,,,,,,,,,,,,,,,,,,,,210,119,5,230.11
+line_item,1309,,,,,,,,,,,,,,,,,,,,,,,211,106,1,2032.83
+line_item,1310,,,,,,,,,,,,,,,,,,,,,,,211,72,5,43.71
+line_item,1311,,,,,,,,,,,,,,,,,,,,,,,212,22,1,984.76
+line_item,1312,,,,,,,,,,,,,,,,,,,,,,,212,81,2,95.91
+line_item,1313,,,,,,,,,,,,,,,,,,,,,,,213,21,4,35.07
+line_item,1314,,,,,,,,,,,,,,,,,,,,,,,213,94,5,41.44
+line_item,1315,,,,,,,,,,,,,,,,,,,,,,,213,38,4,28.28
+line_item,1316,,,,,,,,,,,,,,,,,,,,,,,213,91,1,1623.29
+line_item,1317,,,,,,,,,,,,,,,,,,,,,,,214,83,2,115.17
+line_item,1318,,,,,,,,,,,,,,,,,,,,,,,214,47,1,28.91
+line_item,1319,,,,,,,,,,,,,,,,,,,,,,,214,43,2,176.76
+line_item,1320,,,,,,,,,,,,,,,,,,,,,,,215,54,4,1608.58
+line_item,1321,,,,,,,,,,,,,,,,,,,,,,,215,99,3,236.84
+line_item,1322,,,,,,,,,,,,,,,,,,,,,,,215,1,3,642.79
+line_item,1323,,,,,,,,,,,,,,,,,,,,,,,215,32,5,37.26
+line_item,1324,,,,,,,,,,,,,,,,,,,,,,,215,107,2,868.62
+line_item,1325,,,,,,,,,,,,,,,,,,,,,,,216,35,4,37.0
+line_item,1326,,,,,,,,,,,,,,,,,,,,,,,216,48,3,616.75
+line_item,1327,,,,,,,,,,,,,,,,,,,,,,,217,20,4,1590.16
+line_item,1328,,,,,,,,,,,,,,,,,,,,,,,217,97,2,720.91
+line_item,1329,,,,,,,,,,,,,,,,,,,,,,,217,68,2,31.84
+line_item,1330,,,,,,,,,,,,,,,,,,,,,,,218,53,5,198.83
+line_item,1331,,,,,,,,,,,,,,,,,,,,,,,218,118,3,52.04
+line_item,1332,,,,,,,,,,,,,,,,,,,,,,,218,115,1,935.3
+line_item,1333,,,,,,,,,,,,,,,,,,,,,,,218,59,4,782.2
+line_item,1334,,,,,,,,,,,,,,,,,,,,,,,218,110,2,213.69
+line_item,1335,,,,,,,,,,,,,,,,,,,,,,,219,92,5,710.09
+line_item,1336,,,,,,,,,,,,,,,,,,,,,,,219,104,1,18.69
+line_item,1337,,,,,,,,,,,,,,,,,,,,,,,220,44,4,50.33
+line_item,1338,,,,,,,,,,,,,,,,,,,,,,,220,41,2,2307.58
+line_item,1339,,,,,,,,,,,,,,,,,,,,,,,221,8,2,1205.05
+line_item,1340,,,,,,,,,,,,,,,,,,,,,,,221,51,5,971.8
+line_item,1341,,,,,,,,,,,,,,,,,,,,,,,221,98,1,28.15
+line_item,1342,,,,,,,,,,,,,,,,,,,,,,,221,5,5,1154.2
+line_item,1343,,,,,,,,,,,,,,,,,,,,,,,221,85,3,38.3
+line_item,1344,,,,,,,,,,,,,,,,,,,,,,,222,52,3,42.65
+line_item,1345,,,,,,,,,,,,,,,,,,,,,,,222,114,3,57.37
+line_item,1346,,,,,,,,,,,,,,,,,,,,,,,222,88,3,1446.06
+line_item,1347,,,,,,,,,,,,,,,,,,,,,,,222,90,1,93.65
+line_item,1348,,,,,,,,,,,,,,,,,,,,,,,222,71,3,696.61
+line_item,1349,,,,,,,,,,,,,,,,,,,,,,,223,79,2,42.23
+line_item,1350,,,,,,,,,,,,,,,,,,,,,,,223,118,5,52.04
+line_item,1351,,,,,,,,,,,,,,,,,,,,,,,223,19,5,1003.61
+line_item,1352,,,,,,,,,,,,,,,,,,,,,,,223,90,5,93.65
+line_item,1353,,,,,,,,,,,,,,,,,,,,,,,223,52,4,42.65
+line_item,1354,,,,,,,,,,,,,,,,,,,,,,,223,58,3,884.69
+line_item,1355,,,,,,,,,,,,,,,,,,,,,,,224,100,1,261.12
+line_item,1356,,,,,,,,,,,,,,,,,,,,,,,224,26,5,275.04
+line_item,1357,,,,,,,,,,,,,,,,,,,,,,,224,113,3,726.65
+line_item,1358,,,,,,,,,,,,,,,,,,,,,,,224,39,4,1013.31
+line_item,1359,,,,,,,,,,,,,,,,,,,,,,,224,11,2,206.44
+line_item,1360,,,,,,,,,,,,,,,,,,,,,,,225,70,3,76.63
+line_item,1361,,,,,,,,,,,,,,,,,,,,,,,225,37,5,817.83
+line_item,1362,,,,,,,,,,,,,,,,,,,,,,,225,28,3,249.43
+line_item,1363,,,,,,,,,,,,,,,,,,,,,,,225,12,2,92.84
+line_item,1364,,,,,,,,,,,,,,,,,,,,,,,225,66,1,31.89
+line_item,1365,,,,,,,,,,,,,,,,,,,,,,,225,71,1,696.61
+line_item,1366,,,,,,,,,,,,,,,,,,,,,,,226,76,4,168.08
+line_item,1367,,,,,,,,,,,,,,,,,,,,,,,226,34,5,168.47
+line_item,1368,,,,,,,,,,,,,,,,,,,,,,,226,31,1,43.02
+line_item,1369,,,,,,,,,,,,,,,,,,,,,,,226,107,1,868.62
+line_item,1370,,,,,,,,,,,,,,,,,,,,,,,226,100,3,261.12
+line_item,1371,,,,,,,,,,,,,,,,,,,,,,,226,39,3,1013.31
+line_item,1372,,,,,,,,,,,,,,,,,,,,,,,227,46,3,48.33
+line_item,1373,,,,,,,,,,,,,,,,,,,,,,,227,16,5,1130.46
+line_item,1374,,,,,,,,,,,,,,,,,,,,,,,227,7,1,63.01
+line_item,1375,,,,,,,,,,,,,,,,,,,,,,,227,97,4,720.91
+line_item,1376,,,,,,,,,,,,,,,,,,,,,,,227,84,3,102.46
+line_item,1377,,,,,,,,,,,,,,,,,,,,,,,227,58,2,884.69
+line_item,1378,,,,,,,,,,,,,,,,,,,,,,,228,73,5,783.59
+line_item,1379,,,,,,,,,,,,,,,,,,,,,,,228,92,2,710.09
+line_item,1380,,,,,,,,,,,,,,,,,,,,,,,228,115,3,935.3
+line_item,1381,,,,,,,,,,,,,,,,,,,,,,,228,81,3,95.91
+line_item,1382,,,,,,,,,,,,,,,,,,,,,,,228,86,3,199.44
+line_item,1383,,,,,,,,,,,,,,,,,,,,,,,228,69,5,90.08
+line_item,1384,,,,,,,,,,,,,,,,,,,,,,,229,92,2,710.09
+line_item,1385,,,,,,,,,,,,,,,,,,,,,,,229,49,1,190.27
+line_item,1386,,,,,,,,,,,,,,,,,,,,,,,229,67,3,46.15
+line_item,1387,,,,,,,,,,,,,,,,,,,,,,,230,75,1,40.43
+line_item,1388,,,,,,,,,,,,,,,,,,,,,,,230,25,2,74.56
+line_item,1389,,,,,,,,,,,,,,,,,,,,,,,230,106,4,2032.83
+line_item,1390,,,,,,,,,,,,,,,,,,,,,,,230,100,4,261.12
+line_item,1391,,,,,,,,,,,,,,,,,,,,,,,230,47,1,28.91
+line_item,1392,,,,,,,,,,,,,,,,,,,,,,,230,59,1,782.2
+line_item,1393,,,,,,,,,,,,,,,,,,,,,,,231,55,2,137.5
+line_item,1394,,,,,,,,,,,,,,,,,,,,,,,231,114,4,57.37
+line_item,1395,,,,,,,,,,,,,,,,,,,,,,,232,58,5,884.69
+line_item,1396,,,,,,,,,,,,,,,,,,,,,,,232,10,4,1020.65
+line_item,1397,,,,,,,,,,,,,,,,,,,,,,,232,48,5,616.75
+line_item,1398,,,,,,,,,,,,,,,,,,,,,,,233,67,4,46.15
+line_item,1399,,,,,,,,,,,,,,,,,,,,,,,233,100,4,261.12
+line_item,1400,,,,,,,,,,,,,,,,,,,,,,,233,51,4,971.8
+line_item,1401,,,,,,,,,,,,,,,,,,,,,,,233,112,4,757.25
+line_item,1402,,,,,,,,,,,,,,,,,,,,,,,233,34,4,168.47
+line_item,1403,,,,,,,,,,,,,,,,,,,,,,,233,75,2,40.43
+line_item,1404,,,,,,,,,,,,,,,,,,,,,,,234,65,4,49.85
+line_item,1405,,,,,,,,,,,,,,,,,,,,,,,234,17,2,52.18
+line_item,1406,,,,,,,,,,,,,,,,,,,,,,,234,63,5,150.77
+line_item,1407,,,,,,,,,,,,,,,,,,,,,,,235,16,2,1130.46
+line_item,1408,,,,,,,,,,,,,,,,,,,,,,,235,89,5,2342.71
+line_item,1409,,,,,,,,,,,,,,,,,,,,,,,235,28,3,249.43
+line_item,1410,,,,,,,,,,,,,,,,,,,,,,,235,59,1,782.2
+line_item,1411,,,,,,,,,,,,,,,,,,,,,,,235,61,5,1050.94
+line_item,1412,,,,,,,,,,,,,,,,,,,,,,,235,5,4,1154.2
+line_item,1413,,,,,,,,,,,,,,,,,,,,,,,236,16,5,1130.46
+line_item,1414,,,,,,,,,,,,,,,,,,,,,,,236,48,3,616.75
+line_item,1415,,,,,,,,,,,,,,,,,,,,,,,237,67,1,46.15
+line_item,1416,,,,,,,,,,,,,,,,,,,,,,,237,20,3,1590.16
+line_item,1417,,,,,,,,,,,,,,,,,,,,,,,238,48,1,616.75
+line_item,1418,,,,,,,,,,,,,,,,,,,,,,,238,39,2,1013.31
+line_item,1419,,,,,,,,,,,,,,,,,,,,,,,238,38,2,28.28
+line_item,1420,,,,,,,,,,,,,,,,,,,,,,,238,63,5,150.77
+line_item,1421,,,,,,,,,,,,,,,,,,,,,,,239,7,3,63.01
+line_item,1422,,,,,,,,,,,,,,,,,,,,,,,239,120,2,40.36
+line_item,1423,,,,,,,,,,,,,,,,,,,,,,,239,115,2,935.3
+line_item,1424,,,,,,,,,,,,,,,,,,,,,,,239,40,4,52.62
+line_item,1425,,,,,,,,,,,,,,,,,,,,,,,239,114,1,57.37
+line_item,1426,,,,,,,,,,,,,,,,,,,,,,,240,71,1,696.61
+line_item,1427,,,,,,,,,,,,,,,,,,,,,,,240,45,1,18.83
+line_item,1428,,,,,,,,,,,,,,,,,,,,,,,241,62,3,252.11
+line_item,1429,,,,,,,,,,,,,,,,,,,,,,,241,74,4,23.32
+line_item,1430,,,,,,,,,,,,,,,,,,,,,,,241,40,4,52.62
+line_item,1431,,,,,,,,,,,,,,,,,,,,,,,241,73,5,783.59
+line_item,1432,,,,,,,,,,,,,,,,,,,,,,,241,58,2,884.69
+line_item,1433,,,,,,,,,,,,,,,,,,,,,,,242,65,4,49.85
+line_item,1434,,,,,,,,,,,,,,,,,,,,,,,242,82,4,52.14
+line_item,1435,,,,,,,,,,,,,,,,,,,,,,,242,59,2,782.2
+line_item,1436,,,,,,,,,,,,,,,,,,,,,,,243,12,5,92.84
+line_item,1437,,,,,,,,,,,,,,,,,,,,,,,243,103,4,38.89
+line_item,1438,,,,,,,,,,,,,,,,,,,,,,,243,80,4,36.48
+line_item,1439,,,,,,,,,,,,,,,,,,,,,,,243,86,2,199.44
+line_item,1440,,,,,,,,,,,,,,,,,,,,,,,244,44,4,50.33
+line_item,1441,,,,,,,,,,,,,,,,,,,,,,,244,70,3,76.63
+line_item,1442,,,,,,,,,,,,,,,,,,,,,,,244,6,1,185.05
+line_item,1443,,,,,,,,,,,,,,,,,,,,,,,244,86,2,199.44
+line_item,1444,,,,,,,,,,,,,,,,,,,,,,,244,114,1,57.37
+line_item,1445,,,,,,,,,,,,,,,,,,,,,,,245,81,1,95.91
+line_item,1446,,,,,,,,,,,,,,,,,,,,,,,245,102,5,28.56
+line_item,1447,,,,,,,,,,,,,,,,,,,,,,,245,99,1,236.84
+line_item,1448,,,,,,,,,,,,,,,,,,,,,,,245,91,2,1623.29
+line_item,1449,,,,,,,,,,,,,,,,,,,,,,,245,40,5,52.62
+line_item,1450,,,,,,,,,,,,,,,,,,,,,,,245,72,5,43.71
+line_item,1451,,,,,,,,,,,,,,,,,,,,,,,246,97,5,720.91
+line_item,1452,,,,,,,,,,,,,,,,,,,,,,,246,7,1,63.01
+line_item,1453,,,,,,,,,,,,,,,,,,,,,,,246,73,1,783.59
+line_item,1454,,,,,,,,,,,,,,,,,,,,,,,246,67,5,46.15
+line_item,1455,,,,,,,,,,,,,,,,,,,,,,,246,25,2,74.56
+line_item,1456,,,,,,,,,,,,,,,,,,,,,,,246,61,1,1050.94
+line_item,1457,,,,,,,,,,,,,,,,,,,,,,,247,101,5,225.86
+line_item,1458,,,,,,,,,,,,,,,,,,,,,,,247,27,4,242.15
+line_item,1459,,,,,,,,,,,,,,,,,,,,,,,247,32,1,37.26
+line_item,1460,,,,,,,,,,,,,,,,,,,,,,,247,107,5,868.62
+line_item,1461,,,,,,,,,,,,,,,,,,,,,,,248,42,1,177.49
+line_item,1462,,,,,,,,,,,,,,,,,,,,,,,248,52,3,42.65
+line_item,1463,,,,,,,,,,,,,,,,,,,,,,,248,76,4,168.08
+line_item,1464,,,,,,,,,,,,,,,,,,,,,,,248,6,2,185.05
+line_item,1465,,,,,,,,,,,,,,,,,,,,,,,248,63,4,150.77
+line_item,1466,,,,,,,,,,,,,,,,,,,,,,,248,111,1,78.27
+line_item,1467,,,,,,,,,,,,,,,,,,,,,,,249,41,5,2307.58
+line_item,1468,,,,,,,,,,,,,,,,,,,,,,,249,49,2,190.27
+line_item,1469,,,,,,,,,,,,,,,,,,,,,,,249,33,3,1559.12
+line_item,1470,,,,,,,,,,,,,,,,,,,,,,,249,12,2,92.84
+line_item,1471,,,,,,,,,,,,,,,,,,,,,,,249,15,2,15.98
+line_item,1472,,,,,,,,,,,,,,,,,,,,,,,249,13,3,774.61
+line_item,1473,,,,,,,,,,,,,,,,,,,,,,,250,20,4,1590.16
+line_item,1474,,,,,,,,,,,,,,,,,,,,,,,250,40,2,52.62
+line_item,1475,,,,,,,,,,,,,,,,,,,,,,,251,79,2,42.23
+line_item,1476,,,,,,,,,,,,,,,,,,,,,,,251,42,1,177.49
+line_item,1477,,,,,,,,,,,,,,,,,,,,,,,252,39,1,1013.31
+line_item,1478,,,,,,,,,,,,,,,,,,,,,,,252,50,3,23.37
+line_item,1479,,,,,,,,,,,,,,,,,,,,,,,253,53,3,198.83
+line_item,1480,,,,,,,,,,,,,,,,,,,,,,,253,115,4,935.3
+line_item,1481,,,,,,,,,,,,,,,,,,,,,,,253,42,1,177.49
+line_item,1482,,,,,,,,,,,,,,,,,,,,,,,254,26,5,275.04
+line_item,1483,,,,,,,,,,,,,,,,,,,,,,,254,31,5,43.02
+line_item,1484,,,,,,,,,,,,,,,,,,,,,,,255,64,5,38.38
+line_item,1485,,,,,,,,,,,,,,,,,,,,,,,255,66,4,31.89
+line_item,1486,,,,,,,,,,,,,,,,,,,,,,,255,97,1,720.91
+line_item,1487,,,,,,,,,,,,,,,,,,,,,,,256,8,4,1205.05
+line_item,1488,,,,,,,,,,,,,,,,,,,,,,,256,41,1,2307.58
+line_item,1489,,,,,,,,,,,,,,,,,,,,,,,256,60,4,39.8
+line_item,1490,,,,,,,,,,,,,,,,,,,,,,,256,71,1,696.61
+line_item,1491,,,,,,,,,,,,,,,,,,,,,,,257,82,3,52.14
+line_item,1492,,,,,,,,,,,,,,,,,,,,,,,257,30,5,92.48
+line_item,1493,,,,,,,,,,,,,,,,,,,,,,,257,117,5,32.14
+line_item,1494,,,,,,,,,,,,,,,,,,,,,,,257,114,1,57.37
+line_item,1495,,,,,,,,,,,,,,,,,,,,,,,257,3,2,77.16
+line_item,1496,,,,,,,,,,,,,,,,,,,,,,,258,84,4,102.46
+line_item,1497,,,,,,,,,,,,,,,,,,,,,,,258,101,1,225.86
+line_item,1498,,,,,,,,,,,,,,,,,,,,,,,258,17,5,52.18
+line_item,1499,,,,,,,,,,,,,,,,,,,,,,,258,39,2,1013.31
+line_item,1500,,,,,,,,,,,,,,,,,,,,,,,258,73,2,783.59
+line_item,1501,,,,,,,,,,,,,,,,,,,,,,,258,53,3,198.83
+line_item,1502,,,,,,,,,,,,,,,,,,,,,,,259,22,5,984.76
+line_item,1503,,,,,,,,,,,,,,,,,,,,,,,259,101,4,225.86
+line_item,1504,,,,,,,,,,,,,,,,,,,,,,,259,32,1,37.26
+line_item,1505,,,,,,,,,,,,,,,,,,,,,,,259,69,1,90.08
+line_item,1506,,,,,,,,,,,,,,,,,,,,,,,259,55,4,137.5
+line_item,1507,,,,,,,,,,,,,,,,,,,,,,,259,117,5,32.14
+line_item,1508,,,,,,,,,,,,,,,,,,,,,,,260,84,4,102.46
+line_item,1509,,,,,,,,,,,,,,,,,,,,,,,260,22,3,984.76
+line_item,1510,,,,,,,,,,,,,,,,,,,,,,,260,1,5,642.79
+line_item,1511,,,,,,,,,,,,,,,,,,,,,,,260,8,3,1205.05
+line_item,1512,,,,,,,,,,,,,,,,,,,,,,,261,45,5,18.83
+line_item,1513,,,,,,,,,,,,,,,,,,,,,,,261,108,3,66.13
+line_item,1514,,,,,,,,,,,,,,,,,,,,,,,261,81,1,95.91
+line_item,1515,,,,,,,,,,,,,,,,,,,,,,,261,28,2,249.43
+line_item,1516,,,,,,,,,,,,,,,,,,,,,,,261,75,5,40.43
+line_item,1517,,,,,,,,,,,,,,,,,,,,,,,262,9,2,42.33
+line_item,1518,,,,,,,,,,,,,,,,,,,,,,,262,39,5,1013.31
+line_item,1519,,,,,,,,,,,,,,,,,,,,,,,262,12,3,92.84
+line_item,1520,,,,,,,,,,,,,,,,,,,,,,,262,51,4,971.8
+line_item,1521,,,,,,,,,,,,,,,,,,,,,,,262,90,2,93.65
+line_item,1522,,,,,,,,,,,,,,,,,,,,,,,262,16,5,1130.46
+line_item,1523,,,,,,,,,,,,,,,,,,,,,,,263,103,3,38.89
+line_item,1524,,,,,,,,,,,,,,,,,,,,,,,263,41,4,2307.58
+line_item,1525,,,,,,,,,,,,,,,,,,,,,,,263,114,3,57.37
+line_item,1526,,,,,,,,,,,,,,,,,,,,,,,263,88,2,1446.06
+line_item,1527,,,,,,,,,,,,,,,,,,,,,,,263,44,3,50.33
+line_item,1528,,,,,,,,,,,,,,,,,,,,,,,263,82,3,52.14
+line_item,1529,,,,,,,,,,,,,,,,,,,,,,,264,59,1,782.2
+line_item,1530,,,,,,,,,,,,,,,,,,,,,,,264,77,2,114.45
+line_item,1531,,,,,,,,,,,,,,,,,,,,,,,264,43,1,176.76
+line_item,1532,,,,,,,,,,,,,,,,,,,,,,,265,61,4,1050.94
+line_item,1533,,,,,,,,,,,,,,,,,,,,,,,265,1,5,642.79
+line_item,1534,,,,,,,,,,,,,,,,,,,,,,,265,116,4,147.29
+line_item,1535,,,,,,,,,,,,,,,,,,,,,,,265,2,4,528.6
+line_item,1536,,,,,,,,,,,,,,,,,,,,,,,265,87,5,48.56
+line_item,1537,,,,,,,,,,,,,,,,,,,,,,,265,23,1,53.12
+line_item,1538,,,,,,,,,,,,,,,,,,,,,,,266,69,4,90.08
+line_item,1539,,,,,,,,,,,,,,,,,,,,,,,266,4,1,34.26
+line_item,1540,,,,,,,,,,,,,,,,,,,,,,,267,105,3,48.33
+line_item,1541,,,,,,,,,,,,,,,,,,,,,,,267,49,4,190.27
+line_item,1542,,,,,,,,,,,,,,,,,,,,,,,267,106,2,2032.83
+line_item,1543,,,,,,,,,,,,,,,,,,,,,,,267,77,1,114.45
+line_item,1544,,,,,,,,,,,,,,,,,,,,,,,268,60,2,39.8
+line_item,1545,,,,,,,,,,,,,,,,,,,,,,,268,48,4,616.75
+line_item,1546,,,,,,,,,,,,,,,,,,,,,,,269,29,1,142.56
+line_item,1547,,,,,,,,,,,,,,,,,,,,,,,269,96,3,1595.83
+line_item,1548,,,,,,,,,,,,,,,,,,,,,,,270,25,3,74.56
+line_item,1549,,,,,,,,,,,,,,,,,,,,,,,270,12,2,92.84
+line_item,1550,,,,,,,,,,,,,,,,,,,,,,,270,105,2,48.33
+line_item,1551,,,,,,,,,,,,,,,,,,,,,,,270,79,4,42.23
+line_item,1552,,,,,,,,,,,,,,,,,,,,,,,271,5,5,1154.2
+line_item,1553,,,,,,,,,,,,,,,,,,,,,,,271,36,2,944.91
+line_item,1554,,,,,,,,,,,,,,,,,,,,,,,271,64,1,38.38
+line_item,1555,,,,,,,,,,,,,,,,,,,,,,,271,116,2,147.29
+line_item,1556,,,,,,,,,,,,,,,,,,,,,,,272,15,4,15.98
+line_item,1557,,,,,,,,,,,,,,,,,,,,,,,272,112,2,757.25
+line_item,1558,,,,,,,,,,,,,,,,,,,,,,,272,36,5,944.91
+line_item,1559,,,,,,,,,,,,,,,,,,,,,,,272,73,2,783.59
+line_item,1560,,,,,,,,,,,,,,,,,,,,,,,272,65,5,49.85
+line_item,1561,,,,,,,,,,,,,,,,,,,,,,,273,73,1,783.59
+line_item,1562,,,,,,,,,,,,,,,,,,,,,,,273,23,2,53.12
+line_item,1563,,,,,,,,,,,,,,,,,,,,,,,273,9,3,42.33
+line_item,1564,,,,,,,,,,,,,,,,,,,,,,,273,76,5,168.08
+line_item,1565,,,,,,,,,,,,,,,,,,,,,,,273,17,2,52.18
+line_item,1566,,,,,,,,,,,,,,,,,,,,,,,273,96,5,1595.83
+line_item,1567,,,,,,,,,,,,,,,,,,,,,,,274,25,5,74.56
+line_item,1568,,,,,,,,,,,,,,,,,,,,,,,274,109,5,47.68
+line_item,1569,,,,,,,,,,,,,,,,,,,,,,,274,87,3,48.56
+line_item,1570,,,,,,,,,,,,,,,,,,,,,,,274,3,5,77.16
+line_item,1571,,,,,,,,,,,,,,,,,,,,,,,275,1,1,642.79
+line_item,1572,,,,,,,,,,,,,,,,,,,,,,,275,55,3,137.5
+line_item,1573,,,,,,,,,,,,,,,,,,,,,,,275,83,4,115.17
+line_item,1574,,,,,,,,,,,,,,,,,,,,,,,275,87,4,48.56
+line_item,1575,,,,,,,,,,,,,,,,,,,,,,,275,84,3,102.46
+line_item,1576,,,,,,,,,,,,,,,,,,,,,,,276,88,4,1446.06
+line_item,1577,,,,,,,,,,,,,,,,,,,,,,,276,67,4,46.15
+line_item,1578,,,,,,,,,,,,,,,,,,,,,,,277,67,2,46.15
+line_item,1579,,,,,,,,,,,,,,,,,,,,,,,277,98,1,28.15
+line_item,1580,,,,,,,,,,,,,,,,,,,,,,,277,6,3,185.05
+line_item,1581,,,,,,,,,,,,,,,,,,,,,,,277,114,4,57.37
+line_item,1582,,,,,,,,,,,,,,,,,,,,,,,278,58,1,884.69
+line_item,1583,,,,,,,,,,,,,,,,,,,,,,,278,41,5,2307.58
+line_item,1584,,,,,,,,,,,,,,,,,,,,,,,278,1,1,642.79
+line_item,1585,,,,,,,,,,,,,,,,,,,,,,,278,51,2,971.8
+line_item,1586,,,,,,,,,,,,,,,,,,,,,,,278,25,4,74.56
+line_item,1587,,,,,,,,,,,,,,,,,,,,,,,278,43,1,176.76
+line_item,1588,,,,,,,,,,,,,,,,,,,,,,,279,26,3,275.04
+line_item,1589,,,,,,,,,,,,,,,,,,,,,,,279,22,1,984.76
+line_item,1590,,,,,,,,,,,,,,,,,,,,,,,279,43,1,176.76
+line_item,1591,,,,,,,,,,,,,,,,,,,,,,,280,62,1,252.11
+line_item,1592,,,,,,,,,,,,,,,,,,,,,,,280,56,5,101.01
+line_item,1593,,,,,,,,,,,,,,,,,,,,,,,281,108,4,66.13
+line_item,1594,,,,,,,,,,,,,,,,,,,,,,,281,33,2,1559.12
+line_item,1595,,,,,,,,,,,,,,,,,,,,,,,281,32,3,37.26
+line_item,1596,,,,,,,,,,,,,,,,,,,,,,,281,14,1,76.81
+line_item,1597,,,,,,,,,,,,,,,,,,,,,,,282,67,5,46.15
+line_item,1598,,,,,,,,,,,,,,,,,,,,,,,282,102,5,28.56
+line_item,1599,,,,,,,,,,,,,,,,,,,,,,,282,31,4,43.02
+line_item,1600,,,,,,,,,,,,,,,,,,,,,,,282,10,1,1020.65
+line_item,1601,,,,,,,,,,,,,,,,,,,,,,,283,75,1,40.43
+line_item,1602,,,,,,,,,,,,,,,,,,,,,,,283,16,4,1130.46
+line_item,1603,,,,,,,,,,,,,,,,,,,,,,,283,11,3,206.44
+line_item,1604,,,,,,,,,,,,,,,,,,,,,,,283,8,1,1205.05
+line_item,1605,,,,,,,,,,,,,,,,,,,,,,,283,118,2,52.04
+line_item,1606,,,,,,,,,,,,,,,,,,,,,,,284,118,4,52.04
+line_item,1607,,,,,,,,,,,,,,,,,,,,,,,284,103,1,38.89
+line_item,1608,,,,,,,,,,,,,,,,,,,,,,,285,79,1,42.23
+line_item,1609,,,,,,,,,,,,,,,,,,,,,,,285,81,1,95.91
+line_item,1610,,,,,,,,,,,,,,,,,,,,,,,285,56,5,101.01
+line_item,1611,,,,,,,,,,,,,,,,,,,,,,,285,9,1,42.33
+line_item,1612,,,,,,,,,,,,,,,,,,,,,,,286,109,5,47.68
+line_item,1613,,,,,,,,,,,,,,,,,,,,,,,286,49,4,190.27
+line_item,1614,,,,,,,,,,,,,,,,,,,,,,,286,52,2,42.65
+line_item,1615,,,,,,,,,,,,,,,,,,,,,,,286,13,5,774.61
+line_item,1616,,,,,,,,,,,,,,,,,,,,,,,287,2,5,528.6
+line_item,1617,,,,,,,,,,,,,,,,,,,,,,,287,59,5,782.2
+line_item,1618,,,,,,,,,,,,,,,,,,,,,,,287,50,1,23.37
+line_item,1619,,,,,,,,,,,,,,,,,,,,,,,287,60,3,39.8
+line_item,1620,,,,,,,,,,,,,,,,,,,,,,,287,102,1,28.56
+line_item,1621,,,,,,,,,,,,,,,,,,,,,,,287,55,4,137.5
+line_item,1622,,,,,,,,,,,,,,,,,,,,,,,288,43,1,176.76
+line_item,1623,,,,,,,,,,,,,,,,,,,,,,,288,76,5,168.08
+line_item,1624,,,,,,,,,,,,,,,,,,,,,,,288,25,2,74.56
+line_item,1625,,,,,,,,,,,,,,,,,,,,,,,288,14,5,76.81
+line_item,1626,,,,,,,,,,,,,,,,,,,,,,,288,2,2,528.6
+line_item,1627,,,,,,,,,,,,,,,,,,,,,,,288,77,5,114.45
+line_item,1628,,,,,,,,,,,,,,,,,,,,,,,289,46,5,48.33
+line_item,1629,,,,,,,,,,,,,,,,,,,,,,,289,54,4,1608.58
+line_item,1630,,,,,,,,,,,,,,,,,,,,,,,289,62,2,252.11
+line_item,1631,,,,,,,,,,,,,,,,,,,,,,,289,93,2,40.4
+line_item,1632,,,,,,,,,,,,,,,,,,,,,,,290,103,2,38.89
+line_item,1633,,,,,,,,,,,,,,,,,,,,,,,290,6,3,185.05
+line_item,1634,,,,,,,,,,,,,,,,,,,,,,,290,8,5,1205.05
+line_item,1635,,,,,,,,,,,,,,,,,,,,,,,291,66,5,31.89
+line_item,1636,,,,,,,,,,,,,,,,,,,,,,,291,84,5,102.46
+line_item,1637,,,,,,,,,,,,,,,,,,,,,,,291,97,2,720.91
+line_item,1638,,,,,,,,,,,,,,,,,,,,,,,291,46,2,48.33
+line_item,1639,,,,,,,,,,,,,,,,,,,,,,,291,40,4,52.62
+line_item,1640,,,,,,,,,,,,,,,,,,,,,,,292,78,1,69.63
+line_item,1641,,,,,,,,,,,,,,,,,,,,,,,292,44,5,50.33
+line_item,1642,,,,,,,,,,,,,,,,,,,,,,,292,38,5,28.28
+line_item,1643,,,,,,,,,,,,,,,,,,,,,,,292,48,2,616.75
+line_item,1644,,,,,,,,,,,,,,,,,,,,,,,293,31,5,43.02
+line_item,1645,,,,,,,,,,,,,,,,,,,,,,,293,65,1,49.85
+line_item,1646,,,,,,,,,,,,,,,,,,,,,,,294,45,1,18.83
+line_item,1647,,,,,,,,,,,,,,,,,,,,,,,294,26,3,275.04
+line_item,1648,,,,,,,,,,,,,,,,,,,,,,,294,82,2,52.14
+line_item,1649,,,,,,,,,,,,,,,,,,,,,,,294,117,4,32.14
+line_item,1650,,,,,,,,,,,,,,,,,,,,,,,294,101,4,225.86
+line_item,1651,,,,,,,,,,,,,,,,,,,,,,,295,89,3,2342.71
+line_item,1652,,,,,,,,,,,,,,,,,,,,,,,295,43,4,176.76
+line_item,1653,,,,,,,,,,,,,,,,,,,,,,,295,110,3,213.69
+line_item,1654,,,,,,,,,,,,,,,,,,,,,,,295,75,2,40.43
+line_item,1655,,,,,,,,,,,,,,,,,,,,,,,295,73,1,783.59
+line_item,1656,,,,,,,,,,,,,,,,,,,,,,,295,79,4,42.23
+line_item,1657,,,,,,,,,,,,,,,,,,,,,,,296,64,1,38.38
+line_item,1658,,,,,,,,,,,,,,,,,,,,,,,296,29,2,142.56
+line_item,1659,,,,,,,,,,,,,,,,,,,,,,,297,60,2,39.8
+line_item,1660,,,,,,,,,,,,,,,,,,,,,,,297,80,4,36.48
+line_item,1661,,,,,,,,,,,,,,,,,,,,,,,297,28,3,249.43
+line_item,1662,,,,,,,,,,,,,,,,,,,,,,,298,27,3,242.15
+line_item,1663,,,,,,,,,,,,,,,,,,,,,,,298,52,1,42.65
+line_item,1664,,,,,,,,,,,,,,,,,,,,,,,298,24,1,214.09
+line_item,1665,,,,,,,,,,,,,,,,,,,,,,,298,106,3,2032.83
+line_item,1666,,,,,,,,,,,,,,,,,,,,,,,298,1,1,642.79
+line_item,1667,,,,,,,,,,,,,,,,,,,,,,,299,15,5,15.98
+line_item,1668,,,,,,,,,,,,,,,,,,,,,,,299,19,3,1003.61
+line_item,1669,,,,,,,,,,,,,,,,,,,,,,,299,38,1,28.28
+line_item,1670,,,,,,,,,,,,,,,,,,,,,,,299,57,1,46.15
+line_item,1671,,,,,,,,,,,,,,,,,,,,,,,299,25,2,74.56
+line_item,1672,,,,,,,,,,,,,,,,,,,,,,,299,81,2,95.91
+line_item,1673,,,,,,,,,,,,,,,,,,,,,,,300,23,2,53.12
+line_item,1674,,,,,,,,,,,,,,,,,,,,,,,300,29,3,142.56
+line_item,1675,,,,,,,,,,,,,,,,,,,,,,,300,114,5,57.37
+line_item,1676,,,,,,,,,,,,,,,,,,,,,,,300,34,2,168.47
