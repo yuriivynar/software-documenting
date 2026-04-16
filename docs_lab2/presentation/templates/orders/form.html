@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+{% block title %}{% if order %}Edit Order #{{ order.id }}{% else %}Create Order{% endif %}{% endblock %}
+
+{% block content %}
+<nav aria-label="breadcrumb" class="mb-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/orders">Orders</a></li>
+        <li class="breadcrumb-item active">{% if order %}Edit{% else %}Create{% endif %}</li>
+    </ol>
+</nav>
+
+<div class="row justify-content-center">
+    <div class="col-xl-10">
+        <div class="card">
+            <div class="card-header bg-white">
+                <h2 class="h4 mb-0">{% if order %}Edit Order{% else %}Create Order{% endif %}</h2>
+            </div>
+            <div class="card-body">
+                {% if error %}
+                <div class="alert alert-danger">{{ error }}</div>
+                {% endif %}
+                <form method="post" action="{% if order %}/orders/{{ order.id }}/edit{% else %}/orders/create{% endif %}">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold" for="customer_id">Customer</label>
+                            <select id="customer_id" name="customer_id" class="form-select" required>
+                                <option value="">Select customer</option>
+                                {% for customer in customers %}
+                                <option value="{{ customer.id }}" {% if form_data.customer_id|string == customer.id|string %}selected{% endif %}>
+                                    {{ customer.email }}
+                                </option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold" for="status">Status</label>
+                            <select id="status" name="status" class="form-select" required>
+                                {% for status in statuses %}
+                                <option value="{{ status }}" {% if form_data.status == status %}selected{% endif %}>{{ status }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold" for="payment_method">Payment Method</label>
+                            <select id="payment_method" name="payment_method" class="form-select">
+                                <option value="">Select payment method</option>
+                                {% for payment_method in payment_methods %}
+                                <option value="{{ payment_method }}" {% if form_data.payment_method == payment_method %}selected{% endif %}>{{ payment_method }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <h3 class="h5">Shipping Address</h3>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold" for="street">Street</label>
+                                <input id="street" name="street" type="text" class="form-control" required value="{{ form_data.street }}">
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label fw-semibold" for="city">City</label>
+                                <input id="city" name="city" type="text" class="form-control" required value="{{ form_data.city }}">
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label fw-semibold" for="postal_code">Postal Code</label>
+                                <input id="postal_code" name="postal_code" type="text" class="form-control" required value="{{ form_data.postal_code }}">
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label fw-semibold" for="country">Country</label>
+                                <input id="country" name="country" type="text" class="form-control" required value="{{ form_data.country }}">
+                            </div>
+                            <div class="col-md-8">
+                                <label class="form-label fw-semibold" for="notes">Notes</label>
+                                <input id="notes" name="notes" type="text" class="form-control" value="{{ form_data.notes }}">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="h5 mb-0">Line Items</h3>
+                            <button type="button" class="btn btn-outline-secondary btn-sm" id="add-item-btn">
+                                <i class="bi bi-plus-circle me-1"></i>Add item
+                            </button>
+                        </div>
+                        <div id="line-items-container" class="d-flex flex-column gap-3">
+                            {% for item in form_data["items"] %}
+                            <div class="row g-3 line-item-row">
+                                <div class="col-md-7">
+                                    <label class="form-label fw-semibold">Product</label>
+                                    <select name="product_id[]" class="form-select" required>
+                                        <option value="">Select product</option>
+                                        {% for product in products %}
+                                        <option value="{{ product.id }}" {% if item.product_id|string == product.id|string %}selected{% endif %}>
+                                            {{ product.name }} (${{ "%.2f"|format(product.price) }})
+                                        </option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label fw-semibold">Quantity</label>
+                                    <input name="quantity[]" type="number" min="1" class="form-control" required value="{{ item.quantity }}">
+                                </div>
+                                <div class="col-md-2 d-flex align-items-end">
+                                    <button type="button" class="btn btn-outline-danger w-100 remove-item-btn">Remove</button>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button type="submit" class="btn btn-primary">{% if order %}Save Changes{% else %}Create Order{% endif %}</button>
+                        <a href="{% if order %}/orders/{{ order.id }}{% else %}/orders{% endif %}" class="btn btn-outline-secondary">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    const lineItemsContainer = document.getElementById("line-items-container");
+    const addItemButton = document.getElementById("add-item-btn");
+
+    addItemButton.addEventListener("click", () => {
+        const row = document.createElement("div");
+        row.className = "row g-3 line-item-row";
+        row.innerHTML = `
+            <div class="col-md-7">
+                <label class="form-label fw-semibold">Product</label>
+                <select name="product_id[]" class="form-select" required>
+                    <option value="">Select product</option>
+                    {% for product in products %}
+                    <option value="{{ product.id }}">{{ product.name }} (${{ "%.2f"|format(product.price) }})</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label fw-semibold">Quantity</label>
+                <input name="quantity[]" type="number" min="1" class="form-control" required value="1">
+            </div>
+            <div class="col-md-2 d-flex align-items-end">
+                <button type="button" class="btn btn-outline-danger w-100 remove-item-btn">Remove</button>
+            </div>
+        `;
+        lineItemsContainer.appendChild(row);
+    });
+
+    document.addEventListener("click", (event) => {
+        if (!event.target.classList.contains("remove-item-btn")) {
+            return;
+        }
+        const rows = document.querySelectorAll(".line-item-row");
+        if (rows.length === 1) {
+            rows[0].querySelector("select").value = "";
+            rows[0].querySelector("input").value = 1;
+            return;
+        }
+        event.target.closest(".line-item-row").remove();
+    });
+</script>
+{% endblock %}

@@ -140,9 +140,9 @@ def _row(record_type: str, **kwargs) -> dict:
         "bucket_id":           kwargs.get("bucket_id", ""),
         "status":              kwargs.get("status", ""),
         "created_at":          kwargs.get("created_at", ""),
-        "updated_at":          kwargs.get("updated_at", ""),  
+        "updated_at":          kwargs.get("updated_at", ""),
         "total_amount":        kwargs.get("total_amount", ""),
-        "notes":               kwargs.get("notes", ""),       
+        "notes":               kwargs.get("notes", ""),
         "payment_method":      kwargs.get("payment_method", ""),
         "order_id":            kwargs.get("order_id", ""),
         "product_id":          kwargs.get("product_id", ""),
@@ -152,8 +152,11 @@ def _row(record_type: str, **kwargs) -> dict:
 
 
 
-def generate(output_path: str, target_line_items: int = 1100) -> int:
+def generate(output_path: str, target_line_items: int = 1100,
+             delimiter: str = ",") -> int:
 
+    if delimiter not in (",", ";"):
+        raise ValueError(f"Unsupported delimiter: {delimiter!r}. Use ',' or ';'.")
     random.seed(42)
 
     DATE_START = datetime(2023, 1, 1)
@@ -243,6 +246,7 @@ def generate(output_path: str, target_line_items: int = 1100) -> int:
         a_list  = customer_addresses.get(c_id) or address_ids
         a_id    = random.choice(a_list)
         created = _random_date(DATE_START, DATE_END)
+        # Decide if this order came from a bucket
         use_bucket = random.random() < 0.6 and bucket_ids
         b_id = random.choice(bucket_ids) if use_bucket else ""
         if b_id:
@@ -263,7 +267,6 @@ def generate(output_path: str, target_line_items: int = 1100) -> int:
             notes=random.choice(ORDER_NOTES),
         ))
         order_ids.append(oid); oid += 1
-
 
     li_id = 1
     order_totals: Dict[int, float] = {o: 0.0 for o in order_ids}
@@ -322,12 +325,11 @@ def generate(output_path: str, target_line_items: int = 1100) -> int:
 
     fieldnames = list(rows[0].keys())
     with open(output_path, "w", newline="", encoding="utf-8") as fh:
-        writer = csv.DictWriter(fh, fieldnames=fieldnames)
+        writer = csv.DictWriter(fh, fieldnames=fieldnames, delimiter=delimiter)
         writer.writeheader()
         writer.writerows(rows)
 
     return len(rows)
-
 
 
 def main():
@@ -338,10 +340,16 @@ def main():
                         help="Output file path (default: data.csv)")
     parser.add_argument("--rows", "-r", type=int, default=1100,
                         help="Minimum line_item rows (default: 1100)")
+    parser.add_argument(
+        "--delimiter", "-d", default=",", choices=[",", ";"],
+        help="Column separator: ',' (default) or ';'",
+    )
     args = parser.parse_args()
 
-    print(f"Generating → {args.output} ...")
-    total = generate(args.output, target_line_items=args.rows)
+    delim_name = "comma (,)" if args.delimiter == "," else "semicolon (;)"
+    print(f"Generating → {args.output}  [delimiter: {delim_name}] ...")
+    total = generate(args.output, target_line_items=args.rows,
+                     delimiter=args.delimiter)
     size  = Path(args.output).stat().st_size
     print(f"Done!  Rows: {total:,}  |  Size: {size:,} bytes")
 

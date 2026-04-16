@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Delete {{ product.name }}{% endblock %}
+
+{% block content %}
+<nav aria-label="breadcrumb" class="mb-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/products">Products</a></li>
+        <li class="breadcrumb-item"><a href="/products/{{ product.id }}">{{ product.name }}</a></li>
+        <li class="breadcrumb-item active">Delete</li>
+    </ol>
+</nav>
+
+<div class="row justify-content-center">
+    <div class="col-lg-6">
+        <div class="card border-danger">
+            <div class="card-header bg-danger text-white">Delete Product</div>
+            <div class="card-body">
+                {% if error %}
+                <div class="alert alert-danger">{{ error }}</div>
+                {% endif %}
+                <p class="mb-1">You are about to delete <strong>{{ product.name }}</strong>.</p>
+                <p class="text-muted">This action cannot be undone.</p>
+                <dl class="row">
+                    <dt class="col-sm-4">Category</dt>
+                    <dd class="col-sm-8">{{ product.category.name if product.category else "—" }}</dd>
+                    <dt class="col-sm-4">Price</dt>
+                    <dd class="col-sm-8">${{ "%.2f"|format(product.price) }}</dd>
+                </dl>
+                <form method="post" action="/products/{{ product.id }}/delete" class="d-flex gap-2">
+                    <button type="submit" class="btn btn-danger">Delete product</button>
+                    <a href="/products/{{ product.id }}" class="btn btn-outline-secondary">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

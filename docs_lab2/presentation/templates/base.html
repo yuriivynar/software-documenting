@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Shop MVC{% endblock %} — Lab 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <style>
+        body { background: #f5f7fb; }
+        .navbar { background: linear-gradient(135deg, #12263a 0%, #17324d 100%) !important; }
+        .nav-link { color: rgba(255,255,255,.8) !important; }
+        .nav-link.active, .nav-link:hover { color: #fff !important; }
+        .sidebar-brand { font-size: 1.25rem; font-weight: 700; color: #fff; text-decoration: none; }
+        .card { border: none; box-shadow: 0 8px 24px rgba(18, 38, 58, 0.08); border-radius: .95rem; }
+        .card-header { border-radius: .95rem .95rem 0 0 !important; font-weight: 600; }
+        .page-header { padding: 1.5rem 0 1rem; border-bottom: 1px solid #dee2e6; margin-bottom: 1.5rem; }
+        .stat-card { text-align: center; padding: 1.5rem; }
+        .stat-card .stat-number { font-size: 2.3rem; font-weight: 700; }
+        .price-tag { font-size: 1.5rem; font-weight: 700; color: #198754; }
+        .table th { font-weight: 600; font-size: .875rem; text-transform: uppercase; letter-spacing: .04em; color: #6c757d; }
+        .btn-action { width: 2rem; height: 2rem; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
+        .alert-flash { animation: fadeIn .25s ease; }
+        .search-box { max-width: 340px; }
+        .badge-pending { background: #ffc107; color: #000; }
+        .badge-confirmed { background: #0d6efd; }
+        .badge-shipped { background: #6f42c1; }
+        .badge-delivered { background: #198754; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg shadow-sm mb-4">
+    <div class="container">
+        <a class="navbar-brand sidebar-brand" href="/">
+            <i class="bi bi-shop me-2"></i>Shop MVC
+        </a>
+        <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link {% if request.url.path.startswith('/products') %}active fw-bold{% endif %}" href="/products">
+                        <i class="bi bi-box-seam me-1"></i>Products
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.url.path.startswith('/categories') %}active fw-bold{% endif %}" href="/categories">
+                        <i class="bi bi-tag me-1"></i>Categories
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.url.path.startswith('/customers') %}active fw-bold{% endif %}" href="/customers">
+                        <i class="bi bi-people me-1"></i>Customers
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.url.path.startswith('/orders') %}active fw-bold{% endif %}" href="/orders">
+                        <i class="bi bi-cart3 me-1"></i>Orders
+                    </a>
+                </li>
+            </ul>
+            <div class="d-flex gap-2">
+                <a class="btn btn-sm btn-outline-light" href="/docs" target="_blank">
+                    <i class="bi bi-braces me-1"></i>API Docs
+                </a>
+                <a class="btn btn-sm btn-success" href="/products/create">
+                    <i class="bi bi-plus-circle me-1"></i>Add Product
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<main class="container pb-5">
+    {% block content %}{% endblock %}
+</main>
+
+<footer class="border-top mt-5 py-3 text-center text-muted small">
+    Shop MVC &mdash; Lab 3 &mdash; FastAPI + SQLAlchemy + Jinja2
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+{% block extra_js %}{% endblock %}
+</body>
+</html>

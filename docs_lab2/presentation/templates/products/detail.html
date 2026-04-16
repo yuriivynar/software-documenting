@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block title %}{{ product.name }}{% endblock %}
+
+{% block content %}
+<nav aria-label="breadcrumb" class="mb-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/products">Products</a></li>
+        <li class="breadcrumb-item active">{{ product.name }}</li>
+    </ol>
+</nav>
+
+{% if request.query_params.get('created') %}
+<div class="alert alert-success alert-flash">Product created successfully.</div>
+{% endif %}
+{% if request.query_params.get('updated') %}
+<div class="alert alert-success alert-flash">Product updated successfully.</div>
+{% endif %}
+
+<div class="row g-4">
+    <div class="col-lg-8">
+        <div class="card">
+            <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                <h2 class="h4 mb-0">{{ product.name }}</h2>
+                <span class="badge bg-light text-dark border">ID: {{ product.id }}</span>
+            </div>
+            <div class="card-body">
+                <div class="price-tag mb-3">${{ "%.2f"|format(product.price) }}</div>
+
+                <div class="mb-3">
+                    <span class="text-muted me-2">Category:</span>
+                    {% if product.category %}
+                    <a href="/categories/{{ product.category_id }}"
+                       class="badge bg-primary text-decoration-none fs-6 fw-normal">
+                        {{ product.category.name }}
+                    </a>
+                    {% else %}
+                    <span class="text-muted">—</span>
+                    {% endif %}
+                </div>
+
+                {% if product.description %}
+                <hr>
+                <h6 class="text-muted text-uppercase small">Description</h6>
+                <p class="mb-0">{{ product.description }}</p>
+                {% endif %}
+
+                {% if product.line_items %}
+                <hr>
+                <h6 class="text-muted text-uppercase small">Order activity</h6>
+                <p class="mb-0 text-muted">
+                    This product appears in
+                    <strong>{{ product.line_items|length }}</strong>
+                    order line item{{ 's' if product.line_items|length != 1 else '' }}.
+                </p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="card">
+            <div class="card-header bg-white fw-semibold">Actions</div>
+            <div class="card-body d-flex flex-column gap-2">
+                <a href="/products/{{ product.id }}/edit"
+                   class="btn btn-primary">
+                    <i class="bi bi-pencil me-2"></i>Edit product
+                </a>
+                <a href="/products/create"
+                   class="btn btn-outline-success">
+                    <i class="bi bi-plus-circle me-2"></i>Add new product
+                </a>
+                <hr class="my-1">
+                <a href="/products/{{ product.id }}/delete"
+                   class="btn btn-outline-danger">
+                    <i class="bi bi-trash me-2"></i>Delete product
+                </a>
+                <a href="/products" class="btn btn-link text-muted text-decoration-none">
+                    <i class="bi bi-arrow-left me-1"></i>Back to list
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

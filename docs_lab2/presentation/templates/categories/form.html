@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}{% if category %}Edit {{ category.name }}{% else %}Add Category{% endif %}{% endblock %}
+
+{% block content %}
+<nav aria-label="breadcrumb" class="mb-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/categories">Categories</a></li>
+        <li class="breadcrumb-item active">{% if category %}Edit{% else %}Create{% endif %}</li>
+    </ol>
+</nav>
+
+<div class="row justify-content-center">
+    <div class="col-lg-7">
+        <div class="card">
+            <div class="card-header bg-white">
+                <h2 class="h4 mb-0">{% if category %}Edit Category{% else %}Create Category{% endif %}</h2>
+            </div>
+            <div class="card-body">
+                {% if error %}
+                <div class="alert alert-danger">{{ error }}</div>
+                {% endif %}
+                <form method="post" action="{% if category %}/categories/{{ category.id }}/edit{% else %}/categories/create{% endif %}">
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold" for="name">Name</label>
+                        <input
+                            id="name"
+                            name="name"
+                            type="text"
+                            class="form-control"
+                            maxlength="100"
+                            required
+                            value="{{ form_data.name if form_data else (category.name if category else '') }}"
+                        >
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label fw-semibold" for="description">Description</label>
+                        <textarea id="description" name="description" class="form-control" rows="4" maxlength="500">{{ form_data.description if form_data else (category.description if category else '') }}</textarea>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-primary">{% if category %}Save Changes{% else %}Create Category{% endif %}</button>
+                        <a href="{% if category %}/categories/{{ category.id }}{% else %}/categories{% endif %}" class="btn btn-outline-secondary">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

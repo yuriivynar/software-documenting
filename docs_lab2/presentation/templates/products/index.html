@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+{% block title %}Products{% endblock %}
+
+{% block content %}
+<div class="page-header d-flex flex-wrap gap-2 justify-content-between align-items-center">
+    <div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-1">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active">Products</li>
+            </ol>
+        </nav>
+        <h1 class="h2 mb-0"><i class="bi bi-box-seam me-2 text-primary"></i>
+            Products <span class="badge bg-secondary fs-6">{{ total }}</span>
+        </h1>
+    </div>
+    <a href="/products/create" class="btn btn-success">
+        <i class="bi bi-plus-circle me-1"></i>Add Product
+    </a>
+</div>
+
+{% if request.query_params.get('deleted') %}
+<div class="alert alert-success alert-dismissible alert-flash d-flex align-items-center">
+    <i class="bi bi-check-circle-fill me-2"></i>
+    Product was successfully deleted.
+    <button type="button" class="btn-close ms-auto" data-bs-dismiss="alert"></button>
+</div>
+{% endif %}
+
+<div class="card mb-4">
+    <div class="card-body py-3">
+        <div class="row g-3 align-items-end">
+            <div class="col-md-5">
+                <form method="get" action="/products" class="d-flex gap-2">
+                    <input type="text" name="q" value="{{ query }}"
+                           placeholder="Search by name or description…"
+                           class="form-control search-box">
+                    <button class="btn btn-primary px-3" type="submit">
+                        <i class="bi bi-search"></i>
+                    </button>
+                    {% if query %}
+                    <a href="/products" class="btn btn-outline-secondary">
+                        <i class="bi bi-x-lg"></i>
+                    </a>
+                    {% endif %}
+                </form>
+            </div>
+            <div class="col-md-4">
+                <form method="get" action="/products">
+                    <select name="category_id" class="form-select"
+                            onchange="this.form.submit()">
+                        <option value="">All categories</option>
+                        {% for cat in categories %}
+                        <option value="{{ cat.id }}"
+                            {% if selected_cat == cat.id %}selected{% endif %}>
+                            {{ cat.name }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </form>
+            </div>
+            {% if query or selected_cat %}
+            <div class="col-md-3 text-muted small">
+                {% if query %}Searching: <strong>"{{ query }}"</strong>{% endif %}
+                {% if selected_cat %}Category filter active{% endif %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+{% if products %}
+<div class="card">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th style="width:60px">#</th>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th class="text-end" style="width:130px">Price</th>
+                        <th class="text-center" style="width:130px">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for product in products %}
+                <tr>
+                    <td class="text-muted small">{{ product.id }}</td>
+                    <td>
+                        <a href="/products/{{ product.id }}" class="fw-semibold text-decoration-none">
+                            {{ product.name }}
+                        </a>
+                        {% if product.description %}
+                        <div class="text-muted small text-truncate" style="max-width:280px">
+                            {{ product.description }}
+                        </div>
+                        {% endif %}
+                    </td>
+                    <td>
+                        <a href="/categories/{{ product.category_id }}"
+                           class="badge bg-light text-dark text-decoration-none border">
+                            {{ product.category.name if product.category else '—' }}
+                        </a>
+                    </td>
+                    <td class="text-end fw-bold text-success">
+                        ${{ "%.2f"|format(product.price) }}
+                    </td>
+                    <td class="text-center">
+                        <a href="/products/{{ product.id }}"
+                           class="btn btn-sm btn-outline-secondary btn-action me-1"
+                           title="View details">
+                            <i class="bi bi-eye"></i>
+                        </a>
+                        <a href="/products/{{ product.id }}/edit"
+                           class="btn btn-sm btn-outline-primary btn-action me-1"
+                           title="Edit">
+                            <i class="bi bi-pencil"></i>
+                        </a>
+                        <a href="/products/{{ product.id }}/delete"
+                           class="btn btn-sm btn-outline-danger btn-action"
+                           title="Delete">
+                            <i class="bi bi-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card-footer text-muted small">
+        Showing {{ products|length }} product{{ 's' if products|length != 1 else '' }}
+    </div>
+</div>
+
+{% else %}
+<div class="text-center py-5">
+    <i class="bi bi-box-seam display-1 text-muted opacity-25"></i>
+    <h4 class="mt-3 text-muted">No products found</h4>
+    {% if query %}
+    <p class="text-muted">No results for <strong>"{{ query }}"</strong></p>
+    <a href="/products" class="btn btn-outline-secondary me-2">Clear search</a>
+    {% endif %}
+    <a href="/products/create" class="btn btn-success">
+        <i class="bi bi-plus-circle me-1"></i>Add first product
+    </a>
+</div>
+{% endif %}
+{% endblock %}
