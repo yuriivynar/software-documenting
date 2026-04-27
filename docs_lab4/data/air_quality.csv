@@ -1,0 +1,501 @@
+unique_key,test_date,location,building_address,borough,community_board,pollutant_name,pollutant_symbol,result_value,unit_of_measurement,status,action_required,inspector,latitude,longitude
+100001,2017-11-03T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,42.55,ppb,Fail,Yes,S. Patel,40.665361,-73.916129
+100002,2018-06-18T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,197.07,ppb,Fail,Yes,J. Williams,40.662154,-73.918812
+100003,2018-08-18T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,682.63,ppm,Pass,No,A. Chen,40.66485,-73.919179
+100004,2018-07-11T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,145.6,ppb,Pass,No,A. Chen,40.661805,-73.918196
+100005,2018-02-24T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,44.81,ppb,Pass,No,S. Patel,40.665207,-73.916939
+100006,2017-04-17T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,670.08,ppm,Pass,No,K. Martinez,40.663194,-73.91616
+100007,2018-04-22T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,626.66,ppm,Pass,No,S. Patel,40.664611,-73.916406
+100008,2018-04-25T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.59,pCi/L,Pass,No,J. Williams,40.662958,-73.91942
+100009,2018-01-03T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,58.36,ppb,Pass,No,M. Rodriguez,40.662033,-73.917402
+100010,2017-06-29T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,199.22,ppb,Fail,Yes,S. Patel,40.662391,-73.916308
+100011,2017-07-28T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,128.56,ppb,Pass,No,D. Thompson,40.664924,-73.917815
+100012,2018-08-04T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,29.63,µg/m³,Pass,No,S. Patel,40.664962,-73.916906
+100013,2017-05-14T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.52,ppm,Pass,No,D. Thompson,40.664763,-73.918321
+100014,2018-06-07T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,1112.83,ppm,Fail,Yes,A. Chen,40.662002,-73.918645
+100015,2018-01-19T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,61.46,%,Fail,Yes,K. Martinez,40.661583,-73.918782
+100016,2017-09-18T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,26.26,ppb,Pass,No,S. Patel,40.664975,-73.91889
+100017,2018-02-28T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,2.14,ppm,Borderline,No,A. Chen,40.662742,-73.919372
+100018,2017-03-27T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,15.88,µg/m³,Pass,No,D. Thompson,40.663719,-73.917761
+100019,2018-06-06T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,64.97,%,Fail,Yes,J. Williams,40.663256,-73.918591
+100020,2018-01-11T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,17.96,µg/m³,Pass,No,L. Johnson,40.661665,-73.917385
+100021,2018-08-21T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.72,ppm,Pass,No,J. Williams,40.664691,-73.919095
+100022,2018-02-09T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,654.23,ppm,Pass,No,L. Johnson,40.662337,-73.919057
+100023,2017-12-31T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,39.67,µg/m³,Borderline,No,L. Johnson,40.663775,-73.919346
+100024,2018-08-08T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,35.85,%,Pass,No,K. Martinez,40.664768,-73.915678
+100025,2017-08-10T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,188.06,ppb,Fail,Yes,S. Patel,40.663583,-73.917706
+100026,2017-12-25T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,0.83,pCi/L,Pass,No,K. Martinez,40.66389,-73.918805
+100027,2017-03-12T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,153.05,ppb,Borderline,No,K. Martinez,40.662743,-73.917309
+100028,2018-01-07T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,16.24,ppb,Pass,No,M. Rodriguez,40.662133,-73.915667
+100029,2018-05-09T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,48.13,%,Pass,No,A. Chen,40.662618,-73.915615
+100030,2017-08-25T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,0.98,pCi/L,Pass,No,A. Chen,40.665425,-73.915786
+100031,2017-07-31T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,2.59,ppb,Pass,No,K. Martinez,40.663997,-73.916291
+100032,2017-05-15T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,21.66,ppb,Pass,No,S. Patel,40.664255,-73.918892
+100033,2017-11-14T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,0.72,pCi/L,Pass,No,A. Chen,40.665245,-73.916406
+100034,2018-04-05T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,6.32,ppb,Pass,No,A. Chen,40.663217,-73.918516
+100035,2017-03-14T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,162.94,ppb,Borderline,No,M. Rodriguez,40.661861,-73.91719
+100036,2018-05-25T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,45.33,%,Pass,No,L. Johnson,40.662934,-73.916316
+100037,2017-11-10T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,19.28,ppb,Pass,No,K. Martinez,40.662365,-73.91691
+100038,2017-03-26T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,729.19,ppm,Pass,No,J. Williams,40.665395,-73.917835
+100039,2018-06-30T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,68.85,ppb,Fail,Yes,A. Chen,40.662215,-73.915798
+100040,2017-07-05T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.29,ppm,Pass,No,K. Martinez,40.662641,-73.9157
+100041,2017-03-02T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,3.68,pCi/L,Fail,Yes,D. Thompson,40.66227,-73.919467
+100042,2017-05-15T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,55.43,ppb,Pass,No,D. Thompson,40.664083,-73.917255
+100043,2018-03-23T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.52,ppm,Pass,No,S. Patel,40.664559,-73.918542
+100044,2017-10-29T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,723.76,ppm,Pass,No,K. Martinez,40.664576,-73.917423
+100045,2017-09-24T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,19.99,µg/m³,Borderline,No,L. Johnson,40.663498,-73.918399
+100046,2018-07-23T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.93,pCi/L,Pass,No,M. Rodriguez,40.663781,-73.916029
+100047,2017-09-15T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,724.98,ppm,Pass,No,S. Patel,40.661931,-73.918051
+100048,2017-06-26T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,11.16,µg/m³,Pass,No,S. Patel,40.66457,-73.918319
+100049,2017-03-28T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,8.26,µg/m³,Pass,No,S. Patel,40.664978,-73.917199
+100050,2017-03-11T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,23.87,µg/m³,Fail,Yes,M. Rodriguez,40.6616,-73.916057
+100051,2018-01-14T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.71,ppm,Pass,No,K. Martinez,40.664343,-73.915624
+100052,2018-06-08T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.81,ppm,Pass,No,K. Martinez,40.663875,-73.919321
+100053,2018-03-06T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,10.48,ppb,Pass,No,K. Martinez,40.661819,-73.91583
+100054,2018-02-17T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.04,ppm,Pass,No,L. Johnson,40.663532,-73.918864
+100055,2017-07-30T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,3.58,ppb,Pass,No,J. Williams,40.664763,-73.917793
+100056,2017-08-31T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,12.5,µg/m³,Pass,No,L. Johnson,40.662744,-73.91634
+100057,2018-02-11T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,17.65,ppb,Pass,No,S. Patel,40.662275,-73.917256
+100058,2017-11-02T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,45.86,µg/m³,Fail,Yes,J. Williams,40.663646,-73.918899
+100059,2017-05-04T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.09,ppm,Pass,No,A. Chen,40.661663,-73.918955
+100060,2017-09-29T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,18.38,ppb,Pass,No,M. Rodriguez,40.665492,-73.916163
+100061,2017-12-08T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,2.2,ppm,Borderline,No,S. Patel,40.663007,-73.918728
+100062,2017-11-27T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,41.8,%,Pass,No,J. Williams,40.662518,-73.917224
+100063,2017-06-06T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,24.54,ppb,Pass,No,K. Martinez,40.66369,-73.916337
+100064,2017-10-03T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,31.13,ppb,Pass,No,K. Martinez,40.662036,-73.915762
+100065,2018-01-13T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,4.39,ppb,Pass,No,J. Williams,40.662978,-73.917992
+100066,2018-07-07T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,31.37,ppb,Pass,No,K. Martinez,40.661581,-73.918484
+100067,2017-06-16T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.48,pCi/L,Pass,No,D. Thompson,40.663042,-73.918213
+100068,2018-04-05T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,30.63,ppb,Pass,No,J. Williams,40.665201,-73.916703
+100069,2017-05-16T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,43.18,%,Pass,No,S. Patel,40.663559,-73.917848
+100070,2018-03-04T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.73,ppm,Pass,No,K. Martinez,40.664623,-73.917834
+100071,2017-12-28T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,19.58,µg/m³,Pass,No,L. Johnson,40.661668,-73.916091
+100072,2017-11-20T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,14.68,µg/m³,Pass,No,D. Thompson,40.663064,-73.917325
+100073,2017-12-19T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,77.35,ppb,Pass,No,A. Chen,40.664264,-73.917735
+100074,2017-05-08T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,48.61,ppb,Pass,No,M. Rodriguez,40.661926,-73.91581
+100075,2017-12-30T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,47.76,ppb,Pass,No,M. Rodriguez,40.663753,-73.915821
+100076,2018-06-14T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,16.43,ppb,Pass,No,K. Martinez,40.662344,-73.919371
+100077,2017-05-05T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,6.62,ppb,Pass,No,M. Rodriguez,40.662611,-73.917448
+100078,2018-01-21T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,190.03,ppb,Fail,Yes,K. Martinez,40.665152,-73.917321
+100079,2018-01-28T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,30.54,µg/m³,Pass,No,K. Martinez,40.664762,-73.918468
+100080,2018-05-12T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,1135.81,ppm,Fail,Yes,D. Thompson,40.662732,-73.917258
+100081,2018-08-16T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,20.87,µg/m³,Pass,No,J. Williams,40.664143,-73.916014
+100082,2017-09-01T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,56.89,%,Borderline,No,K. Martinez,40.661991,-73.918983
+100083,2017-09-15T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,18.55,ppb,Pass,No,J. Williams,40.663171,-73.916914
+100084,2017-04-15T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,57.42,%,Borderline,No,K. Martinez,40.663226,-73.915904
+100085,2017-05-06T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,5.39,ppb,Pass,No,S. Patel,40.662211,-73.915719
+100086,2018-04-18T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,6.96,ppb,Pass,No,D. Thompson,40.662608,-73.918049
+100087,2017-04-05T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,42.5,%,Pass,No,M. Rodriguez,40.663479,-73.918832
+100088,2017-09-17T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,28.9,µg/m³,Pass,No,K. Martinez,40.664902,-73.915527
+100089,2018-05-13T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,9.15,µg/m³,Pass,No,L. Johnson,40.662945,-73.915918
+100090,2018-03-31T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,538.89,ppm,Pass,No,S. Patel,40.663184,-73.918986
+100091,2017-10-08T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,2.35,ppm,Fail,Yes,D. Thompson,40.665203,-73.915798
+100092,2018-06-08T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,2.16,ppm,Borderline,No,S. Patel,40.664358,-73.915893
+100093,2018-07-25T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,1131.44,ppm,Fail,Yes,K. Martinez,40.663332,-73.918368
+100094,2017-04-25T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,468.42,ppm,Pass,No,J. Williams,40.663075,-73.916357
+100095,2018-09-08T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,2.85,pCi/L,Pass,No,A. Chen,40.663433,-73.918252
+100096,2018-07-30T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,166.16,ppb,Borderline,No,D. Thompson,40.661931,-73.916246
+100097,2018-07-09T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,23.21,ppb,Pass,No,J. Williams,40.662569,-73.917939
+100098,2017-05-31T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,3.04,pCi/L,Borderline,No,S. Patel,40.662969,-73.917218
+100099,2017-12-23T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,39.46,ppb,Pass,No,J. Williams,40.663185,-73.917641
+100100,2017-09-09T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,3.21,pCi/L,Borderline,No,S. Patel,40.662952,-73.91667
+100101,2018-05-01T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,931.91,ppm,Borderline,No,A. Chen,40.664486,-73.918722
+100102,2018-08-19T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,70.11,ppb,Pass,No,L. Johnson,40.663669,-73.915691
+100103,2017-10-01T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,176.65,ppb,Borderline,No,M. Rodriguez,40.66532,-73.918245
+100104,2017-11-07T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,24.75,ppb,Fail,Yes,J. Williams,40.664812,-73.918743
+100105,2018-03-13T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,4.32,ppb,Pass,No,L. Johnson,40.662733,-73.918743
+100106,2018-01-27T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,5.33,ppb,Pass,No,L. Johnson,40.663008,-73.916125
+100107,2018-07-31T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,60.48,%,Fail,Yes,J. Williams,40.663199,-73.917783
+100108,2017-09-13T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,73.22,ppb,Pass,No,D. Thompson,40.663674,-73.91718
+100109,2018-06-17T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,54.41,ppb,Borderline,No,K. Martinez,40.662203,-73.919432
+100110,2018-07-16T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,990.71,ppm,Borderline,No,L. Johnson,40.664415,-73.916573
+100111,2018-05-30T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,35.35,µg/m³,Pass,No,A. Chen,40.66369,-73.916363
+100112,2018-03-20T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,28.88,ppb,Pass,No,K. Martinez,40.661866,-73.916226
+100113,2018-06-29T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,34.7,ppb,Borderline,No,M. Rodriguez,40.663856,-73.917816
+100114,2017-05-03T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,48.84,µg/m³,Fail,Yes,D. Thompson,40.665141,-73.918885
+100115,2017-09-12T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,44.1,%,Pass,No,J. Williams,40.661677,-73.918514
+100116,2018-07-17T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,3.89,ppb,Pass,No,J. Williams,40.66513,-73.917607
+100117,2018-06-27T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,2.15,ppm,Borderline,No,J. Williams,40.663873,-73.916568
+100118,2018-05-02T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,27.41,µg/m³,Pass,No,D. Thompson,40.661994,-73.916756
+100119,2017-07-09T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,17.46,ppb,Pass,No,A. Chen,40.663909,-73.918986
+100120,2018-03-21T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,4.75,ppb,Pass,No,M. Rodriguez,40.665141,-73.918193
+100121,2017-09-30T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,10.62,µg/m³,Pass,No,J. Williams,40.664474,-73.91689
+100122,2017-10-26T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,99.19,ppb,Pass,No,J. Williams,40.664136,-73.917722
+100123,2017-03-13T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,25.99,µg/m³,Pass,No,A. Chen,40.663887,-73.918945
+100124,2017-08-04T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,97.6,ppb,Pass,No,J. Williams,40.664635,-73.91799
+100125,2018-02-17T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,2.52,pCi/L,Pass,No,J. Williams,40.663549,-73.919242
+100126,2017-07-23T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,18.28,µg/m³,Pass,No,D. Thompson,40.664913,-73.91675
+100127,2018-06-26T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,19.33,ppb,Borderline,No,A. Chen,40.66518,-73.919018
+100128,2017-09-02T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.53,ppm,Pass,No,L. Johnson,40.664069,-73.919224
+100129,2018-01-16T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,2.83,ppb,Pass,No,A. Chen,40.662539,-73.9189
+100130,2017-07-31T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,850.07,ppm,Pass,No,K. Martinez,40.663645,-73.917408
+100131,2017-03-14T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.33,pCi/L,Pass,No,M. Rodriguez,40.664266,-73.917526
+100132,2017-03-27T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,46.36,µg/m³,Fail,Yes,J. Williams,40.662012,-73.916945
+100133,2018-08-31T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,553.3,ppm,Pass,No,M. Rodriguez,40.661501,-73.916587
+100134,2018-08-27T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,4.68,ppb,Pass,No,M. Rodriguez,40.662757,-73.917113
+100135,2018-02-24T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,19.57,ppb,Borderline,No,M. Rodriguez,40.665473,-73.916365
+100136,2018-03-15T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,66.27,ppb,Fail,Yes,M. Rodriguez,40.664133,-73.917924
+100137,2017-12-29T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,25.98,µg/m³,Pass,No,S. Patel,40.664249,-73.916412
+100138,2018-07-02T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,60.34,%,Fail,Yes,A. Chen,40.663548,-73.917204
+100139,2018-02-25T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,14.77,µg/m³,Pass,No,M. Rodriguez,40.66245,-73.91844
+100140,2017-05-24T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,2.38,pCi/L,Pass,No,S. Patel,40.664265,-73.917719
+100141,2017-07-28T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,21.6,ppb,Pass,No,S. Patel,40.661981,-73.919048
+100142,2018-08-22T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,2.39,pCi/L,Pass,No,J. Williams,40.661832,-73.917604
+100143,2017-06-12T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,56.39,%,Borderline,No,S. Patel,40.663556,-73.918618
+100144,2017-05-09T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,11.7,ppb,Pass,No,D. Thompson,40.664039,-73.918624
+100145,2017-12-18T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,58.78,%,Fail,Yes,D. Thompson,40.662595,-73.918679
+100146,2017-08-02T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,11.32,µg/m³,Pass,No,K. Martinez,40.663475,-73.918176
+100147,2017-11-26T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,46.0,%,Pass,No,D. Thompson,40.662814,-73.916786
+100148,2017-05-26T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,2.16,ppm,Borderline,No,A. Chen,40.664549,-73.918675
+100149,2018-09-06T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,750.96,ppm,Pass,No,A. Chen,40.663587,-73.918264
+100150,2017-08-24T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,6.1,ppb,Pass,No,K. Martinez,40.665206,-73.9176
+100151,2017-07-04T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,14.98,µg/m³,Pass,No,A. Chen,40.662506,-73.917495
+100152,2018-05-26T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,14.56,ppb,Pass,No,A. Chen,40.664684,-73.916478
+100153,2018-02-14T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,2.93,pCi/L,Pass,No,K. Martinez,40.662163,-73.91636
+100154,2017-11-22T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,17.66,ppb,Pass,No,A. Chen,40.663868,-73.91692
+100155,2017-12-31T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,48.63,µg/m³,Fail,Yes,D. Thompson,40.661569,-73.915557
+100156,2017-12-08T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,24.78,µg/m³,Pass,No,L. Johnson,40.661702,-73.916901
+100157,2018-05-18T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.96,ppm,Borderline,No,M. Rodriguez,40.664315,-73.915738
+100158,2017-03-10T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,32.96,µg/m³,Pass,No,L. Johnson,40.66356,-73.916894
+100159,2018-01-15T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,724.03,ppm,Pass,No,L. Johnson,40.663729,-73.916438
+100160,2017-06-20T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,3.58,pCi/L,Borderline,No,S. Patel,40.661825,-73.919453
+100161,2017-12-10T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,27.91,µg/m³,Pass,No,D. Thompson,40.664596,-73.919427
+100162,2017-07-29T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,40.59,µg/m³,Borderline,No,S. Patel,40.661626,-73.916688
+100163,2018-04-27T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,42.03,ppb,Pass,No,D. Thompson,40.663819,-73.916175
+100164,2018-02-13T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,44.0,%,Pass,No,S. Patel,40.663491,-73.916298
+100165,2017-06-30T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,1058.58,ppm,Borderline,No,L. Johnson,40.662234,-73.916943
+100166,2017-04-13T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,157.83,ppb,Borderline,No,D. Thompson,40.661817,-73.917998
+100167,2017-07-09T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,843.25,ppm,Pass,No,L. Johnson,40.664773,-73.916235
+100168,2017-10-20T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,20.25,µg/m³,Borderline,No,M. Rodriguez,40.661756,-73.91577
+100169,2017-08-06T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,25.31,ppb,Pass,No,J. Williams,40.66418,-73.919457
+100170,2017-05-13T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,195.94,ppb,Fail,Yes,D. Thompson,40.663813,-73.916664
+100171,2017-08-11T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,36.44,µg/m³,Pass,No,S. Patel,40.665068,-73.916454
+100172,2017-12-05T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,43.05,ppb,Fail,Yes,M. Rodriguez,40.663174,-73.917445
+100173,2017-10-31T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,15.22,µg/m³,Pass,No,A. Chen,40.664094,-73.917107
+100174,2017-08-10T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,37.86,%,Pass,No,K. Martinez,40.663202,-73.917826
+100175,2018-05-31T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,5.6,µg/m³,Pass,No,M. Rodriguez,40.66507,-73.915884
+100176,2017-09-03T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,11.9,µg/m³,Pass,No,S. Patel,40.662077,-73.918247
+100177,2018-06-07T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,6.85,ppb,Pass,No,J. Williams,40.663344,-73.919061
+100178,2017-08-21T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,8.0,ppb,Pass,No,J. Williams,40.662944,-73.91606
+100179,2017-03-17T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,766.09,ppm,Pass,No,J. Williams,40.661977,-73.916888
+100180,2017-12-11T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.17,ppm,Pass,No,D. Thompson,40.663882,-73.915718
+100181,2017-10-26T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,31.67,ppb,Pass,No,M. Rodriguez,40.663675,-73.918672
+100182,2018-08-05T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.5,pCi/L,Pass,No,K. Martinez,40.662312,-73.919011
+100183,2018-08-10T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,9.23,ppb,Pass,No,S. Patel,40.66499,-73.918533
+100184,2017-06-21T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,27.41,ppb,Pass,No,S. Patel,40.662152,-73.916661
+100185,2018-08-04T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,13.1,µg/m³,Pass,No,L. Johnson,40.662578,-73.915802
+100186,2017-06-14T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,19.09,ppb,Borderline,No,M. Rodriguez,40.662927,-73.918564
+100187,2017-09-07T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,11.73,µg/m³,Pass,No,S. Patel,40.665243,-73.916633
+100188,2017-06-12T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,142.59,ppb,Pass,No,L. Johnson,40.662195,-73.918966
+100189,2017-03-14T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,13.53,ppb,Pass,No,A. Chen,40.664193,-73.918641
+100190,2018-06-02T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,23.53,ppb,Pass,No,A. Chen,40.663648,-73.91875
+100191,2018-02-21T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,20.4,µg/m³,Borderline,No,J. Williams,40.664046,-73.916492
+100192,2017-10-23T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,7.61,ppb,Pass,No,K. Martinez,40.662695,-73.917524
+100193,2017-09-11T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,69.26,ppb,Pass,No,L. Johnson,40.664812,-73.919448
+100194,2017-05-04T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,176.58,ppb,Borderline,No,M. Rodriguez,40.665382,-73.919178
+100195,2017-03-06T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,73.29,ppb,Pass,No,A. Chen,40.662755,-73.917941
+100196,2017-05-09T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,22.44,ppb,Pass,No,L. Johnson,40.663637,-73.917382
+100197,2017-03-10T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,754.44,ppm,Pass,No,J. Williams,40.662583,-73.918148
+100198,2017-03-18T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,15.2,µg/m³,Pass,No,J. Williams,40.661998,-73.917772
+100199,2018-06-11T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,29.9,µg/m³,Pass,No,M. Rodriguez,40.664079,-73.918668
+100200,2017-09-12T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,23.45,µg/m³,Fail,Yes,L. Johnson,40.662688,-73.918265
+100201,2017-11-15T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,16.0,ppb,Pass,No,D. Thompson,40.66204,-73.916853
+100202,2018-03-21T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,1170.5,ppm,Fail,Yes,D. Thompson,40.664546,-73.918793
+100203,2017-06-28T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,31.88,ppb,Pass,No,M. Rodriguez,40.662923,-73.917251
+100204,2017-10-13T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,18.68,µg/m³,Pass,No,J. Williams,40.665038,-73.917733
+100205,2018-01-15T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,17.64,µg/m³,Pass,No,A. Chen,40.66261,-73.918081
+100206,2017-10-31T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.76,ppm,Pass,No,K. Martinez,40.662869,-73.918764
+100207,2018-06-03T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,2.26,ppm,Fail,Yes,K. Martinez,40.662805,-73.918596
+100208,2017-08-14T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,38.77,µg/m³,Borderline,No,S. Patel,40.662864,-73.917419
+100209,2017-08-30T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,24.48,µg/m³,Fail,Yes,S. Patel,40.662752,-73.9186
+100210,2017-04-07T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,2.13,ppb,Pass,No,K. Martinez,40.661584,-73.91784
+100211,2018-02-27T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,41.48,%,Pass,No,A. Chen,40.662909,-73.916561
+100212,2017-12-26T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,34.03,ppb,Pass,No,A. Chen,40.661505,-73.91694
+100213,2017-05-24T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,69.99,ppb,Fail,Yes,A. Chen,40.664688,-73.916342
+100214,2018-03-27T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,402.76,ppm,Pass,No,K. Martinez,40.66512,-73.916949
+100215,2017-07-26T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,6.27,µg/m³,Pass,No,L. Johnson,40.664796,-73.915862
+100216,2017-05-11T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,27.72,ppb,Pass,No,J. Williams,40.662698,-73.918996
+100217,2017-05-12T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,812.06,ppm,Pass,No,S. Patel,40.66211,-73.915861
+100218,2017-09-16T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,18.68,µg/m³,Pass,No,J. Williams,40.66283,-73.918895
+100219,2017-10-10T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,136.45,ppb,Pass,No,L. Johnson,40.665388,-73.917782
+100220,2018-02-08T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,155.66,ppb,Borderline,No,D. Thompson,40.661947,-73.918442
+100221,2017-06-12T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,19.48,µg/m³,Pass,No,M. Rodriguez,40.661765,-73.915643
+100222,2018-02-19T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.77,ppm,Pass,No,S. Patel,40.662279,-73.917906
+100223,2018-07-27T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,481.49,ppm,Pass,No,K. Martinez,40.664224,-73.918148
+100224,2018-01-26T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,175.26,ppb,Borderline,No,K. Martinez,40.664623,-73.918316
+100225,2017-11-01T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,149.73,ppb,Pass,No,A. Chen,40.662388,-73.918581
+100226,2017-04-28T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,31.23,ppb,Pass,No,J. Williams,40.664113,-73.915729
+100227,2018-07-12T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,796.28,ppm,Pass,No,K. Martinez,40.66521,-73.915694
+100228,2017-10-05T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,64.47,%,Fail,Yes,D. Thompson,40.661767,-73.916155
+100229,2018-01-02T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,6.38,µg/m³,Pass,No,D. Thompson,40.662693,-73.919003
+100230,2018-01-11T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,37.61,µg/m³,Borderline,No,K. Martinez,40.664637,-73.916286
+100231,2017-10-26T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.64,ppm,Pass,No,L. Johnson,40.663089,-73.918209
+100232,2017-10-05T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,13.25,ppb,Pass,No,A. Chen,40.662143,-73.915843
+100233,2017-12-28T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,68.23,ppb,Fail,Yes,K. Martinez,40.662495,-73.918
+100234,2017-04-22T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,4.19,µg/m³,Pass,No,D. Thompson,40.665034,-73.916117
+100235,2017-04-27T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.83,ppm,Pass,No,S. Patel,40.66316,-73.916994
+100236,2018-02-10T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.66,ppm,Pass,No,A. Chen,40.663656,-73.917961
+100237,2017-09-18T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,50.0,ppb,Pass,No,K. Martinez,40.664961,-73.915783
+100238,2017-03-19T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,38.92,µg/m³,Borderline,No,J. Williams,40.66417,-73.917577
+100239,2017-10-11T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,38.8,µg/m³,Borderline,No,S. Patel,40.663421,-73.91919
+100240,2017-04-24T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,30.42,ppb,Pass,No,A. Chen,40.661704,-73.91585
+100241,2017-10-17T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,21.52,ppb,Pass,No,A. Chen,40.665239,-73.917723
+100242,2017-09-20T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,13.44,µg/m³,Pass,No,M. Rodriguez,40.665486,-73.918021
+100243,2017-08-10T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,57.64,ppb,Borderline,No,D. Thompson,40.664954,-73.916507
+100244,2017-09-07T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,3.78,ppb,Pass,No,M. Rodriguez,40.664055,-73.918217
+100245,2018-02-24T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,11.21,ppb,Pass,No,A. Chen,40.663736,-73.917716
+100246,2018-04-29T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.31,pCi/L,Pass,No,L. Johnson,40.664269,-73.916752
+100247,2018-01-27T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,30.4,ppb,Pass,No,K. Martinez,40.665386,-73.918807
+100248,2018-06-25T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,33.13,µg/m³,Pass,No,D. Thompson,40.662241,-73.915894
+100249,2018-07-30T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,51.99,%,Borderline,No,L. Johnson,40.664522,-73.916815
+100250,2017-05-30T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,894.96,ppm,Pass,No,D. Thompson,40.664528,-73.917576
+100251,2017-09-27T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,37.73,µg/m³,Borderline,No,J. Williams,40.665311,-73.918028
+100252,2018-06-25T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,8.35,µg/m³,Pass,No,M. Rodriguez,40.663571,-73.916158
+100253,2018-03-31T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,36.71,ppb,Borderline,No,J. Williams,40.661952,-73.919193
+100254,2018-03-13T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,19.85,ppb,Pass,No,A. Chen,40.665114,-73.916417
+100255,2017-06-20T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,59.39,%,Fail,Yes,J. Williams,40.662231,-73.91825
+100256,2017-10-04T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,17.05,ppb,Pass,No,J. Williams,40.662598,-73.919097
+100257,2017-06-04T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,197.13,ppb,Fail,Yes,A. Chen,40.66202,-73.917143
+100258,2017-10-30T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,2.46,ppm,Fail,Yes,M. Rodriguez,40.665291,-73.917224
+100259,2018-05-13T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,36.76,µg/m³,Pass,No,L. Johnson,40.66264,-73.91819
+100260,2018-04-16T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,15.49,ppb,Pass,No,K. Martinez,40.665495,-73.917179
+100261,2017-04-25T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,170.53,ppb,Borderline,No,S. Patel,40.662704,-73.919404
+100262,2018-05-12T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,163.31,ppb,Borderline,No,J. Williams,40.664456,-73.91819
+100263,2017-06-21T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.4,ppm,Pass,No,L. Johnson,40.665109,-73.918669
+100264,2018-06-21T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,3.89,pCi/L,Fail,Yes,D. Thompson,40.661963,-73.917026
+100265,2017-09-21T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,17.66,ppb,Pass,No,A. Chen,40.663169,-73.916332
+100266,2017-06-02T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.75,ppm,Pass,No,S. Patel,40.665101,-73.918419
+100267,2017-09-21T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,2.5,pCi/L,Pass,No,M. Rodriguez,40.665436,-73.916314
+100268,2017-10-06T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,4.2,ppb,Pass,No,J. Williams,40.662821,-73.919284
+100269,2017-05-04T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,37.45,ppb,Borderline,No,L. Johnson,40.662781,-73.916166
+100270,2018-06-04T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,2.25,ppm,Borderline,No,J. Williams,40.665219,-73.915881
+100271,2017-10-16T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.65,ppm,Pass,No,A. Chen,40.664436,-73.916081
+100272,2017-12-04T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,11.64,µg/m³,Pass,No,D. Thompson,40.663993,-73.917194
+100273,2018-02-17T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,807.46,ppm,Pass,No,K. Martinez,40.663688,-73.919026
+100274,2017-06-14T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,55.59,%,Borderline,No,S. Patel,40.664309,-73.917704
+100275,2018-02-05T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,42.74,ppb,Pass,No,J. Williams,40.663718,-73.917499
+100276,2018-07-02T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,171.96,ppb,Borderline,No,L. Johnson,40.664785,-73.91786
+100277,2018-07-14T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.56,ppm,Pass,No,K. Martinez,40.664192,-73.917415
+100278,2018-04-18T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,1042.14,ppm,Borderline,No,A. Chen,40.664385,-73.918924
+100279,2018-08-31T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,3.17,pCi/L,Borderline,No,M. Rodriguez,40.663512,-73.91615
+100280,2018-06-19T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,170.99,ppb,Borderline,No,L. Johnson,40.66361,-73.916189
+100281,2018-06-11T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,46.04,µg/m³,Fail,Yes,D. Thompson,40.66152,-73.917365
+100282,2018-04-09T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,24.51,µg/m³,Fail,Yes,D. Thompson,40.661772,-73.918513
+100283,2017-11-11T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,3.98,pCi/L,Fail,Yes,K. Martinez,40.662787,-73.918635
+100284,2017-11-20T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.15,ppm,Pass,No,J. Williams,40.664417,-73.916816
+100285,2017-11-08T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,2.12,ppm,Borderline,No,S. Patel,40.664946,-73.915924
+100286,2017-11-10T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.83,pCi/L,Pass,No,S. Patel,40.665353,-73.915998
+100287,2018-08-13T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,11.99,µg/m³,Pass,No,K. Martinez,40.663383,-73.916644
+100288,2017-03-01T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,182.63,ppb,Fail,Yes,A. Chen,40.6622,-73.917791
+100289,2017-09-28T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,15.45,µg/m³,Pass,No,M. Rodriguez,40.662961,-73.919066
+100290,2017-09-15T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,22.13,µg/m³,Pass,No,D. Thompson,40.662019,-73.91905
+100291,2018-06-07T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,55.83,ppb,Borderline,No,K. Martinez,40.661825,-73.91593
+100292,2017-08-23T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,3.78,pCi/L,Fail,Yes,D. Thompson,40.662752,-73.918548
+100293,2018-06-29T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,27.16,ppb,Pass,No,D. Thompson,40.66408,-73.916218
+100294,2017-03-18T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.55,ppm,Pass,No,K. Martinez,40.66198,-73.918347
+100295,2018-02-23T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.74,pCi/L,Pass,No,M. Rodriguez,40.664172,-73.91814
+100296,2017-04-30T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.12,ppm,Pass,No,K. Martinez,40.664937,-73.91765
+100297,2018-06-02T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,31.21,ppb,Pass,No,J. Williams,40.662801,-73.917067
+100298,2018-04-01T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,983.12,ppm,Borderline,No,A. Chen,40.664234,-73.918603
+100299,2018-01-26T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,21.32,ppb,Pass,No,D. Thompson,40.663115,-73.915709
+100300,2018-07-31T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,33.05,µg/m³,Pass,No,S. Patel,40.662087,-73.918018
+100301,2017-11-27T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,29.45,ppb,Pass,No,D. Thompson,40.661785,-73.91568
+100302,2017-05-12T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,32.31,ppb,Pass,No,J. Williams,40.663437,-73.918404
+100303,2018-02-14T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,439.87,ppm,Pass,No,J. Williams,40.663202,-73.918749
+100304,2017-07-14T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,2.64,pCi/L,Pass,No,K. Martinez,40.664437,-73.919075
+100305,2018-02-20T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,1041.93,ppm,Borderline,No,J. Williams,40.664826,-73.915838
+100306,2018-08-24T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,3.2,pCi/L,Borderline,No,J. Williams,40.661568,-73.916288
+100307,2018-09-05T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,13.36,µg/m³,Pass,No,K. Martinez,40.662303,-73.915598
+100308,2017-06-28T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,43.02,µg/m³,Borderline,No,J. Williams,40.66326,-73.918978
+100309,2018-01-29T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.17,pCi/L,Pass,No,S. Patel,40.664333,-73.918683
+100310,2018-03-31T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,44.09,µg/m³,Borderline,No,J. Williams,40.664985,-73.917561
+100311,2017-06-14T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,3.76,pCi/L,Fail,Yes,L. Johnson,40.663118,-73.916121
+100312,2018-08-16T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,7.47,ppb,Pass,No,M. Rodriguez,40.663683,-73.918667
+100313,2018-01-28T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,7.29,ppb,Pass,No,K. Martinez,40.662685,-73.916539
+100314,2017-08-05T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,40.87,µg/m³,Borderline,No,S. Patel,40.664281,-73.917257
+100315,2017-09-07T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,9.58,ppb,Pass,No,K. Martinez,40.66166,-73.917587
+100316,2017-09-03T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,5.3,µg/m³,Pass,No,K. Martinez,40.663697,-73.917102
+100317,2018-04-02T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,23.07,ppb,Pass,No,J. Williams,40.662044,-73.91649
+100318,2017-03-05T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,51.35,%,Borderline,No,D. Thompson,40.661905,-73.917473
+100319,2017-05-29T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,23.6,µg/m³,Pass,No,M. Rodriguez,40.663305,-73.918284
+100320,2017-10-04T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,36.09,ppb,Pass,No,L. Johnson,40.662583,-73.918014
+100321,2018-04-07T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,40.71,ppb,Pass,No,J. Williams,40.661653,-73.917633
+100322,2018-06-06T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,25.52,ppb,Pass,No,J. Williams,40.663875,-73.919236
+100323,2017-03-20T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,21.71,ppb,Pass,No,J. Williams,40.662812,-73.915597
+100324,2017-10-29T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,971.36,ppm,Borderline,No,S. Patel,40.662056,-73.918818
+100325,2017-09-25T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,24.78,µg/m³,Fail,Yes,L. Johnson,40.663268,-73.917577
+100326,2017-04-29T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.8,ppm,Pass,No,L. Johnson,40.661657,-73.918829
+100327,2018-02-07T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,16.63,µg/m³,Pass,No,D. Thompson,40.663789,-73.918516
+100328,2018-05-14T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,9.7,ppb,Pass,No,M. Rodriguez,40.662275,-73.917319
+100329,2018-06-15T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,158.01,ppb,Borderline,No,S. Patel,40.663331,-73.917438
+100330,2017-06-15T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,15.27,ppb,Pass,No,D. Thompson,40.665357,-73.916854
+100331,2018-04-07T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,3.54,pCi/L,Borderline,No,S. Patel,40.663697,-73.917938
+100332,2017-10-28T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,31.3,µg/m³,Pass,No,M. Rodriguez,40.664688,-73.917718
+100333,2017-11-14T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,2.05,pCi/L,Pass,No,S. Patel,40.66403,-73.916721
+100334,2017-10-09T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,3.53,pCi/L,Borderline,No,D. Thompson,40.662456,-73.915767
+100335,2017-08-17T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.09,ppm,Pass,No,S. Patel,40.663996,-73.918872
+100336,2017-09-08T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,61.44,%,Fail,Yes,M. Rodriguez,40.66283,-73.918021
+100337,2018-05-30T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,16.29,ppb,Pass,No,A. Chen,40.66298,-73.917668
+100338,2018-02-11T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,0.77,pCi/L,Pass,No,J. Williams,40.661782,-73.918137
+100339,2018-01-15T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,117.24,ppb,Pass,No,M. Rodriguez,40.665345,-73.916761
+100340,2018-08-17T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,648.56,ppm,Pass,No,M. Rodriguez,40.662987,-73.917714
+100341,2017-04-04T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,13.24,µg/m³,Pass,No,M. Rodriguez,40.664211,-73.918853
+100342,2018-07-07T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,4.8,ppb,Pass,No,A. Chen,40.662312,-73.916748
+100343,2017-05-20T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,20.15,ppb,Borderline,No,K. Martinez,40.662491,-73.917602
+100344,2018-05-11T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,2.46,pCi/L,Pass,No,K. Martinez,40.662388,-73.915884
+100345,2018-04-06T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.86,pCi/L,Pass,No,J. Williams,40.662659,-73.918231
+100346,2017-12-26T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,39.91,ppb,Borderline,No,M. Rodriguez,40.664568,-73.91652
+100347,2018-06-26T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,8.92,ppb,Pass,No,M. Rodriguez,40.661647,-73.91815
+100348,2018-06-07T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,20.71,ppb,Pass,No,S. Patel,40.661701,-73.916662
+100349,2018-02-17T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,772.53,ppm,Pass,No,M. Rodriguez,40.662656,-73.916977
+100350,2017-09-07T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,0.98,pCi/L,Pass,No,A. Chen,40.665478,-73.918491
+100351,2017-07-24T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,48.34,ppb,Pass,No,J. Williams,40.661942,-73.918307
+100352,2017-09-11T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,26.34,ppb,Pass,No,J. Williams,40.663238,-73.917299
+100353,2018-05-24T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,2.28,pCi/L,Pass,No,A. Chen,40.665306,-73.918137
+100354,2018-07-23T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,15.75,ppb,Pass,No,K. Martinez,40.662911,-73.915528
+100355,2017-05-15T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,1007.72,ppm,Borderline,No,L. Johnson,40.661512,-73.916276
+100356,2018-01-24T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,39.09,ppb,Pass,No,J. Williams,40.662164,-73.917799
+100357,2018-06-12T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,917.78,ppm,Borderline,No,S. Patel,40.663687,-73.917444
+100358,2017-07-19T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,2.02,ppm,Borderline,No,J. Williams,40.662354,-73.919471
+100359,2017-06-24T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,25.18,ppb,Pass,No,J. Williams,40.662245,-73.917324
+100360,2017-11-25T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,63.33,%,Fail,Yes,M. Rodriguez,40.663198,-73.918361
+100361,2018-05-17T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,618.28,ppm,Pass,No,L. Johnson,40.662789,-73.917377
+100362,2018-03-09T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,12.51,ppb,Pass,No,J. Williams,40.661808,-73.918674
+100363,2017-07-03T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.77,pCi/L,Pass,No,L. Johnson,40.665459,-73.918815
+100364,2017-07-06T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,19.73,ppb,Borderline,No,L. Johnson,40.661952,-73.918417
+100365,2018-05-02T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.9,pCi/L,Pass,No,K. Martinez,40.663715,-73.916906
+100366,2017-05-11T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,85.84,ppb,Pass,No,J. Williams,40.662265,-73.917582
+100367,2018-07-18T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,2.11,ppm,Borderline,No,J. Williams,40.662896,-73.916691
+100368,2017-06-07T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.01,pCi/L,Pass,No,L. Johnson,40.661944,-73.917606
+100369,2017-12-02T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,0.73,pCi/L,Pass,No,J. Williams,40.663076,-73.917531
+100370,2018-02-04T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,20.93,µg/m³,Borderline,No,J. Williams,40.663927,-73.915873
+100371,2017-09-21T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,141.22,ppb,Pass,No,J. Williams,40.664864,-73.918944
+100372,2017-12-09T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,158.85,ppb,Borderline,No,M. Rodriguez,40.662807,-73.916308
+100373,2017-10-17T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,61.89,%,Fail,Yes,A. Chen,40.664139,-73.917157
+100374,2017-11-27T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.22,ppm,Pass,No,D. Thompson,40.662477,-73.918138
+100375,2017-06-19T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,27.73,µg/m³,Pass,No,J. Williams,40.663855,-73.917091
+100376,2018-04-27T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,18.21,µg/m³,Pass,No,D. Thompson,40.664101,-73.918325
+100377,2018-06-17T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,41.21,ppb,Pass,No,M. Rodriguez,40.663822,-73.919201
+100378,2017-03-20T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,1160.27,ppm,Fail,Yes,L. Johnson,40.662168,-73.917707
+100379,2018-02-28T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,36.42,µg/m³,Pass,No,S. Patel,40.663862,-73.918542
+100380,2017-09-03T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,2.09,pCi/L,Pass,No,J. Williams,40.662362,-73.916987
+100381,2017-05-12T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,20.3,ppb,Pass,No,K. Martinez,40.663847,-73.918227
+100382,2018-06-19T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,14.33,ppb,Pass,No,M. Rodriguez,40.665421,-73.916786
+100383,2018-04-15T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,35.13,µg/m³,Pass,No,A. Chen,40.661847,-73.918068
+100384,2018-01-04T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,32.42,ppb,Pass,No,M. Rodriguez,40.664365,-73.918358
+100385,2017-03-23T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,20.66,ppb,Borderline,No,L. Johnson,40.661777,-73.916064
+100386,2017-11-24T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,168.06,ppb,Borderline,No,A. Chen,40.663451,-73.917412
+100387,2017-03-19T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,25.13,ppb,Pass,No,S. Patel,40.664101,-73.917477
+100388,2018-03-09T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,48.64,%,Pass,No,M. Rodriguez,40.665204,-73.91641
+100389,2018-08-31T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,21.54,µg/m³,Borderline,No,S. Patel,40.664142,-73.919039
+100390,2017-03-18T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,2.32,ppm,Fail,Yes,M. Rodriguez,40.662666,-73.918689
+100391,2018-05-21T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,0.61,pCi/L,Pass,No,M. Rodriguez,40.663142,-73.915975
+100392,2017-08-22T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,472.81,ppm,Pass,No,S. Patel,40.66325,-73.916463
+100393,2017-11-29T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,491.07,ppm,Pass,No,J. Williams,40.664112,-73.918769
+100394,2018-09-03T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,406.8,ppm,Pass,No,K. Martinez,40.665462,-73.917079
+100395,2017-04-01T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,3.04,ppb,Pass,No,K. Martinez,40.664195,-73.915636
+100396,2018-01-02T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,10.18,ppb,Pass,No,M. Rodriguez,40.664139,-73.918913
+100397,2018-06-17T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,17.17,µg/m³,Pass,No,S. Patel,40.662016,-73.916442
+100398,2018-02-22T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,36.68,ppb,Borderline,No,D. Thompson,40.662522,-73.918267
+100399,2017-04-03T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,127.29,ppb,Pass,No,J. Williams,40.664705,-73.917128
+100400,2018-02-16T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,37.62,ppb,Borderline,No,J. Williams,40.664861,-73.916773
+100401,2018-03-02T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,865.26,ppm,Pass,No,J. Williams,40.663638,-73.918854
+100402,2017-06-30T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,4.96,ppb,Pass,No,K. Martinez,40.66252,-73.916959
+100403,2017-07-01T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,128.75,ppb,Pass,No,S. Patel,40.665134,-73.91703
+100404,2018-06-08T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,36.46,µg/m³,Pass,No,K. Martinez,40.66476,-73.918017
+100405,2017-10-15T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,852.74,ppm,Pass,No,L. Johnson,40.665335,-73.916877
+100406,2018-08-11T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,124.23,ppb,Pass,No,K. Martinez,40.662508,-73.918226
+100407,2018-06-26T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,142.79,ppb,Pass,No,K. Martinez,40.662503,-73.919358
+100408,2017-05-22T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.32,ppm,Pass,No,M. Rodriguez,40.664975,-73.916391
+100409,2018-01-16T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,564.92,ppm,Pass,No,M. Rodriguez,40.664014,-73.917666
+100410,2018-01-27T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,850.11,ppm,Pass,No,A. Chen,40.661575,-73.917484
+100411,2018-01-29T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,68.82,ppb,Fail,Yes,A. Chen,40.66539,-73.916191
+100412,2018-03-15T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,6.95,µg/m³,Pass,No,S. Patel,40.662718,-73.918983
+100413,2018-06-28T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,43.35,%,Pass,No,D. Thompson,40.66519,-73.91945
+100414,2018-02-27T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,18.76,ppb,Borderline,No,J. Williams,40.663929,-73.915925
+100415,2018-08-16T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.77,pCi/L,Pass,No,M. Rodriguez,40.663848,-73.918545
+100416,2017-05-22T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,27.82,ppb,Pass,No,M. Rodriguez,40.664719,-73.917841
+100417,2017-11-18T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.03,ppm,Pass,No,S. Patel,40.661703,-73.919295
+100418,2017-05-17T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.59,ppm,Pass,No,K. Martinez,40.663446,-73.918444
+100419,2017-03-20T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.56,pCi/L,Pass,No,K. Martinez,40.663874,-73.915686
+100420,2018-06-23T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,744.12,ppm,Pass,No,D. Thompson,40.662974,-73.91608
+100421,2018-02-22T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,46.86,µg/m³,Fail,Yes,K. Martinez,40.665387,-73.917953
+100422,2017-05-04T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,7.13,µg/m³,Pass,No,A. Chen,40.66341,-73.918864
+100423,2018-02-02T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,5.16,ppb,Pass,No,D. Thompson,40.66295,-73.916638
+100424,2018-06-25T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,23.0,ppb,Pass,No,K. Martinez,40.661533,-73.915687
+100425,2017-09-20T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,7.6,µg/m³,Pass,No,L. Johnson,40.663425,-73.917485
+100426,2017-03-08T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,199.98,ppb,Fail,Yes,S. Patel,40.665347,-73.918813
+100427,2017-07-08T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,53.66,%,Borderline,No,L. Johnson,40.662714,-73.915646
+100428,2018-03-15T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,15.18,ppb,Pass,No,A. Chen,40.664427,-73.919186
+100429,2017-07-29T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,48.28,%,Pass,No,L. Johnson,40.663944,-73.916036
+100430,2017-06-29T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,16.19,ppb,Pass,No,A. Chen,40.664381,-73.9191
+100431,2017-10-15T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,28.64,ppb,Pass,No,J. Williams,40.662006,-73.915859
+100432,2017-08-09T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.8,ppm,Pass,No,K. Martinez,40.66453,-73.916294
+100433,2017-07-11T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,12.11,µg/m³,Pass,No,L. Johnson,40.663583,-73.916639
+100434,2017-07-26T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,482.4,ppm,Pass,No,K. Martinez,40.665396,-73.918045
+100435,2018-06-25T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,3.84,pCi/L,Fail,Yes,K. Martinez,40.661941,-73.916559
+100436,2017-10-07T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,11.19,µg/m³,Pass,No,K. Martinez,40.66383,-73.919271
+100437,2017-05-12T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,19.42,µg/m³,Borderline,No,S. Patel,40.663158,-73.919197
+100438,2018-04-09T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,39.68,µg/m³,Borderline,No,J. Williams,40.665098,-73.915605
+100439,2018-06-05T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,14.82,ppb,Pass,No,J. Williams,40.66523,-73.918383
+100440,2018-05-16T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,5.11,ppb,Pass,No,M. Rodriguez,40.662378,-73.918444
+100441,2017-04-29T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,51.67,%,Borderline,No,D. Thompson,40.66227,-73.918398
+100442,2017-05-13T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,7.01,ppb,Pass,No,L. Johnson,40.664496,-73.916043
+100443,2017-03-18T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,1089.41,ppm,Fail,Yes,L. Johnson,40.664988,-73.915912
+100444,2017-07-13T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,27.39,µg/m³,Pass,No,A. Chen,40.661841,-73.917325
+100445,2018-01-13T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,38.42,ppb,Pass,No,L. Johnson,40.664411,-73.918796
+100446,2018-04-08T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,1151.01,ppm,Fail,Yes,K. Martinez,40.663393,-73.918457
+100447,2018-08-24T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,95.79,ppb,Pass,No,K. Martinez,40.663991,-73.916893
+100448,2018-02-18T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,40.51,ppb,Fail,Yes,J. Williams,40.662146,-73.916504
+100449,2018-03-23T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,136.22,ppb,Pass,No,K. Martinez,40.661601,-73.918462
+100450,2018-04-17T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,57.72,%,Borderline,No,L. Johnson,40.663064,-73.917366
+100451,2017-11-07T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,44.94,µg/m³,Borderline,No,K. Martinez,40.662135,-73.917066
+100452,2017-03-28T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.46,ppm,Pass,No,S. Patel,40.662538,-73.915534
+100453,2017-12-18T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,53.16,%,Borderline,No,S. Patel,40.661839,-73.91712
+100454,2017-12-15T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.75,ppm,Pass,No,D. Thompson,40.664252,-73.916639
+100455,2017-10-30T00:00:00,"Building 1, Floor 3","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,2.18,ppm,Borderline,No,M. Rodriguez,40.663193,-73.917678
+100456,2018-06-23T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,36.2,µg/m³,Pass,No,A. Chen,40.664819,-73.917846
+100457,2018-09-11T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.96,ppm,Borderline,No,L. Johnson,40.663758,-73.91643
+100458,2018-03-31T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,9.81,µg/m³,Pass,No,L. Johnson,40.66526,-73.918058
+100459,2017-12-12T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,32.72,ppb,Pass,No,J. Williams,40.66301,-73.915986
+100460,2017-05-14T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,29.5,µg/m³,Pass,No,L. Johnson,40.664444,-73.919203
+100461,2018-03-17T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,1059.34,ppm,Borderline,No,A. Chen,40.66336,-73.915724
+100462,2018-08-20T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,9.06,ppb,Pass,No,A. Chen,40.663206,-73.915972
+100463,2017-12-01T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,149.85,ppb,Pass,No,A. Chen,40.664524,-73.91907
+100464,2018-08-02T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,14.71,µg/m³,Pass,No,M. Rodriguez,40.662119,-73.917869
+100465,2018-05-22T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,1.3,pCi/L,Pass,No,M. Rodriguez,40.66536,-73.916988
+100466,2017-12-30T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,2.32,pCi/L,Pass,No,L. Johnson,40.662943,-73.919105
+100467,2017-09-07T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,33.14,µg/m³,Pass,No,J. Williams,40.663263,-73.916509
+100468,2017-08-01T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,141.56,ppb,Pass,No,M. Rodriguez,40.662927,-73.917141
+100469,2017-05-16T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,65.97,ppb,Pass,No,M. Rodriguez,40.662633,-73.919002
+100470,2017-03-26T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,61.19,%,Fail,Yes,S. Patel,40.665055,-73.916035
+100471,2017-11-11T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,717.28,ppm,Pass,No,K. Martinez,40.662635,-73.918285
+100472,2018-08-19T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,13.16,µg/m³,Pass,No,D. Thompson,40.662083,-73.919101
+100473,2018-05-20T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,71.61,ppb,Pass,No,J. Williams,40.664525,-73.9175
+100474,2017-09-23T00:00:00,"Building 3, Lobby","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,52.15,%,Borderline,No,K. Martinez,40.664007,-73.916146
+100475,2017-07-12T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,55.55,ppb,Pass,No,S. Patel,40.662983,-73.918098
+100476,2018-07-27T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,1.87,ppm,Pass,No,K. Martinez,40.664453,-73.915838
+100477,2017-08-19T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Nitrogen Dioxide,NO2,27.01,ppb,Pass,No,A. Chen,40.664649,-73.916928
+100478,2017-12-03T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.66,ppm,Pass,No,D. Thompson,40.661782,-73.916728
+100479,2017-03-04T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,6.16,ppb,Pass,No,L. Johnson,40.664145,-73.917347
+100480,2017-04-12T00:00:00,Storage Room A,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,52.44,%,Borderline,No,M. Rodriguez,40.664588,-73.918597
+100481,2017-12-17T00:00:00,Basement Level 1,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,35.56,ppb,Pass,No,J. Williams,40.662997,-73.916717
+100482,2018-05-05T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Monoxide,CO,0.44,ppm,Pass,No,M. Rodriguez,40.66225,-73.916062
+100483,2017-05-04T00:00:00,"Building 4, Hallway B","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,8.85,µg/m³,Pass,No,S. Patel,40.662146,-73.918833
+100484,2018-06-27T00:00:00,Recreation Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,26.7,ppb,Pass,No,A. Chen,40.664603,-73.918196
+100485,2018-01-29T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,83.87,ppb,Pass,No,S. Patel,40.662863,-73.916339
+100486,2017-09-22T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,1069.34,ppm,Borderline,No,L. Johnson,40.662861,-73.916568
+100487,2017-07-11T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,29.46,ppb,Pass,No,M. Rodriguez,40.663728,-73.917449
+100488,2018-08-01T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,17.17,ppb,Pass,No,J. Williams,40.663361,-73.917381
+100489,2018-02-02T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,3.15,pCi/L,Borderline,No,D. Thompson,40.664044,-73.917734
+100490,2018-04-18T00:00:00,"Building 1, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,48.45,ppb,Pass,No,K. Martinez,40.661792,-73.919234
+100491,2018-02-06T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 10,PM10,34.91,µg/m³,Pass,No,M. Rodriguez,40.662509,-73.917622
+100492,2018-07-29T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Radon,Rn,3.64,pCi/L,Fail,Yes,L. Johnson,40.663823,-73.916306
+100493,2018-08-26T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Particulate Matter 2.5,PM2.5,17.77,µg/m³,Pass,No,S. Patel,40.662767,-73.91894
+100494,2018-06-21T00:00:00,Community Center,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,1176.04,ppm,Fail,Yes,S. Patel,40.662093,-73.91667
+100495,2017-03-24T00:00:00,"Building 2, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,666.82,ppm,Pass,No,L. Johnson,40.662096,-73.917788
+100496,2018-03-09T00:00:00,Laundry Room,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Formaldehyde,HCHO,19.41,ppb,Borderline,No,K. Martinez,40.664652,-73.918434
+100497,2017-11-15T00:00:00,Storage Room B,"310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Ozone,O3,38.1,ppb,Pass,No,J. Williams,40.662227,-73.916125
+100498,2018-01-31T00:00:00,"Building 2, Floor 1","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Relative Humidity,RH,41.46,%,Pass,No,J. Williams,40.664079,-73.915669
+100499,2017-08-01T00:00:00,"Building 1, Floor 2","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Carbon Dioxide,CO2,1080.8,ppm,Fail,Yes,J. Williams,40.663718,-73.916537
+100500,2018-05-07T00:00:00,"Building 4, Hallway A","310 Rockaway Ave, Brooklyn, NY 11212",Brooklyn,5,Volatile Organic Compounds,VOC,73.16,ppb,Pass,No,D. Thompson,40.665076,-73.916863

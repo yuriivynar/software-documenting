@@ -1,0 +1,22 @@
+output:
+  strategy: console
+
+dataset:
+  url: "https://data.cityofnewyork.us/resource/dsyc-npkh.json"
+  local_path: "data/air_quality.csv"
+  limit: 500
+
+kafka:
+  bootstrap_servers: "localhost:9092"
+  topic: "air_quality_data"
+  client_id: "air_quality_producer"
+  message_format: "json"
+
+redis:
+  host: "localhost"
+  port: 6379
+  db: 0
+  password: null
+  key_prefix: "air_quality"
+  ttl: null
+  storage_type: "hash"
