@@ -3,15 +3,10 @@ import logging
 from pathlib import Path
 from typing import Generator, List, Optional
 
-<<<<<<< Updated upstream
-from fastapi import FastAPI, Depends, HTTPException, Query
-from fastapi.responses import JSONResponse
-=======
 from fastapi import APIRouter, Depends, FastAPI, HTTPException, Query, Request
 from fastapi.openapi.docs import get_swagger_ui_html, get_swagger_ui_oauth2_redirect_html
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
->>>>>>> Stashed changes
 from pydantic import BaseModel
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, Session
@@ -36,15 +31,6 @@ from generator.csv_generator import generate as csv_generate
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-<<<<<<< Updated upstream
-
-
-DATABASE_URL = os.getenv(
-    "DATABASE_URL",
-    "postgresql://postgres:@localhost:5432/docs_lab2"
-)
-engine = create_engine(DATABASE_URL)
-=======
 # ---------------------------------------------------------------------------
 # Shared overlay snippet — injected into both /docs and /
 # ---------------------------------------------------------------------------
@@ -221,13 +207,10 @@ OVERLAY_GATE_SNIPPET = """
 DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:@localhost:5432/docs_lab2")
 ENGINE_KWARGS = {"connect_args": {"check_same_thread": False}} if DATABASE_URL.startswith("sqlite") else {}
 engine = create_engine(DATABASE_URL, **ENGINE_KWARGS)
->>>>>>> Stashed changes
 Base.metadata.create_all(bind=engine)
 SessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)
 
 
-<<<<<<< Updated upstream
-=======
 class CategoryOut(BaseModel):
     id: int
     name: str
@@ -336,7 +319,6 @@ app = FastAPI(
 templates_dir = Path(__file__).parent / "presentation" / "templates"
 app.state.templates = Jinja2Templates(directory=str(templates_dir))
 
->>>>>>> Stashed changes
 
 def get_db() -> Generator[Session, None, None]:
     db = SessionLocal()
@@ -535,10 +517,6 @@ def generate_csv(
 
 
 
-<<<<<<< Updated upstream
-@app.post("/import", response_model=ImportStats,
-          summary="Import CSV into PostgreSQL", tags=["Import"])
-=======
 
 app.state.product_service_factory = lambda req: ProductService(
     ProductRepository(req.state.db),
@@ -626,7 +604,6 @@ def generate_csv(
 
 
 @api_router.post("/import", response_model=ImportStats, tags=["Import"])
->>>>>>> Stashed changes
 def import_csv(
     file_path: str = Query(default="data.csv", description="Path to CSV file"),
     svc: IImportService = Depends(get_import_service),
