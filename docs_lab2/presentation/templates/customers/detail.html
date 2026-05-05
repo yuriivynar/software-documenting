@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block title %}{{ customer.email }}{% endblock %}
+
+{% block content %}
+<nav aria-label="breadcrumb" class="mb-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/customers">Customers</a></li>
+        <li class="breadcrumb-item active">{{ customer.email }}</li>
+    </ol>
+</nav>
+
+{% if request.query_params.get('created') %}
+<div class="alert alert-success alert-flash">Customer created successfully.</div>
+{% endif %}
+{% if request.query_params.get('updated') %}
+<div class="alert alert-success alert-flash">Customer updated successfully.</div>
+{% endif %}
+
+<div class="row g-4">
+    <div class="col-lg-5">
+        <div class="card">
+            <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                <h2 class="h4 mb-0">{{ customer.email }}</h2>
+                <span class="badge bg-light text-dark border text-capitalize">{{ customer.customer_type.value }}</span>
+            </div>
+            <div class="card-body">
+                <dl class="row mb-0">
+                    <dt class="col-sm-4">Customer ID</dt>
+                    <dd class="col-sm-8">{{ customer.id }}</dd>
+                    {% if customer.customer_type.value == 'personal' %}
+                    <dt class="col-sm-4">First Name</dt>
+                    <dd class="col-sm-8">{{ customer.first_name }}</dd>
+                    <dt class="col-sm-4">Last Name</dt>
+                    <dd class="col-sm-8">{{ customer.last_name }}</dd>
+                    {% else %}
+                    <dt class="col-sm-4">Company</dt>
+                    <dd class="col-sm-8">{{ customer.company_name }}</dd>
+                    <dt class="col-sm-4">Tax ID</dt>
+                    <dd class="col-sm-8">{{ customer.tax_id }}</dd>
+                    {% endif %}
+                </dl>
+                <div class="d-grid gap-2 mt-4">
+                    <a href="/customers/{{ customer.id }}/edit" class="btn btn-primary">Edit customer</a>
+                    <a href="/customers/{{ customer.id }}/delete" class="btn btn-outline-danger">Delete customer</a>
+                    <a href="/orders/create" class="btn btn-outline-success">Create order for this customer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-7">
+        <div class="card">
+            <div class="card-header bg-white">Order history</div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Order</th>
+                                <th>Status</th>
+                                <th class="text-end">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for order in orders %}
+                            <tr>
+                                <td><a href="/orders/{{ order.id }}" class="text-decoration-none">#{{ order.id }}</a></td>
+                                <td><span class="badge badge-{{ order.status.value }}">{{ order.status.value }}</span></td>
+                                <td class="text-end">${{ "%.2f"|format(order.total_amount or 0) }}</td>
+                            </tr>
+                            {% else %}
+                            <tr>
+                                <td colspan="3" class="text-center py-4 text-muted">No orders for this customer.</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

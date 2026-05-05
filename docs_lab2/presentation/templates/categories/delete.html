@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Delete {{ category.name }}{% endblock %}
+
+{% block content %}
+<nav aria-label="breadcrumb" class="mb-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/categories">Categories</a></li>
+        <li class="breadcrumb-item"><a href="/categories/{{ category.id }}">{{ category.name }}</a></li>
+        <li class="breadcrumb-item active">Delete</li>
+    </ol>
+</nav>
+
+<div class="row justify-content-center">
+    <div class="col-lg-6">
+        <div class="card border-danger">
+            <div class="card-header bg-danger text-white">Delete Category</div>
+            <div class="card-body">
+                {% if error %}
+                <div class="alert alert-danger">{{ error }}</div>
+                {% endif %}
+                <p>Delete category <strong>{{ category.name }}</strong>?</p>
+                <p class="text-muted">Deletion is allowed only when the category has no products.</p>
+                <form method="post" action="/categories/{{ category.id }}/delete" class="d-flex gap-2">
+                    <button class="btn btn-danger" type="submit">Delete category</button>
+                    <a href="/categories/{{ category.id }}" class="btn btn-outline-secondary">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

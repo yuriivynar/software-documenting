@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Delete {{ customer.email }}{% endblock %}
+
+{% block content %}
+<nav aria-label="breadcrumb" class="mb-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/customers">Customers</a></li>
+        <li class="breadcrumb-item"><a href="/customers/{{ customer.id }}">{{ customer.email }}</a></li>
+        <li class="breadcrumb-item active">Delete</li>
+    </ol>
+</nav>
+
+<div class="row justify-content-center">
+    <div class="col-lg-6">
+        <div class="card border-danger">
+            <div class="card-header bg-danger text-white">Delete Customer</div>
+            <div class="card-body">
+                {% if error %}
+                <div class="alert alert-danger">{{ error }}</div>
+                {% endif %}
+                <p>Delete customer <strong>{{ customer.email }}</strong>?</p>
+                <p class="text-muted">Deletion is blocked when related orders, addresses, or cart data exist.</p>
+                <form method="post" action="/customers/{{ customer.id }}/delete" class="d-flex gap-2">
+                    <button class="btn btn-danger" type="submit">Delete customer</button>
+                    <a href="/customers/{{ customer.id }}" class="btn btn-outline-secondary">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

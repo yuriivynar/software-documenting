@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% block title %}{% if product %}Edit {{ product.name }}{% else %}Add Product{% endif %}{% endblock %}
+
+{% block content %}
+<nav aria-label="breadcrumb" class="mb-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/products">Products</a></li>
+        {% if product %}
+        <li class="breadcrumb-item">
+            <a href="/products/{{ product.id }}">{{ product.name }}</a>
+        </li>
+        <li class="breadcrumb-item active">Edit</li>
+        {% else %}
+        <li class="breadcrumb-item active">Add Product</li>
+        {% endif %}
+    </ol>
+</nav>
+
+<div class="row justify-content-center">
+    <div class="col-lg-7">
+        <div class="card">
+            <div class="card-header bg-white">
+                <h2 class="h4 mb-0">
+                    {% if product %}
+                    <i class="bi bi-pencil me-2 text-primary"></i>Edit Product
+                    {% else %}
+                    <i class="bi bi-plus-circle me-2 text-success"></i>Add New Product
+                    {% endif %}
+                </h2>
+            </div>
+            <div class="card-body">
+                {% if error %}
+                <div class="alert alert-danger d-flex align-items-center">
+                    <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                    {{ error }}
+                </div>
+                {% endif %}
+
+                <form method="post"
+                      action="{% if product %}/products/{{ product.id }}/edit{% else %}/products/create{% endif %}">
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold" for="name">
+                            Product Name <span class="text-danger">*</span>
+                        </label>
+                        <input type="text" id="name" name="name" class="form-control"
+                               placeholder="e.g. Samsung Galaxy S24 Pro"
+                               value="{{ form_data.name if form_data else (product.name if product else '') }}"
+                               required maxlength="200">
+                        <div class="form-text">Maximum 200 characters.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold" for="price">
+                            Price (USD) <span class="text-danger">*</span>
+                        </label>
+                        <div class="input-group">
+                            <span class="input-group-text">$</span>
+                            <input type="number" id="price" name="price"
+                                   class="form-control" step="0.01" min="0.01"
+                                   placeholder="0.00"
+                                   value="{{ form_data.price if form_data else (product.price if product else '') }}"
+                                   required>
+                        </div>
+                        <div class="form-text">Must be a positive number.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold" for="category_id">
+                            Category <span class="text-danger">*</span>
+                        </label>
+                        {% set current_cat = form_data.category_id if form_data else (product.category_id if product else 0) %}
+                        <select id="category_id" name="category_id" class="form-select" required>
+                            <option value="">— Select a category —</option>
+                            {% for cat in categories %}
+                            <option value="{{ cat.id }}"
+                                {% if current_cat == cat.id %}selected{% endif %}>
+                                {{ cat.name }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                        {% if not categories %}
+                        <div class="form-text text-warning">
+                            <i class="bi bi-exclamation-triangle me-1"></i>
+                            No categories found. Create a category first.
+                        </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label fw-semibold" for="description">
+                            Description <span class="text-muted fw-normal">(optional)</span>
+                        </label>
+                        <textarea id="description" name="description" class="form-control"
+                                  rows="3" maxlength="500"
+                                  placeholder="Brief description of the product…">{{ form_data.description if form_data else (product.description if product else '') }}</textarea>
+                        <div class="form-text">Maximum 500 characters.</div>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-{% if product %}primary{% else %}success{% endif %} px-4">
+                            <i class="bi bi-{% if product %}check-circle{% else %}plus-circle{% endif %} me-2"></i>
+                            {% if product %}Save Changes{% else %}Create Product{% endif %}
+                        </button>
+                        {% if product %}
+                        <a href="/products/{{ product.id }}" class="btn btn-outline-secondary">
+                            Cancel
+                        </a>
+                        {% else %}
+                        <a href="/products" class="btn btn-outline-secondary">
+                            Cancel
+                        </a>
+                        {% endif %}
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

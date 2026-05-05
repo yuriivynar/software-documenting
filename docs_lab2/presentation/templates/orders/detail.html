@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block title %}Order #{{ order.id }}{% endblock %}
+
+{% block content %}
+<nav aria-label="breadcrumb" class="mb-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/orders">Orders</a></li>
+        <li class="breadcrumb-item active">Order #{{ order.id }}</li>
+    </ol>
+</nav>
+
+{% if request.query_params.get('created') %}
+<div class="alert alert-success alert-flash">Order created successfully.</div>
+{% endif %}
+{% if request.query_params.get('updated') %}
+<div class="alert alert-success alert-flash">Order updated successfully.</div>
+{% endif %}
+
+<div class="row g-4">
+    <div class="col-lg-5">
+        <div class="card">
+            <div class="card-header bg-white">Order Summary</div>
+            <div class="card-body">
+                <dl class="row mb-0">
+                    <dt class="col-sm-5">Order ID</dt>
+                    <dd class="col-sm-7">#{{ order.id }}</dd>
+                    <dt class="col-sm-5">Customer</dt>
+                    <dd class="col-sm-7"><a href="/customers/{{ order.customer_id }}" class="text-decoration-none">{{ order.customer.email if order.customer else "Customer #" ~ order.customer_id }}</a></dd>
+                    <dt class="col-sm-5">Status</dt>
+                    <dd class="col-sm-7"><span class="badge badge-{{ order.status.value }}">{{ order.status.value }}</span></dd>
+                    <dt class="col-sm-5">Payment</dt>
+                    <dd class="col-sm-7">{{ order.payment_method.value if order.payment_method else "—" }}</dd>
+                    <dt class="col-sm-5">Created</dt>
+                    <dd class="col-sm-7">{{ order.created_at.strftime("%Y-%m-%d %H:%M") }}</dd>
+                    <dt class="col-sm-5">Total</dt>
+                    <dd class="col-sm-7 text-success fw-semibold">${{ "%.2f"|format(total) }}</dd>
+                </dl>
+                {% if order.notes %}
+                <hr>
+                <h6 class="text-muted text-uppercase small">Notes</h6>
+                <p class="mb-0">{{ order.notes }}</p>
+                {% endif %}
+                {% if order.shipping_address %}
+                <hr>
+                <h6 class="text-muted text-uppercase small">Shipping Address</h6>
+                <p class="mb-0">
+                    {{ order.shipping_address.street }}<br>
+                    {{ order.shipping_address.city }}, {{ order.shipping_address.country }}<br>
+                    {{ order.shipping_address.postal_code }}
+                </p>
+                {% endif %}
+                <div class="d-grid gap-2 mt-4">
+                    <a href="/orders/{{ order.id }}/edit" class="btn btn-primary">Edit order</a>
+                    <a href="/orders/{{ order.id }}/delete" class="btn btn-outline-danger">Delete order</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-7">
+        <div class="card">
+            <div class="card-header bg-white">Line Items</div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Product</th>
+                                <th class="text-end">Qty</th>
+                                <th class="text-end">Unit Price</th>
+                                <th class="text-end">Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for item in order.line_items %}
+                            <tr>
+                                <td><a href="/products/{{ item.product_id }}" class="text-decoration-none">{{ item.product.name if item.product else "Product #" ~ item.product_id }}</a></td>
+                                <td class="text-end">{{ item.quantity }}</td>
+                                <td class="text-end">${{ "%.2f"|format(item.unit_price) }}</td>
+                                <td class="text-end">${{ "%.2f"|format(item.quantity * item.unit_price) }}</td>
+                            </tr>
+                            {% else %}
+                            <tr>
+                                <td colspan="4" class="text-center py-4 text-muted">No line items found.</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
