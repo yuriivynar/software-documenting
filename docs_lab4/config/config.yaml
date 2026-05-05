@@ -1,6 +1,13 @@
 output:
-  strategy: console
+  strategy: firebase
 
+firebase:
+  database_url: "https://docs-lab4-default-rtdb.firebaseio.com"
+  credentials_path: "config/docs-lab4-firebase-adminsdk-fbsvc-c12d5a1ba8.json"
+  root_node: "air_quality_data3"
+  write_mode: "set"
+  batch_size: 100
+  
 dataset:
   url: "https://data.cityofnewyork.us/resource/dsyc-npkh.json"
   local_path: "data/air_quality.csv"
